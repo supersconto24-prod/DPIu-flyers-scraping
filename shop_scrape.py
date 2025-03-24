@@ -52,20 +52,19 @@ def scrape_pam_stores(comune, output_file):
 
         for store in store_items:
             try:
-                store_name = store.find_element(By.CSS_SELECTOR, 'h3').text
-                address = store.find_element(By.CSS_SELECTOR, 'p.address').text
+                # Extract the store link from the <a> tag with class 'icon'
                 store_link = store.find_element(By.CSS_SELECTOR, 'a.icon').get_attribute('href')
                 store_url = 'https://www.pampanorama.it' + store_link if store_link.startswith('/') else store_link
-                
+                print(f"Extracted store URL: {store_url}")
                 stores.append({
-                    'Comune': comune,
-                    'Store Name': store_name,
-                    'Address': address,
+                    'Store Name': 'N/A',  # Placeholder for store name
+                    'Address': 'N/A',     # Placeholder for address
+                    'Contact': 'N/A',     # Placeholder for contact
                     'Store URL': store_url
                 })
             except Exception as e:
-                print(f"Failed to extract store in {comune} - {e}")
-                continue
+                print(f"Failed to extract store link - {e}")
+                continue  # Skip this store and continue with the next one
 
     except Exception as e:
         print(f"Failed to process {comune} - {e}")
