@@ -108,7 +108,7 @@ def main():
                 logger.error(f"Record {index+1} failed: {str(e)}", exc_info=True)
 
         # Save results
-        output_file = "store_PAM_with_ids.csv"
+        output_file = "scrape_data/store_PAM_with_ids.csv"
         df.to_csv(output_file, index=False)
         logger.info(f"=== Completed ===")
         logger.info(f"Success: {success}, Failed: {failure}")
