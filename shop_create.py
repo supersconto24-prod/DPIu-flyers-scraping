@@ -3,7 +3,7 @@ import pandas as pd
 import json
 
 # Load the CSV file
-df = pd.read_csv("esse_store_geocoded_details.csv")
+df = pd.read_csv("scrape_data/pam_details_fully_geocoded.csv")
 
 # Add a new column to store the _id
 df["Shop ID"] = None
@@ -11,7 +11,7 @@ df["Shop ID"] = None
 # API endpoint and headers
 url = "http://localhost:5055/api/shop/admin/create"
 headers = {
-    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWJlOGYzOWNlZWFmNjNkMDAxZGVlNjEiLCJuYW1lIjoiQWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJBZG1pbiIsImFkZHJlc3MiOiIzNzQvQiBIYWxveWEgSGluZGFnYWxhIFBlcmFkZW5peWEiLCJwaG9uZSI6IjM2MC05NDMtNzMzMiIsImltYWdlIjoiaHR0cHM6Ly9pLmliYi5jby9XcE01eVpaLzkucG5nIiwiaWF0IjoxNzQyMzYzMTUxLCJleHAiOjE3NDI1MzU5NTF9.EbMa8P9QTF15UWFoMkvpz0M9YALe9vLxD-or5iu7A3s"
+    "Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWJlOGYzOWNlZWFmNjNkMDAxZGVlNjEiLCJuYW1lIjoiQWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJBZG1pbiIsImFkZHJlc3MiOiIzNzQvQiBIYWxveWEgSGluZGFnYWxhIFBlcmFkZW5peWEiLCJwaG9uZSI6IjM2MC05NDMtNzMzMiIsImltYWdlIjoiaHR0cHM6Ly9pLmliYi5jby9XcE01eVpaLzkucG5nIiwiaWF0IjoxNzQyOTE0ODY4LCJleHAiOjE3NDMwODc2Njh9.qJs7HVht6laDMyKfQ0LsfnMdqvJlLPaakdTJQTbsg4M"
 }
 
 # Loop through the DataFrame and create shops
@@ -20,15 +20,15 @@ for index, row in df.iterrows():
         # Prepare the request body
         shop_data = {
             "shopName": row["Formatted Address"],
-            "brand": "CONAD",
-            "customizedName": f"CONAD {row['City (Locality)']}",
+            "brand": "PAM",
+            "customizedName": f"PAM {row['locality']}",
             "telephone":"N/A", 
             "website": row['Store Link'],
             "description": "N/A",
             "location": {
                 "address": row["Formatted Address"],
-                "city": row["City (Locality)"],
-                "cityCode": row["City (Locality)"],
+                "city": row["locality"],
+                "cityCode": row["locality"],
                 "country": row["Country"],
                 "countryCode": row["Country Code"],
                 "administrativeOne": row["Administrative Area Level 1"],
@@ -74,5 +74,5 @@ for index, row in df.iterrows():
         print(f"Failed to create shop {index + 1}. Error: {e}")
 
 # Save the updated DataFrame to a new CSV file
-df.to_csv("store_esse_geocoded_details_with_ids.csv", index=False)
+df.to_csv("store_PAM_geocoded_details_with_ids.csv", index=False)
 print("Shop IDs saved to store_geocoded_details_with_ids.csv")
