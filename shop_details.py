@@ -26,47 +26,29 @@ os.makedirs(DEBUG_DIR, exist_ok=True)
 
 # Set up logging
 def setup_logging():
-    """Configure logging to both file and console"""
     logger = logging.getLogger()
     logger.setLevel(logging.INFO)
-    
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-    
     file_handler = logging.FileHandler(os.path.join(OUTPUT_DIR, LOG_FILE))
     file_handler.setFormatter(formatter)
-    
     console_handler = logging.StreamHandler()
     console_handler.setFormatter(formatter)
-    
     logger.addHandler(file_handler)
     logger.addHandler(console_handler)
-    
     return logger
 
 logger = setup_logging()
 
 def setup_driver():
-    """Initialize and configure Chrome WebDriver for Linux"""
     try:
         options = Options()
-        
-        # Linux-specific options
         options.add_argument("--no-sandbox")
         options.add_argument("--disable-dev-shm-usage")
         options.add_argument("--window-size=1920,1080")
-        
-        # Headless mode with new implementation
         options.add_argument("--headless=new")
-        
-        # Additional options to mimic real browser
-        options.add_argument("--disable-gpu")
-        options.add_argument("--remote-debugging-port=9222")
         options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
-        options.add_argument("--disable-blink-features=AutomationControlled")
         
-        # Path to chromedriver
         service = Service('/usr/local/bin/chromedriver')
-        
         driver = webdriver.Chrome(service=service, options=options)
         return driver
     except Exception as e:
@@ -74,110 +56,106 @@ def setup_driver():
         sys.exit(1)
 
 def extract_coordinates(url):
-    """Extract latitude and longitude from Google Maps URL"""
     try:
-        match = re.search(r'destination=([-+]?\d+\.\d+),([-+]?\d+\.\d+)', url)
-        if match:
-            return match.group(1), match.group(2)
+        # Try multiple patterns to extract coordinates
+        patterns = [
+            r'destination=([-+]?\d+\.\d+),([-+]?\d+\.\d+)',
+            r'!3d([-+]?\d+\.\d+)!4d([-+]?\d+\.\d+)',
+            r'@([-+]?\d+\.\d+),([-+]?\d+\.\d+)',
+            r'&ll=([-+]?\d+\.\d+),([-+]?\d+\.\d+)'
+        ]
         
-        # Alternative pattern matching
-        match = re.search(r'!3d([-+]?\d+\.\d+)!4d([-+]?\d+\.\d+)', url)
-        if match:
-            return match.group(1), match.group(2)
-            
+        for pattern in patterns:
+            match = re.search(pattern, url)
+            if match:
+                return match.group(1), match.group(2)
         return 'N/A', 'N/A'
     except Exception as e:
         logger.warning(f"Failed to extract coordinates from {url} - {str(e)}")
         return 'N/A', 'N/A'
 
+def handle_maps_link(driver, index):
+    try:
+        # Get current window handle
+        main_window = driver.current_window_handle
+        
+        # Find and click the maps link
+        maps_link = WebDriverWait(driver, 15).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, 'span.mapsLink, a.mapsLink')))
+        
+        # Take screenshot before clicking
+        # maps_link.screenshot(f'{DEBUG_DIR}/before_click_{index}.png')
+        
+        # Click using JavaScript to avoid interception issues
+        driver.execute_script("arguments[0].click();", maps_link)
+        time.sleep(3)  # Wait for new tab to open
+        
+        # Switch to new tab
+        if len(driver.window_handles) > 1:
+            new_window = [w for w in driver.window_handles if w != main_window][0]
+            driver.switch_to.window(new_window)
+            
+            # Wait for maps to load
+            WebDriverWait(driver, 15).until(
+                lambda d: 'maps.google.com' in d.current_url.lower())
+            
+            # Take screenshot of maps page
+            # driver.save_screenshot(f'{DEBUG_DIR}/maps_page_{index}.png')
+            
+            # Get URL and extract coordinates
+            maps_url = driver.current_url
+            logger.info(f"Maps URL: {maps_url}")
+            
+            # Close maps tab and switch back
+            driver.close()
+            driver.switch_to.window(main_window)
+            return extract_coordinates(maps_url)
+        
+        # If no new tab opened, try current URL
+        if 'maps.google.com' in driver.current_url.lower():
+            maps_url = driver.current_url
+            driver.back()  # Go back to original page
+            WebDriverWait(driver, 15).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.title')))
+            return extract_coordinates(maps_url)
+            
+        return 'N/A', 'N/A'
+    except Exception as e:
+        logger.warning(f"Failed to handle maps link: {str(e)}")
+        return 'N/A', 'N/A'
+
 def extract_store_details(driver, url, index):
-    """Extract store details from the store page"""
     try:
         logger.info(f"Processing store #{index}: {url}")
         driver.get(url)
-        
-        # Take debug screenshot
-        driver.save_screenshot(f'{DEBUG_DIR}/page_load_{index}.png')
+        # driver.save_screenshot(f'{DEBUG_DIR}/page_load_{index}.png')
         
         # Wait for page to load
         WebDriverWait(driver, 15).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.title')))
-        time.sleep(2)  # Additional delay for stability
+        time.sleep(2)
 
-        # Extract store name
+        # Extract basic info
         store_name = driver.find_element(By.CSS_SELECTOR, 'h1.title').text.strip()
         
-        # Extract address
         address = 'N/A'
         try:
             address_section = driver.find_element(By.CSS_SELECTOR, 'div.StoreInfoNewSection.indirizzo')
             address_items = address_section.find_elements(By.CSS_SELECTOR, 'li.addressListItem')
             address = ', '.join([item.text.strip() for item in address_items])
         except Exception as e:
-            logger.warning(f"Address extraction failed for {url}: {str(e)}")
+            logger.warning(f"Address extraction failed: {str(e)}")
 
-        # Extract contact information
         contact = 'N/A'
         try:
             contact_section = driver.find_element(By.CSS_SELECTOR, 'div.StoreInfoNewSection.contatti')
             contact_items = contact_section.find_elements(By.CSS_SELECTOR, 'li.contactListItem')
             contact = ', '.join([item.text.strip() for item in contact_items])
         except Exception as e:
-            logger.warning(f"Contact extraction failed for {url}: {str(e)}")
+            logger.warning(f"Contact extraction failed: {str(e)}")
 
-        # Extract coordinates - main logic
-        latitude, longitude = 'N/A', 'N/A'
-        try:
-            # Try to find and click the maps link
-            maps_link = WebDriverWait(driver, 15).until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR, 'span.mapsLink, a.mapsLink')))
-            
-            # Take screenshot of the element
-            maps_link.screenshot(f'{DEBUG_DIR}/maps_link_{index}.png')
-            
-            if maps_link:
-                # Get direct URL if available
-                if maps_link.tag_name == 'a':
-                    maps_url = maps_link.get_attribute('href')
-                    if maps_url and ('maps.google.com' in maps_url or 'goo.gl/maps' in maps_url):
-                        latitude, longitude = extract_coordinates(maps_url)
-                    else:
-                        # If not a direct maps link, try clicking
-                        original_window = driver.current_window_handle
-                        driver.execute_script("arguments[0].click();", maps_link)
-                        time.sleep(3)
-                        
-                        # Check if new tab opened
-                        if len(driver.window_handles) > 1:
-                            driver.switch_to.window(driver.window_handles[-1])
-                            WebDriverWait(driver, 10).until(
-                                lambda d: 'maps.google.com' in d.current_url.lower())
-                            maps_url = driver.current_url
-                            latitude, longitude = extract_coordinates(maps_url)
-                            driver.close()
-                            driver.switch_to.window(original_window)
-                        else:
-                            # Check current URL for maps
-                            WebDriverWait(driver, 10).until(
-                                lambda d: 'maps.google.com' in d.current_url.lower())
-                            maps_url = driver.current_url
-                            latitude, longitude = extract_coordinates(maps_url)
-                            
-                            # Navigate back to original page
-                            driver.back()
-                            WebDriverWait(driver, 10).until(
-                                EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.title')))
-        except Exception as e:
-            logger.warning(f"Primary map extraction failed for {url}: {str(e)}")
-            # Fallback method
-            try:
-                driver.get(f"{url}/map")
-                WebDriverWait(driver, 10).until(
-                    lambda d: 'maps.google.com' in d.current_url.lower())
-                maps_url = driver.current_url
-                latitude, longitude = extract_coordinates(maps_url)
-            except Exception as fallback_e:
-                logger.warning(f"Fallback map extraction also failed for {url}: {str(fallback_e)}")
+        # Handle maps link and coordinates
+        latitude, longitude = handle_maps_link(driver, index)
 
         return {
             'Store Name': store_name,
@@ -194,37 +172,24 @@ def extract_store_details(driver, url, index):
 
 def main():
     logger.info("=== Starting store details extraction ===")
-    
-    # Initialize WebDriver
     driver = setup_driver()
     
     try:
-        # Load input CSV
-        try:
-            df = pd.read_csv(INPUT_CSV)
-            logger.info(f"Loaded {len(df)} store URLs from {INPUT_CSV}")
-        except Exception as e:
-            logger.error(f"Failed to load input CSV: {str(e)}")
-            return
-
-        # Process each store
+        df = pd.read_csv(INPUT_CSV)
+        logger.info(f"Loaded {len(df)} store URLs")
+        
         results = []
         for index, row in df.iterrows():
-            store_url = row['Store URL']
-            store_data = extract_store_details(driver, store_url, index)
+            store_data = extract_store_details(driver, row['Store URL'], index)
             if store_data:
                 results.append(store_data)
             
-            # Save progress periodically
             if (index + 1) % 5 == 0:
-                temp_df = pd.DataFrame(results)
-                temp_df.to_csv(os.path.join(OUTPUT_DIR, f"temp_{OUTPUT_CSV}"), index=False)
-                logger.info(f"Saved temporary results after {index + 1} stores")
+                pd.DataFrame(results).to_csv(os.path.join(OUTPUT_DIR, f"temp_{OUTPUT_CSV}"), index=False)
+                logger.info(f"Saved progress after {index + 1} stores")
 
-        # Save final results
-        result_df = pd.DataFrame(results)
-        result_df.to_csv(os.path.join(OUTPUT_DIR, OUTPUT_CSV), index=False)
-        logger.info(f"Saved final results to {OUTPUT_CSV} ({len(result_df)} stores)")
+        pd.DataFrame(results).to_csv(os.path.join(OUTPUT_DIR, OUTPUT_CSV), index=False)
+        logger.info(f"Saved final results with {len(results)} stores")
 
     except Exception as e:
         logger.error(f"Script failed: {str(e)}")
