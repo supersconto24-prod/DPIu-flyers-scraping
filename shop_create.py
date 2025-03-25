@@ -28,9 +28,7 @@ logger = logging.getLogger(__name__)
 def validate_data(row):
     """Validate required fields"""
     required_fields = [
-        'Formatted Address', 'locality', 'Country', 'Country Code',
-        'Administrative Area Level 1', 'Administrative Area Level 2',
-        'Postal Code', 'Longitude', 'Latitude'
+        'formatted_address', 'locality',
     ]
     missing = [f for f in required_fields if pd.isna(row.get(f))]
     if missing:
@@ -42,26 +40,26 @@ def create_shop_payload(row):
     """Create API payload from row data"""
     try:
         return {
-            "shopName": row["Formatted Address"],
+            "shopName": row["formatted_address"],
             "brand": "PAM",
             "customizedName": f"PAM {row['locality']}",
             "telephone": "N/A", 
-            "website": row.get('Store Link', ''),
+            "website": row.get('Store URL', ''),
             "description": "N/A",
             "location": {
-                "address": row["Formatted Address"],
+                "address": row["formatted_address"],
                 "city": row["locality"],
                 "cityCode": row["locality"],
-                "country": row["Country"],
-                "countryCode": row["Country Code"],
-                "administrativeOne": row["Administrative Area Level 1"],
-                "administrativeTwo": row["Administrative Area Level 2"],
-                "administrativeThree": row.get("Administrative Area Level 3", ""),
-                "street": str(row.get("Street Number", "")),
-                "route": row["Formatted Address"].split(",")[0],
-                "postalCode": str(int(row["Postal Code"])) if not pd.isna(row["Postal Code"]) else ""
+                "country": row["country"],
+                "countryCode": row["country_code"],
+                "administrativeOne": row["admin_area_1"],
+                "administrativeTwo": row["admin_area_2"],
+                "administrativeThree": row.get("admin_area_3", ""),
+                "street": str(row.get("street_number", "")),
+                "route": row["formatted_address"].split(",")[0],
+                "postalCode": str(int(row["postal_code"])) if not pd.isna(row["Postal Code"]) else ""
             },
-            "coordinates": [float(row["Longitude"]), float(row["Latitude"])],
+            "coordinates": [float(row["longitude"]), float(row["latitude"])],
             "status": "ACTIVE",
             "isOnlineSelling": True,
             "isDelete": False
@@ -85,7 +83,7 @@ def main():
         success = failure = 0
         for index, row in df.iterrows():
             try:
-                logger.info(f"Processing record {index+1}/{len(df)}: {row['Formatted Address']}")
+                logger.info(f"Processing record {index+1}/{len(df)}: {row['formatted_address']}")
                 
                 if not validate_data(row):
                     logger.error(f"Skipping invalid record {index+1}")
