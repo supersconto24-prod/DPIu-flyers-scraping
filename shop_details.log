@@ -1,0 +1,24 @@
+nohup: ignoring input
+2025-03-25 06:44:06,457 - INFO - === Starting store details extraction ===
+2025-03-25 06:44:06,676 - ERROR - Failed to initialize WebDriver: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Stacktrace:
+#0 0x583a19254d9a <unknown>
+#1 0x583a18d25dc0 <unknown>
+#2 0x583a18d5f599 <unknown>
+#3 0x583a18d5afff <unknown>
+#4 0x583a18daba36 <unknown>
+#5 0x583a18daaf66 <unknown>
+#6 0x583a18d9ceb3 <unknown>
+#7 0x583a18d69108 <unknown>
+#8 0x583a18d6a271 <unknown>
+#9 0x583a1921e69b <unknown>
+#10 0x583a19222642 <unknown>
+#11 0x583a1920ac2c <unknown>
+#12 0x583a192231e4 <unknown>
+#13 0x583a191eee6f <unknown>
+#14 0x583a19243e38 <unknown>
+#15 0x583a19244016 <unknown>
+#16 0x583a19253c16 <unknown>
+#17 0x7e98edca1e2e <unknown>
+#18 0x7e98edd33a4c <unknown>
+
