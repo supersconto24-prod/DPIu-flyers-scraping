@@ -1,72 +1,72 @@
+#!/usr/bin/env python3
+
 import os
+import sys
+import logging
 import pandas as pd
 import time
-import multiprocessing
-import logging
+import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-import re
-from multiprocessing import Pool, Queue, Process
-from logging.handlers import QueueHandler, QueueListener
 
 # Configuration
 INPUT_CSV = "pam.csv"
 OUTPUT_CSV = "pam_details_with_coordinates.csv"
-LOG_FILE = "scrape.log"
+LOG_FILE = "scraper.log"
 OUTPUT_DIR = "scrape_data"
-os.makedirs(OUTPUT_DIR, exist_ok=True)
-CHROME_DRIVER_PATH = "/usr/bin/chromedriver"  # Update with your path
 
-# Set up logging infrastructure for multiprocessing
-def setup_logger(queue):
-    logger = logging.getLogger('scraper')
+# Set up directories
+os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Set up logging
+def setup_logging():
+    """Configure logging to both file and console"""
+    logger = logging.getLogger()
     logger.setLevel(logging.INFO)
+    
+    # Formatter
     formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
     
     # File handler
-    fh = logging.FileHandler(os.path.join(OUTPUT_DIR, LOG_FILE))
-    fh.setFormatter(formatter)
-    logger.addHandler(fh)
+    file_handler = logging.FileHandler(os.path.join(OUTPUT_DIR, LOG_FILE))
+    file_handler.setFormatter(formatter)
     
-    # Queue handler for multiprocessing
-    qh = QueueHandler(queue)
-    logger.addHandler(qh)
+    # Console handler
+    console_handler = logging.StreamHandler()
+    console_handler.setFormatter(formatter)
+    
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
     
     return logger
 
-def log_listener(queue):
-    root = logging.getLogger()
-    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
-    
-    # File handler
-    fh = logging.FileHandler(os.path.join(OUTPUT_DIR, LOG_FILE))
-    fh.setFormatter(formatter)
-    root.addHandler(fh)
-    
-    while True:
-        try:
-            record = queue.get()
-            if record is None:  # Sentinel to stop
-                break
-            logger = logging.getLogger(record.name)
-            logger.handle(record)
-        except Exception:
-            import traceback
-            traceback.print_exc()
+logger = setup_logging()
 
 def setup_driver():
-    """Initialize a Chrome WebDriver for each process."""
-    options = Options()
-    options.add_argument("--headless")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("--window-size=1920,1080")
-    service = Service(CHROME_DRIVER_PATH)
-    return webdriver.Chrome(service=service, options=options)
+    """Initialize and configure Chrome WebDriver for Linux"""
+    try:
+        options = Options()
+        
+        # Linux-specific options
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--window-size=1920,1080")
+        
+        # Headless mode - uncomment for production
+        # options.add_argument("--headless")
+        
+        # Path to chromedriver - update this for your Linux system
+        service = Service('/usr/bin/chromedriver')
+        
+        driver = webdriver.Chrome(service=service, options=options)
+        return driver
+    except Exception as e:
+        logger.error(f"Failed to initialize WebDriver: {str(e)}")
+        sys.exit(1)
 
 def extract_coordinates(url):
     """Extract latitude and longitude from Google Maps URL"""
@@ -76,59 +76,55 @@ def extract_coordinates(url):
             return match.group(1), match.group(2)
         return 'N/A', 'N/A'
     except Exception as e:
-        logging.warning(f"Coordinates extraction failed: {str(e)}")
+        logger.warning(f"Failed to extract coordinates from {url} - {str(e)}")
         return 'N/A', 'N/A'
 
-def worker_task(url, queue):
-    """Task to be run by each worker process"""
-    # Set up logger for this process
-    logger = setup_logger(queue)
-    driver = None
-    
+def extract_store_details(driver, url):
+    """Extract store details from the store page"""
     try:
-        driver = setup_driver()
         logger.info(f"Processing store URL: {url}")
-        
         driver.get(url)
-        time.sleep(2)  # Reduced wait time
+        
+        # Wait for page to load
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.title')))
+        time.sleep(1)  # Additional small delay
 
         # Extract store name
-        store_name = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.title')))
-        store_name = store_name.text.strip() if store_name else 'N/A'
-
+        store_name = driver.find_element(By.CSS_SELECTOR, 'h1.title').text.strip()
+        
         # Extract address
-        address_section = driver.find_elements(By.CSS_SELECTOR, 'div.StoreInfoNewSection.indirizzo')
         address = 'N/A'
-        if address_section:
-            try:
-                address_items = address_section[0].find_elements(By.CSS_SELECTOR, 'li.addressListItem')
-                address = ', '.join([item.text.strip() for item in address_items])
-            except Exception as e:
-                logger.warning(f"Address extraction failed for {url}: {str(e)}")
+        try:
+            address_section = driver.find_element(By.CSS_SELECTOR, 'div.StoreInfoNewSection.indirizzo')
+            address_items = address_section.find_elements(By.CSS_SELECTOR, 'li.addressListItem')
+            address = ', '.join([item.text.strip() for item in address_items])
+        except Exception as e:
+            logger.warning(f"Address extraction failed for {url}: {str(e)}")
 
         # Extract contact information
-        contact_section = driver.find_elements(By.CSS_SELECTOR, 'div.StoreInfoNewSection.contatti')
         contact = 'N/A'
-        if contact_section:
-            try:
-                contact_items = contact_section[0].find_elements(By.CSS_SELECTOR, 'li.contactListItem')
-                contact = ', '.join([item.text.strip() for item in contact_items])
-            except Exception as e:
-                logger.warning(f"Contact extraction failed for {url}: {str(e)}")
+        try:
+            contact_section = driver.find_element(By.CSS_SELECTOR, 'div.StoreInfoNewSection.contatti')
+            contact_items = contact_section.find_elements(By.CSS_SELECTOR, 'li.contactListItem')
+            contact = ', '.join([item.text.strip() for item in contact_items])
+        except Exception as e:
+            logger.warning(f"Contact extraction failed for {url}: {str(e)}")
 
-        # Extract coordinates from maps link
+        # Extract coordinates
         latitude, longitude = 'N/A', 'N/A'
         try:
             maps_link = WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, 'span.mapsLink')))
             
             if maps_link:
+                # Get href if it's a direct link
                 if maps_link.tag_name == 'a':
                     maps_url = maps_link.get_attribute('href')
                     if maps_url:
                         latitude, longitude = extract_coordinates(maps_url)
                 else:
+                    # Click the element if it's not a direct link
                     original_window = driver.current_window_handle
                     driver.execute_script("arguments[0].click();", maps_link)
                     time.sleep(2)
@@ -156,75 +152,54 @@ def worker_task(url, queue):
 
     except Exception as e:
         logger.error(f"Failed to process {url}: {str(e)}")
-        return {
-            'Store Name': 'N/A',
-            'Address': 'N/A',
-            'Contact': 'N/A',
-            'Latitude': 'N/A',
-            'Longitude': 'N/A',
-            'Store URL': url
-        }
-    finally:
-        if driver:
-            driver.quit()
+        return None
 
 def main():
-    # Set up logging queue and listener
-    log_queue = multiprocessing.Queue()
-    listener = QueueListener(log_queue, log_listener)
-    listener.start()
+    logger.info("=== Starting store details extraction ===")
     
-    logger = setup_logger(log_queue)
-    logger.info("=== Starting Store Details Extraction ===")
+    # Initialize WebDriver
+    driver = setup_driver()
     
-    # Load and preprocess input data
     try:
-        df = pd.read_csv(INPUT_CSV)
-        logger.info(f"Loaded {len(df)} store URLs from {INPUT_CSV}")
-        
-        # Remove duplicates before processing
-        initial_count = len(df)
-        df.drop_duplicates(subset=['Store URL'], keep='first', inplace=True)
-        logger.info(f"Removed {initial_count - len(df)} duplicate URLs")
-        
-        urls = df['Store URL'].tolist()
-    except Exception as e:
-        logger.error(f"Failed to load input data: {str(e)}")
-        return
+        # Load input CSV
+        try:
+            df = pd.read_csv(INPUT_CSV)
+            logger.info(f"Loaded {len(df)} store URLs from {INPUT_CSV}")
+        except Exception as e:
+            logger.error(f"Failed to load input CSV: {str(e)}")
+            return
 
-    # Configure multiprocessing
-    num_processes = multiprocessing.cpu_count()  # Use all available cores
-    batch_size = len(urls) // num_processes + 1
-    results = []
-    
-    try:
-        logger.info(f"Starting processing with {num_processes} processes")
-        
-        # Create process pool
-        with Pool(processes=num_processes, initializer=setup_logger, initargs=(log_queue,)) as pool:
-            results = pool.map(worker_task, urls)
+        # Process each store
+        results = []
+        for index, row in df.iterrows():
+            store_url = row['Store URL']
+            store_data = extract_store_details(driver, store_url)
+            if store_data:
+                results.append(store_data)
             
-        logger.info(f"Completed processing {len(results)} stores")
-                
-    except Exception as e:
-        logger.error(f"Processing failed: {str(e)}")
-    finally:
+            # Save progress periodically
+            if (index + 1) % 5 == 0:
+                temp_df = pd.DataFrame(results)
+                temp_df.to_csv(os.path.join(OUTPUT_DIR, f"temp_{OUTPUT_CSV}"), index=False)
+                logger.info(f"Saved temporary results after {index + 1} stores")
+
         # Save final results
         result_df = pd.DataFrame(results)
-        
-        # Remove any duplicates that might have occurred
-        final_count = len(result_df)
-        result_df.drop_duplicates(subset=['Store URL'], keep='first', inplace=True)
-        logger.info(f"Removed {final_count - len(result_df)} duplicate results")
-        
         result_df.to_csv(os.path.join(OUTPUT_DIR, OUTPUT_CSV), index=False)
         logger.info(f"Saved final results to {OUTPUT_CSV} ({len(result_df)} stores)")
-        
-        # Clean up logging
-        log_queue.put(None)  # Sentinel to stop listener
-        listener.stop()
+
+    except Exception as e:
+        logger.error(f"Script failed: {str(e)}")
+    finally:
+        driver.quit()
         logger.info("=== Extraction completed ===")
 
 if __name__ == '__main__':
-    multiprocessing.freeze_support()  # For Windows compatibility
-    main()
+    try:
+        main()
+    except KeyboardInterrupt:
+        logger.info("Script interrupted by user")
+        sys.exit(0)
+    except Exception as e:
+        logger.error(f"Unexpected error: {str(e)}")
+        sys.exit(1)
