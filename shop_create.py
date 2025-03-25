@@ -80,7 +80,7 @@ def main():
         
         df["Shop ID"] = None
         url = "http://localhost:5055/api/shop/admin/create"
-        headers = {"Authorization": "Bearer YOUR_TOKEN_HERE"}
+        headers = {"Authorization": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWJlOGYzOWNlZWFmNjNkMDAxZGVlNjEiLCJuYW1lIjoiQWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInJvbGUiOiJBZG1pbiIsImFkZHJlc3MiOiIzNzQvQiBIYWxveWEgSGluZGFnYWxhIFBlcmFkZW5peWEiLCJwaG9uZSI6IjM2MC05NDMtNzMzMiIsImltYWdlIjoiaHR0cHM6Ly9pLmliYi5jby9XcE01eVpaLzkucG5nIiwiaWF0IjoxNzQyOTE0ODY4LCJleHAiOjE3NDMwODc2Njh9.qJs7HVht6laDMyKfQ0LsfnMdqvJlLPaakdTJQTbsg4M"}
 
         success = failure = 0
         for index, row in df.iterrows():
