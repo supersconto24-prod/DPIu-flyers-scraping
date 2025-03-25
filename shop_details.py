@@ -3,6 +3,7 @@ import pandas as pd
 import time
 import multiprocessing
 import logging
+import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
@@ -12,7 +13,7 @@ from selenium.webdriver.support import expected_conditions as EC
 
 # Configuration
 INPUT_CSV = "scrape_data/pam.csv"
-OUTPUT_CSV = "pam_details.csv"
+OUTPUT_CSV = "pam_details_with_coordinates.csv"
 LOG_FILE = "pam_details.log"
 OUTPUT_DIR = "scrape_data"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
@@ -42,8 +43,19 @@ def setup_driver():
     service = Service(CHROME_DRIVER_PATH)
     return webdriver.Chrome(service=service, options=options)
 
+def extract_coordinates(url):
+    """Extract latitude and longitude from Google Maps URL"""
+    try:
+        match = re.search(r'destination=([-+]?\d+\.\d+),([-+]?\d+\.\d+)', url)
+        if match:
+            return match.group(1), match.group(2)
+        return 'N/A', 'N/A'
+    except Exception as e:
+        logger.warning(f"Coordinates extraction failed: {str(e)}")
+        return 'N/A', 'N/A'
+
 def extract_store_details(url):
-    """Extract detailed information from a single store URL."""
+    """Extract detailed information from a single store URL including coordinates."""
     driver = setup_driver()
     try:
         logger.debug(f"Processing store URL: {url}")
@@ -75,10 +87,44 @@ def extract_store_details(url):
             except Exception as e:
                 logger.warning(f"Contact extraction failed for {url}: {str(e)}")
 
+        # Extract coordinates from maps link
+        latitude, longitude = 'N/A', 'N/A'
+        try:
+            maps_link = WebDriverWait(driver, 10).until(
+                EC.presence_of_element_located((By.CSS_SELECTOR, 'span.mapsLink')))
+            
+            if maps_link:
+                # Get the href attribute if it's an <a> tag, otherwise click it
+                if maps_link.tag_name == 'a':
+                    maps_url = maps_link.get_attribute('href')
+                    if maps_url:
+                        latitude, longitude = extract_coordinates(maps_url)
+                else:
+                    # Click the element to open maps (might open in new tab)
+                    original_window = driver.current_window_handle
+                    driver.execute_script("arguments[0].click();", maps_link)
+                    time.sleep(2)  # Wait for maps to load
+                    
+                    # Check if new tab opened
+                    if len(driver.window_handles) > 1:
+                        driver.switch_to.window(driver.window_handles[-1])
+                        maps_url = driver.current_url
+                        latitude, longitude = extract_coordinates(maps_url)
+                        driver.close()
+                        driver.switch_to.window(original_window)
+                    else:
+                        # If no new tab, use current URL
+                        maps_url = driver.current_url
+                        latitude, longitude = extract_coordinates(maps_url)
+        except Exception as e:
+            logger.warning(f"Failed to extract coordinates for {url}: {str(e)}")
+
         return {
             'Store Name': store_name,
             'Address': address,
             'Contact': contact,
+            'Latitude': latitude,
+            'Longitude': longitude,
             'Store URL': url
         }
 
@@ -88,6 +134,8 @@ def extract_store_details(url):
             'Store Name': 'N/A',
             'Address': 'N/A',
             'Contact': 'N/A',
+            'Latitude': 'N/A',
+            'Longitude': 'N/A',
             'Store URL': url
         }
     finally:
