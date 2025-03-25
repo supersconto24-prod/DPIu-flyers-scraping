@@ -74,13 +74,43 @@ def extract_coordinates(url):
         logger.warning(f"Failed to extract coordinates from {url} - {str(e)}")
         return 'N/A', 'N/A'
 
+def extract_coordinates(url):
+    """Extract latitude and longitude from Google Maps URL, handling consent redirects"""
+    try:
+        # Handle consent.google.com redirect URLs
+        if 'consent.google.com' in url:
+            # Extract the continue parameter which contains the real maps URL
+            from urllib.parse import parse_qs, urlparse
+            parsed = urlparse(url)
+            params = parse_qs(parsed.query)
+            if 'continue' in params:
+                url = params['continue'][0]
+        
+        # Try multiple patterns to extract coordinates
+        patterns = [
+            r'destination=([-+]?\d+\.\d+),([-+]?\d+\.\d+)',  # /dir/?api=1&destination=lat,lng
+            r'!3d([-+]?\d+\.\d+)!4d([-+]?\d+\.\d+)',         # /place/...!3dlat!4dlng
+            r'@([-+]?\d+\.\d+),([-+]?\d+\.\d+)',             # /@lat,lng
+            r'll=([-+]?\d+\.\d+),([-+]?\d+\.\d+)',           # ?ll=lat,lng
+            r'q=([-+]?\d+\.\d+),([-+]?\d+\.\d+)'             # ?q=lat,lng
+        ]
+        
+        for pattern in patterns:
+            match = re.search(pattern, url)
+            if match:
+                lat, lng = match.group(1), match.group(2)
+                logger.info(f"Extracted coordinates: {lat}, {lng}")
+                return lat, lng
+        
+        logger.warning(f"No coordinates pattern matched in URL: {url}")
+        return 'N/A', 'N/A'
+    except Exception as e:
+        logger.error(f"Error extracting coordinates: {str(e)}")
+        return 'N/A', 'N/A'
+
 def handle_maps_link(driver, index):
     try:
         main_window = driver.current_window_handle
-        logger.info(f"Main window handle: {main_window}")
-        
-        # Take screenshot before any interaction
-        driver.save_screenshot(f'{DEBUG_DIR}/pre_click_{index}.png')
         
         # Find maps link with multiple selector attempts
         maps_link = None
@@ -99,16 +129,12 @@ def handle_maps_link(driver, index):
                     maps_link = driver.find_element(By.CSS_SELECTOR, selector)
                 logger.info(f"Found maps link using selector: {selector}")
                 break
-            except Exception as e:
-                logger.debug(f"Selector failed {selector}: {str(e)}")
+            except:
                 continue
         
         if not maps_link:
             logger.warning("No maps link found with any selector")
             return 'N/A', 'N/A'
-        
-        # Take screenshot of located element
-        maps_link.screenshot(f'{DEBUG_DIR}/maps_link_{index}.png')
         
         # Get direct URL if available
         if maps_link.tag_name == 'a':
@@ -117,70 +143,56 @@ def handle_maps_link(driver, index):
                 logger.info(f"Direct maps URL found: {maps_url}")
                 return extract_coordinates(maps_url)
         
-        # Prepare for click interaction
+        # Click the link
         original_url = driver.current_url
-        logger.info(f"Original URL: {original_url}")
-        
-        # Scroll and click using JavaScript
-        driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", maps_link)
-        time.sleep(1)
+        driver.execute_script("arguments[0].scrollIntoView();", maps_link)
         driver.execute_script("arguments[0].click();", maps_link)
-        logger.info("Maps link clicked")
-        time.sleep(5)  # Wait for any navigation
+        time.sleep(3)  # Wait for navigation
         
-        # Check all possible outcomes
+        # Handle new tab if opened
         if len(driver.window_handles) > 1:
-            # New tab opened
-            logger.info(f"New tab detected. Window handles: {driver.window_handles}")
             new_window = [w for w in driver.window_handles if w != main_window][0]
+            driver.switch_to.window(new_window)
             
             try:
-                driver.switch_to.window(new_window)
-                logger.info(f"Switched to new window: {driver.current_url}")
-                
-                # Wait for maps to load with multiple checks
-                WebDriverWait(driver, 15).until(
+                # Wait for URL to contain maps
+                WebDriverWait(driver, 10).until(
                     lambda d: 'maps.google.com' in d.current_url.lower() or 
-                             'google.com/maps' in d.current_url.lower())
+                             'consent.google.com' in d.current_url.lower())
                 
                 maps_url = driver.current_url
-                logger.info(f"Maps URL in new tab: {maps_url}")
-                driver.save_screenshot(f'{DEBUG_DIR}/maps_tab_{index}.png')
+                logger.info(f"New tab URL: {maps_url}")
                 
                 coordinates = extract_coordinates(maps_url)
                 
-                # Close tab and return to main window
+                # Close tab and switch back
                 driver.close()
                 driver.switch_to.window(main_window)
                 return coordinates
             except Exception as e:
-                logger.error(f"Failed to process new tab: {str(e)}")
+                logger.error(f"Error processing new tab: {str(e)}")
                 try:
-                    if len(driver.window_handles) > 1:
-                        driver.close()
+                    driver.close()
                     driver.switch_to.window(main_window)
                 except:
                     pass
                 return 'N/A', 'N/A'
-        elif 'maps.google.com' in driver.current_url.lower():
+        elif 'maps.google.com' in driver.current_url.lower() or 'consent.google.com' in driver.current_url.lower():
             # Same tab navigation
             maps_url = driver.current_url
-            logger.info(f"Maps URL in same tab: {maps_url}")
-            driver.save_screenshot(f'{DEBUG_DIR}/maps_same_tab_{index}.png')
+            logger.info(f"Same tab URL: {maps_url}")
             
-            # Return to original page
-            driver.back()
-            WebDriverWait(driver, 15).until(
+            coordinates = extract_coordinates(maps_url)
+            driver.back()  # Return to original page
+            WebDriverWait(driver, 10).until(
                 EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.title')))
-            return extract_coordinates(maps_url)
+            return coordinates
         else:
-            # No apparent navigation occurred
-            logger.warning("No navigation detected after click")
-            driver.save_screenshot(f'{DEBUG_DIR}/no_nav_{index}.png')
+            logger.warning("No maps navigation detected")
             return 'N/A', 'N/A'
             
     except Exception as e:
-        logger.error(f"Critical error in handle_maps_link: {str(e)}")
+        logger.error(f"Error in handle_maps_link: {str(e)}")
         try:
             # Try to recover browser state
             if len(driver.window_handles) > 1:
