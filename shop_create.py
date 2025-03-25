@@ -57,7 +57,7 @@ def create_shop_payload(row):
                 "administrativeThree": row.get("admin_area_3", ""),
                 "street": str(row.get("street_number", "")),
                 "route": row["formatted_address"].split(",")[0],
-                "postalCode": str(int(row["postal_code"])) if not pd.isna(row["Postal Code"]) else ""
+                "postalCode": str(int(row["postal_code"])) if not pd.isna(row["postal_code"]) else ""
             },
             "coordinates": [float(row["longitude"]), float(row["latitude"])],
             "status": "ACTIVE",
