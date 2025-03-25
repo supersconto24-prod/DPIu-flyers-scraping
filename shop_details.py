@@ -60,7 +60,7 @@ def setup_driver():
         # options.add_argument("--headless")
         
         # Path to chromedriver - update this for your Linux system
-        service = Service('/usr/bin/chromedriver')
+        service = Service('/usr/local/bin/chromedriver')
         
         driver = webdriver.Chrome(service=service, options=options)
         return driver
