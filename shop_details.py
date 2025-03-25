@@ -253,7 +253,9 @@ def main():
     
     try:
         df = pd.read_csv(INPUT_CSV)
-        logger.info(f"Loaded {len(df)} store URLs")
+        logger.info(f"Initial count: {len(df)} store URLs (before deduplication)")
+        df = df.drop_duplicates(subset=['Store URL'], keep='first')
+        logger.info(f"Processing {len(df)} unique store URLs (after keeping first occurrence of duplicates)")
         
         results = []
         for index, row in df.iterrows():
