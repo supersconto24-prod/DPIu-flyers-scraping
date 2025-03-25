@@ -76,52 +76,102 @@ def extract_coordinates(url):
 
 def handle_maps_link(driver, index):
     try:
-        # Get current window handle
         main_window = driver.current_window_handle
         
-        # Find and click the maps link
-        maps_link = WebDriverWait(driver, 15).until(
-            EC.element_to_be_clickable((By.CSS_SELECTOR, 'span.mapsLink, a.mapsLink')))
+        # Try multiple ways to find the maps link
+        maps_link = None
+        selectors = [
+            'span.mapsLink', 
+            'a.mapsLink',
+            'a[href*="maps.google.com"]',
+            'a[href*="goo.gl/maps"]',
+            '//span[contains(text(), "vieni a trovarci")]'  # XPath alternative
+        ]
         
-        # Take screenshot before clicking
-        # maps_link.screenshot(f'{DEBUG_DIR}/before_click_{index}.png')
+        for selector in selectors:
+            try:
+                if selector.startswith('//'):
+                    maps_link = driver.find_element(By.XPATH, selector)
+                else:
+                    maps_link = driver.find_element(By.CSS_SELECTOR, selector)
+                break
+            except:
+                continue
         
-        # Click using JavaScript to avoid interception issues
+        if not maps_link:
+            logger.warning("No maps link found with any selector")
+            return 'N/A', 'N/A'
+        
+        # Take screenshot before interaction
+        maps_link.screenshot(f'{DEBUG_DIR}/before_click_{index}.png')
+        
+        # Get href if it's a direct link
+        if maps_link.tag_name == 'a':
+            maps_url = maps_link.get_attribute('href')
+            if maps_url and ('maps.google.com' in maps_url or 'goo.gl/maps' in maps_url):
+                logger.info(f"Found direct maps URL: {maps_url}")
+                return extract_coordinates(maps_url)
+        
+        # If not a direct link, try clicking
+        logger.info("Attempting to click maps link...")
+        original_url = driver.current_url
+        driver.execute_script("arguments[0].scrollIntoView();", maps_link)
         driver.execute_script("arguments[0].click();", maps_link)
-        time.sleep(3)  # Wait for new tab to open
+        time.sleep(5)  # Increased wait time
         
-        # Switch to new tab
+        # Check if URL changed in current tab
+        if driver.current_url != original_url:
+            if 'maps.google.com' in driver.current_url.lower():
+                maps_url = driver.current_url
+                driver.back()  # Return to original page
+                WebDriverWait(driver, 15).until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.title')))
+                return extract_coordinates(maps_url)
+        
+        # Check for new tab
         if len(driver.window_handles) > 1:
             new_window = [w for w in driver.window_handles if w != main_window][0]
             driver.switch_to.window(new_window)
             
-            # Wait for maps to load
-            WebDriverWait(driver, 15).until(
-                lambda d: 'maps.google.com' in d.current_url.lower())
-            
-            # Take screenshot of maps page
-            # driver.save_screenshot(f'{DEBUG_DIR}/maps_page_{index}.png')
-            
-            # Get URL and extract coordinates
-            maps_url = driver.current_url
-            logger.info(f"Maps URL: {maps_url}")
-            
-            # Close maps tab and switch back
-            driver.close()
-            driver.switch_to.window(main_window)
-            return extract_coordinates(maps_url)
+            try:
+                WebDriverWait(driver, 15).until(
+                    lambda d: 'maps.google.com' in d.current_url.lower())
+                
+                maps_url = driver.current_url
+                logger.info(f"New tab maps URL: {maps_url}")
+                
+                # Take screenshot of maps page
+                driver.save_screenshot(f'{DEBUG_DIR}/maps_page_{index}.png')
+                
+                coordinates = extract_coordinates(maps_url)
+                driver.close()
+                driver.switch_to.window(main_window)
+                return coordinates
+            except Exception as e:
+                logger.warning(f"Failed to process new tab: {str(e)}")
+                if len(driver.window_handles) > 1:
+                    driver.close()
+                driver.switch_to.window(main_window)
+                return 'N/A', 'N/A'
         
-        # If no new tab opened, try current URL
-        if 'maps.google.com' in driver.current_url.lower():
-            maps_url = driver.current_url
-            driver.back()  # Go back to original page
-            WebDriverWait(driver, 15).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, 'h1.title')))
-            return extract_coordinates(maps_url)
+        # Final fallback - try to construct maps URL from address
+        logger.info("Attempting fallback method using address")
+        try:
+            address_section = driver.find_element(By.CSS_SELECTOR, 'div.StoreInfoNewSection.indirizzo')
+            address = ', '.join([item.text.strip() for item in 
+                               address_section.find_elements(By.CSS_SELECTOR, 'li.addressListItem')])
             
+            if address:
+                maps_url = f"https://www.google.com/maps/search/?api=1&query={address}"
+                logger.info(f"Constructed maps URL: {maps_url}")
+                return extract_coordinates(maps_url)
+        except Exception as e:
+            logger.warning(f"Fallback method failed: {str(e)}")
+        
         return 'N/A', 'N/A'
+        
     except Exception as e:
-        logger.warning(f"Failed to handle maps link: {str(e)}")
+        logger.error(f"Critical error in handle_maps_link: {str(e)}")
         return 'N/A', 'N/A'
 
 def extract_store_details(driver, url, index):
