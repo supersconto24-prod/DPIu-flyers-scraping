@@ -3,38 +3,63 @@ import pandas as pd
 import time
 import multiprocessing
 import logging
-import re
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+import re
+from multiprocessing import Pool, Queue, Process
+from logging.handlers import QueueHandler, QueueListener
 
 # Configuration
-INPUT_CSV = "scrape_data/pam.csv"
+INPUT_CSV = "pam.csv"
 OUTPUT_CSV = "pam_details_with_coordinates.csv"
-LOG_FILE = "pam_details.log"
+LOG_FILE = "scrape.log"
 OUTPUT_DIR = "scrape_data"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
-CHROME_DRIVER_PATH = "/usr/local/bin/chromedriver"
+CHROME_DRIVER_PATH = "/usr/bin/chromedriver"  # Update with your path
 
-# Set up logging
-def setup_logging():
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s - %(levelname)s - %(message)s',
-        handlers=[
-            logging.FileHandler(os.path.join(OUTPUT_DIR, LOG_FILE)),
-            logging.StreamHandler()
-        ]
-    )
-    return logging.getLogger(__name__)
+# Set up logging infrastructure for multiprocessing
+def setup_logger(queue):
+    logger = logging.getLogger('scraper')
+    logger.setLevel(logging.INFO)
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    
+    # File handler
+    fh = logging.FileHandler(os.path.join(OUTPUT_DIR, LOG_FILE))
+    fh.setFormatter(formatter)
+    logger.addHandler(fh)
+    
+    # Queue handler for multiprocessing
+    qh = QueueHandler(queue)
+    logger.addHandler(qh)
+    
+    return logger
 
-logger = setup_logging()
+def log_listener(queue):
+    root = logging.getLogger()
+    formatter = logging.Formatter('%(asctime)s - %(levelname)s - %(message)s')
+    
+    # File handler
+    fh = logging.FileHandler(os.path.join(OUTPUT_DIR, LOG_FILE))
+    fh.setFormatter(formatter)
+    root.addHandler(fh)
+    
+    while True:
+        try:
+            record = queue.get()
+            if record is None:  # Sentinel to stop
+                break
+            logger = logging.getLogger(record.name)
+            logger.handle(record)
+        except Exception:
+            import traceback
+            traceback.print_exc()
 
 def setup_driver():
-    """Initialize a headless Chrome WebDriver for each process."""
+    """Initialize a Chrome WebDriver for each process."""
     options = Options()
     options.add_argument("--headless")
     options.add_argument("--no-sandbox")
@@ -51,14 +76,19 @@ def extract_coordinates(url):
             return match.group(1), match.group(2)
         return 'N/A', 'N/A'
     except Exception as e:
-        logger.warning(f"Coordinates extraction failed: {str(e)}")
+        logging.warning(f"Coordinates extraction failed: {str(e)}")
         return 'N/A', 'N/A'
 
-def extract_store_details(url):
-    """Extract detailed information from a single store URL including coordinates."""
-    driver = setup_driver()
+def worker_task(url, queue):
+    """Task to be run by each worker process"""
+    # Set up logger for this process
+    logger = setup_logger(queue)
+    driver = None
+    
     try:
-        logger.debug(f"Processing store URL: {url}")
+        driver = setup_driver()
+        logger.info(f"Processing store URL: {url}")
+        
         driver.get(url)
         time.sleep(2)  # Reduced wait time
 
@@ -94,18 +124,15 @@ def extract_store_details(url):
                 EC.presence_of_element_located((By.CSS_SELECTOR, 'span.mapsLink')))
             
             if maps_link:
-                # Get the href attribute if it's an <a> tag, otherwise click it
                 if maps_link.tag_name == 'a':
                     maps_url = maps_link.get_attribute('href')
                     if maps_url:
                         latitude, longitude = extract_coordinates(maps_url)
                 else:
-                    # Click the element to open maps (might open in new tab)
                     original_window = driver.current_window_handle
                     driver.execute_script("arguments[0].click();", maps_link)
-                    time.sleep(2)  # Wait for maps to load
+                    time.sleep(2)
                     
-                    # Check if new tab opened
                     if len(driver.window_handles) > 1:
                         driver.switch_to.window(driver.window_handles[-1])
                         maps_url = driver.current_url
@@ -113,7 +140,6 @@ def extract_store_details(url):
                         driver.close()
                         driver.switch_to.window(original_window)
                     else:
-                        # If no new tab, use current URL
                         maps_url = driver.current_url
                         latitude, longitude = extract_coordinates(maps_url)
         except Exception as e:
@@ -139,13 +165,16 @@ def extract_store_details(url):
             'Store URL': url
         }
     finally:
-        driver.quit()
-
-def process_batch(urls):
-    """Process a batch of URLs and return their details."""
-    return [extract_store_details(url) for url in urls]
+        if driver:
+            driver.quit()
 
 def main():
+    # Set up logging queue and listener
+    log_queue = multiprocessing.Queue()
+    listener = QueueListener(log_queue, log_listener)
+    listener.start()
+    
+    logger = setup_logger(log_queue)
     logger.info("=== Starting Store Details Extraction ===")
     
     # Load and preprocess input data
@@ -164,27 +193,19 @@ def main():
         return
 
     # Configure multiprocessing
-    num_processes = 4
-    batch_size = 10
+    num_processes = multiprocessing.cpu_count()  # Use all available cores
+    batch_size = len(urls) // num_processes + 1
     results = []
     
     try:
         logger.info(f"Starting processing with {num_processes} processes")
         
-        # Split URLs into batches for processing
-        url_batches = [urls[i:i + batch_size] for i in range(0, len(urls), batch_size)]
-        
-        with multiprocessing.Pool(processes=num_processes) as pool:
-            for i, batch_result in enumerate(pool.imap(process_batch, url_batches)):
-                results.extend(batch_result)
-                logger.info(f"Processed batch {i+1}/{len(url_batches)} - {len(batch_result)} stores")
+        # Create process pool
+        with Pool(processes=num_processes, initializer=setup_logger, initargs=(log_queue,)) as pool:
+            results = pool.map(worker_task, urls)
+            
+        logger.info(f"Completed processing {len(results)} stores")
                 
-                # Save progress periodically
-                if (i + 1) % 5 == 0:
-                    temp_df = pd.DataFrame(results)
-                    temp_df.to_csv(os.path.join(OUTPUT_DIR, f"temp_{OUTPUT_CSV}"), index=False)
-                    logger.info(f"Saved temporary results ({len(results)} stores)")
-
     except Exception as e:
         logger.error(f"Processing failed: {str(e)}")
     finally:
@@ -198,7 +219,12 @@ def main():
         
         result_df.to_csv(os.path.join(OUTPUT_DIR, OUTPUT_CSV), index=False)
         logger.info(f"Saved final results to {OUTPUT_CSV} ({len(result_df)} stores)")
+        
+        # Clean up logging
+        log_queue.put(None)  # Sentinel to stop listener
+        listener.stop()
         logger.info("=== Extraction completed ===")
 
 if __name__ == '__main__':
+    multiprocessing.freeze_support()  # For Windows compatibility
     main()
