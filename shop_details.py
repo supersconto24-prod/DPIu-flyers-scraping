@@ -14,7 +14,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Configuration
-INPUT_CSV = "pam.csv"
+INPUT_CSV = "scrape_datapam.csv"
 OUTPUT_CSV = "pam_details_with_coordinates.csv"
 LOG_FILE = "scraper.log"
 OUTPUT_DIR = "scrape_data"
