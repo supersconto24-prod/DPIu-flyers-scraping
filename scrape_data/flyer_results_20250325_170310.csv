@@ -1,0 +1,1833 @@
+shop_id,store_url,flyer_url,pdf_links,status
+67e2d429c1670104499c1399,https://www.pampanorama.it/punti-vendita/pietramelara,https://www.pampanorama.it/volantini/---.html?link=https%3A%2F%2Fpamretailpro.volantinopiu.com%2Fvolantino2098300pv2126.html,['https://resources.volantinopiu.it/flyer/2/0/9/8/3/0dc2e9e2c89e9d7b7ef355fcb641ee60.pdf'],success
+67e2d429c1670104499c1399,https://www.pampanorama.it/punti-vendita/pietramelara,https://www.pampanorama.it/volantini/---.html?link=https%3A%2F%2Fpamretailpro.volantinopiu.com%2Fvolantino2072800pv2126.html,['https://resources.volantinopiu.it/flyer/2/0/7/2/8/e5ed69185e88373f15ad1877a8d6f0f8.pdf'],success
+67e2d429c1670104499c139e,https://www.pampanorama.it/punti-vendita/bologna-costa,N/A,"No flyer carousel found: Message: 
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795dc0 <unknown>
+#2 0x57cab47e72e9 <unknown>
+#3 0x57cab47e7471 <unknown>
+#4 0x57cab4836014 <unknown>
+#5 0x57cab480d10d <unknown>
+#6 0x57cab483334b <unknown>
+#7 0x57cab480ceb3 <unknown>
+#8 0x57cab47d9108 <unknown>
+#9 0x57cab47da271 <unknown>
+#10 0x57cab4c8e69b <unknown>
+#11 0x57cab4c92642 <unknown>
+#12 0x57cab4c7ac2c <unknown>
+#13 0x57cab4c931e4 <unknown>
+#14 0x57cab4c5ee6f <unknown>
+#15 0x57cab4cb3e38 <unknown>
+#16 0x57cab4cb4016 <unknown>
+#17 0x57cab4cc3c16 <unknown>
+#18 0x7c6c452a1e2e <unknown>
+#19 0x7c6c45333a4c <unknown>
+",error
+67e2d429c1670104499c13a3,https://www.pampanorama.it/punti-vendita/bo-sanfelice,N/A,"No flyer carousel found: Message: 
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795dc0 <unknown>
+#2 0x57cab47e72e9 <unknown>
+#3 0x57cab47e7471 <unknown>
+#4 0x57cab4836014 <unknown>
+#5 0x57cab480d10d <unknown>
+#6 0x57cab483334b <unknown>
+#7 0x57cab480ceb3 <unknown>
+#8 0x57cab47d9108 <unknown>
+#9 0x57cab47da271 <unknown>
+#10 0x57cab4c8e69b <unknown>
+#11 0x57cab4c92642 <unknown>
+#12 0x57cab4c7ac2c <unknown>
+#13 0x57cab4c931e4 <unknown>
+#14 0x57cab4c5ee6f <unknown>
+#15 0x57cab4cb3e38 <unknown>
+#16 0x57cab4cb4016 <unknown>
+#17 0x57cab4cc3c16 <unknown>
+#18 0x7c6c452a1e2e <unknown>
+#19 0x7c6c45333a4c <unknown>
+",error
+67e2d429c1670104499c13a8,https://www.pampanorama.it/punti-vendita/bologna-zanardi,https://www.pampanorama.it/volantini/offerta-mango.html,['https://d3qvpdlg8gbf2k.cloudfront.net/post/banner/_67da956ba2c983.64757341.pdf'],success
+67e2d429c1670104499c13a8,https://www.pampanorama.it/punti-vendita/bologna-zanardi,https://www.pampanorama.it/volantini/piu-acquisti-piu-risparmi.html,No PDF found,no_pdf_found
+67e2d429c1670104499c13a8,https://www.pampanorama.it/punti-vendita/bologna-zanardi,https://www.pampanorama.it/volantini/---.html?link=https%3A%2F%2Fpam.volantinopiu.com%2Fvolantino2096300pv2294.html,['https://resources.volantinopiu.it/flyer/2/0/9/6/3/0632fed7d0fca8cbfd88e177cfd1c142.pdf'],success
+67e2d429c1670104499c13a8,https://www.pampanorama.it/punti-vendita/bologna-zanardi,https://www.pampanorama.it/volantini/---.html?link=https%3A%2F%2Fpam.volantinopiu.com%2Fvolantino2097600pv2294.html,['https://resources.volantinopiu.it/flyer/2/0/9/7/6/2e4b0b9bf4e5ac09e86a9046715a59ce.pdf'],success
+67e2d42ac1670104499c13ad,https://www.pampanorama.it/punti-vendita/pam-local-bologna-marconi,N/A,"No flyer carousel found: Message: 
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795dc0 <unknown>
+#2 0x57cab47e72e9 <unknown>
+#3 0x57cab47e7471 <unknown>
+#4 0x57cab4836014 <unknown>
+#5 0x57cab480d10d <unknown>
+#6 0x57cab483334b <unknown>
+#7 0x57cab480ceb3 <unknown>
+#8 0x57cab47d9108 <unknown>
+#9 0x57cab47da271 <unknown>
+#10 0x57cab4c8e69b <unknown>
+#11 0x57cab4c92642 <unknown>
+#12 0x57cab4c7ac2c <unknown>
+#13 0x57cab4c931e4 <unknown>
+#14 0x57cab4c5ee6f <unknown>
+#15 0x57cab4cb3e38 <unknown>
+#16 0x57cab4cb4016 <unknown>
+#17 0x57cab4cc3c16 <unknown>
+#18 0x7c6c452a1e2e <unknown>
+#19 0x7c6c45333a4c <unknown>
+",error
+67e2d42ac1670104499c13b2,https://www.pampanorama.it/punti-vendita/bologna-marconi,https://www.pampanorama.it/volantini/offerta-mango.html,['https://d3qvpdlg8gbf2k.cloudfront.net/post/banner/_67da956ba2c983.64757341.pdf'],success
+67e2d42ac1670104499c13b2,https://www.pampanorama.it/punti-vendita/bologna-marconi,https://www.pampanorama.it/volantini/---.html?link=https%3A%2F%2Fpam.volantinopiu.com%2Fvolantino2090600pv2266.html,['https://resources.volantinopiu.it/flyer/2/0/9/0/6/9ef815e01d22772b45f14d18b3df4ab4.pdf'],success
+67e2d42ac1670104499c13b2,https://www.pampanorama.it/punti-vendita/bologna-marconi,https://www.pampanorama.it/volantini/---.html?link=https%3A%2F%2Fpam.volantinopiu.com%2Fvolantino2096600pv2266.html,['https://resources.volantinopiu.it/flyer/2/0/9/6/6/4308e97aba63e8a50a43585721d1673a.pdf'],success
+67e2d42ac1670104499c13b7,https://www.pampanorama.it/punti-vendita/bologna-novembre,N/A,"No flyer carousel found: Message: 
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795dc0 <unknown>
+#2 0x57cab47e72e9 <unknown>
+#3 0x57cab47e7471 <unknown>
+#4 0x57cab4836014 <unknown>
+#5 0x57cab480d10d <unknown>
+#6 0x57cab483334b <unknown>
+#7 0x57cab480ceb3 <unknown>
+#8 0x57cab47d9108 <unknown>
+#9 0x57cab47da271 <unknown>
+#10 0x57cab4c8e69b <unknown>
+#11 0x57cab4c92642 <unknown>
+#12 0x57cab4c7ac2c <unknown>
+#13 0x57cab4c931e4 <unknown>
+#14 0x57cab4c5ee6f <unknown>
+#15 0x57cab4cb3e38 <unknown>
+#16 0x57cab4cb4016 <unknown>
+#17 0x57cab4cc3c16 <unknown>
+#18 0x7c6c452a1e2e <unknown>
+#19 0x7c6c45333a4c <unknown>
+",error
+67e2d42ac1670104499c13bc,https://www.pampanorama.it/punti-vendita/pam-local-bologna-azeglio,N/A,"No flyer carousel found: Message: 
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795dc0 <unknown>
+#2 0x57cab47e72e9 <unknown>
+#3 0x57cab47e7471 <unknown>
+#4 0x57cab4836014 <unknown>
+#5 0x57cab480d10d <unknown>
+#6 0x57cab483334b <unknown>
+#7 0x57cab480ceb3 <unknown>
+#8 0x57cab47d9108 <unknown>
+#9 0x57cab47da271 <unknown>
+#10 0x57cab4c8e69b <unknown>
+#11 0x57cab4c92642 <unknown>
+#12 0x57cab4c7ac2c <unknown>
+#13 0x57cab4c931e4 <unknown>
+#14 0x57cab4c5ee6f <unknown>
+#15 0x57cab4cb3e38 <unknown>
+#16 0x57cab4cb4016 <unknown>
+#17 0x57cab4cc3c16 <unknown>
+#18 0x7c6c452a1e2e <unknown>
+#19 0x7c6c45333a4c <unknown>
+",error
+67e2d42ac1670104499c13c1,https://www.pampanorama.it/punti-vendita/pam-local-bologna-clavature,N/A,"No flyer carousel found: Message: 
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795dc0 <unknown>
+#2 0x57cab47e72e9 <unknown>
+#3 0x57cab47e7471 <unknown>
+#4 0x57cab4836014 <unknown>
+#5 0x57cab480d10d <unknown>
+#6 0x57cab483334b <unknown>
+#7 0x57cab480ceb3 <unknown>
+#8 0x57cab47d9108 <unknown>
+#9 0x57cab47da271 <unknown>
+#10 0x57cab4c8e69b <unknown>
+#11 0x57cab4c92642 <unknown>
+#12 0x57cab4c7ac2c <unknown>
+#13 0x57cab4c931e4 <unknown>
+#14 0x57cab4c5ee6f <unknown>
+#15 0x57cab4cb3e38 <unknown>
+#16 0x57cab4cb4016 <unknown>
+#17 0x57cab4cc3c16 <unknown>
+#18 0x7c6c452a1e2e <unknown>
+#19 0x7c6c45333a4c <unknown>
+",error
+67e2d42ac1670104499c13c6,https://www.pampanorama.it/punti-vendita/bologna-strada-maggiore,N/A,"No flyer carousel found: Message: 
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795dc0 <unknown>
+#2 0x57cab47e72e9 <unknown>
+#3 0x57cab47e7471 <unknown>
+#4 0x57cab4836014 <unknown>
+#5 0x57cab480d10d <unknown>
+#6 0x57cab483334b <unknown>
+#7 0x57cab480ceb3 <unknown>
+#8 0x57cab47d9108 <unknown>
+#9 0x57cab47da271 <unknown>
+#10 0x57cab4c8e69b <unknown>
+#11 0x57cab4c92642 <unknown>
+#12 0x57cab4c7ac2c <unknown>
+#13 0x57cab4c931e4 <unknown>
+#14 0x57cab4c5ee6f <unknown>
+#15 0x57cab4cb3e38 <unknown>
+#16 0x57cab4cb4016 <unknown>
+#17 0x57cab4cc3c16 <unknown>
+#18 0x7c6c452a1e2e <unknown>
+#19 0x7c6c45333a4c <unknown>
+",error
+67e2d42ac1670104499c13cb,https://www.pampanorama.it/punti-vendita/pam-local-bologna-s-stefano,N/A,"No flyer carousel found: Message: 
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795dc0 <unknown>
+#2 0x57cab47e72e9 <unknown>
+#3 0x57cab47e7471 <unknown>
+#4 0x57cab4836014 <unknown>
+#5 0x57cab480d10d <unknown>
+#6 0x57cab483334b <unknown>
+#7 0x57cab480ceb3 <unknown>
+#8 0x57cab47d9108 <unknown>
+#9 0x57cab47da271 <unknown>
+#10 0x57cab4c8e69b <unknown>
+#11 0x57cab4c92642 <unknown>
+#12 0x57cab4c7ac2c <unknown>
+#13 0x57cab4c931e4 <unknown>
+#14 0x57cab4c5ee6f <unknown>
+#15 0x57cab4cb3e38 <unknown>
+#16 0x57cab4cb4016 <unknown>
+#17 0x57cab4cc3c16 <unknown>
+#18 0x7c6c452a1e2e <unknown>
+#19 0x7c6c45333a4c <unknown>
+",error
+67e2d42ac1670104499c13d0,https://www.pampanorama.it/punti-vendita/bologna-irnerio,N/A,"No flyer carousel found: Message: 
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795dc0 <unknown>
+#2 0x57cab47e72e9 <unknown>
+#3 0x57cab47e7471 <unknown>
+#4 0x57cab4836014 <unknown>
+#5 0x57cab480d10d <unknown>
+#6 0x57cab483334b <unknown>
+#7 0x57cab480ceb3 <unknown>
+#8 0x57cab47d9108 <unknown>
+#9 0x57cab47da271 <unknown>
+#10 0x57cab4c8e69b <unknown>
+#11 0x57cab4c92642 <unknown>
+#12 0x57cab4c7ac2c <unknown>
+#13 0x57cab4c931e4 <unknown>
+#14 0x57cab4c5ee6f <unknown>
+#15 0x57cab4cb3e38 <unknown>
+#16 0x57cab4cb4016 <unknown>
+#17 0x57cab4cc3c16 <unknown>
+#18 0x7c6c452a1e2e <unknown>
+#19 0x7c6c45333a4c <unknown>
+",error
+67e2d42ac1670104499c13d5,https://www.pampanorama.it/punti-vendita/bologna-corticella,https://www.pampanorama.it/volantini/offerta-mango.html,No PDF found,no_pdf_found
+67e2d42ac1670104499c13d5,https://www.pampanorama.it/punti-vendita/bologna-corticella,https://www.pampanorama.it/volantini/---.html?link=https%3A%2F%2Fpam.volantinopiu.com%2Fvolantino2090600pv2265.html,"Error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ac1670104499c13d5,https://www.pampanorama.it/punti-vendita/bologna-corticella,https://www.pampanorama.it/volantini/---.html?link=https%3A%2F%2Fpam.volantinopiu.com%2Fvolantino2096600pv2265.html,"Error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ac1670104499c13da,https://www.pampanorama.it/punti-vendita/bologna-berti-pichat,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ac1670104499c13df,https://www.pampanorama.it/punti-vendita/bologna-murri,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ac1670104499c13e4,https://www.pampanorama.it/punti-vendita/bologna-trento-trieste,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ac1670104499c13e9,https://www.pampanorama.it/punti-vendita/pam-local-bologna-orti,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ac1670104499c13ee,https://www.pampanorama.it/punti-vendita/bologna-dagnini,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ac1670104499c13f3,https://www.pampanorama.it/punti-vendita/pam-ferrara-bersaglieri,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c13f8,https://www.pampanorama.it/punti-vendita/ferrara-mazzini,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c13fd,https://www.pampanorama.it/punti-vendita/curti-via-biagio-rosato,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c1402,https://www.pampanorama.it/punti-vendita/giugliano-via-palumbo-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c1407,https://www.pampanorama.it/punti-vendita/marigliano-corso-vittorio-emanuele-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c140c,https://www.pampanorama.it/punti-vendita/marigliano-s-francesco-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c1411,https://www.pampanorama.it/punti-vendita/melito-di-napoli-circumvallazione,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c1416,https://www.pampanorama.it/punti-vendita/mugnano-sp-melito-mugnano-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c141b,https://www.pampanorama.it/punti-vendita/retailpro-casoria,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c1420,https://www.pampanorama.it/punti-vendita/napoli-via-stadera-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c1425,https://www.pampanorama.it/punti-vendita/napoli-via-bramante-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c142a,https://www.pampanorama.it/punti-vendita/napoli-giordani-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c142f,https://www.pampanorama.it/punti-vendita/angri,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c1434,https://www.pampanorama.it/punti-vendita/pagani-via-tramontano-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c1439,https://www.pampanorama.it/punti-vendita/pago-del-vallo-di-lauro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c143e,https://www.pampanorama.it/punti-vendita/napoli-via-minichini-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c1443,https://www.pampanorama.it/punti-vendita/sant-anastasia-via-somma,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42bc1670104499c1448,https://www.pampanorama.it/punti-vendita/san-salvo-via-san-rocco-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c144d,https://www.pampanorama.it/punti-vendita/pam-castellarano,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c1452,https://www.pampanorama.it/punti-vendita/san-giorgio-via-galante-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c1457,https://www.pampanorama.it/punti-vendita/san-giorgio-via-manzoni-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c145c,https://www.pampanorama.it/punti-vendita/s-g-a-cremano-v-cappiello-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c1461,https://www.pampanorama.it/punti-vendita/napoli-via-rubinacci-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c1466,https://www.pampanorama.it/punti-vendita/san-giorgio-via-tufarelli-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c146b,https://www.pampanorama.it/punti-vendita/napoli-vi-bartolo-longo-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c1470,https://www.pampanorama.it/punti-vendita/s-giovanni-a-teduccio-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c1475,https://www.pampanorama.it/punti-vendita/napoli-cilea-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c147a,https://www.pampanorama.it/punti-vendita/pam-casalgrande,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c147f,https://www.pampanorama.it/punti-vendita/napoli-via-sigmund-freud-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c1484,https://www.pampanorama.it/punti-vendita/pam-cercola,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c1489,https://www.pampanorama.it/punti-vendita/napoli-via-volpicella-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c148e,https://www.pampanorama.it/punti-vendita/napoli-via-c-p-casanova-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c1493,https://www.pampanorama.it/punti-vendita/napoli-via-fiumicello-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42cc1670104499c1498,https://www.pampanorama.it/punti-vendita/ottaviano-san-leonardo-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c149d,https://www.pampanorama.it/punti-vendita/napoli-caruso-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14a2,https://www.pampanorama.it/punti-vendita/vignola,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14a7,https://www.pampanorama.it/punti-vendita/pianura-napoli,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14ac,https://www.pampanorama.it/punti-vendita/napoli-francesco-arnaldi,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14b1,https://www.pampanorama.it/punti-vendita/parma,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14b6,https://www.pampanorama.it/punti-vendita/pam-carpaneto,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14bb,https://www.pampanorama.it/punti-vendita/pam-xxiv-maggio,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14c0,https://www.pampanorama.it/punti-vendita/pam-gossolengo,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14c5,https://www.pampanorama.it/punti-vendita/battipaglia,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14ca,https://www.pampanorama.it/punti-vendita/eboli-via-bruno-buozzi-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14cf,https://www.pampanorama.it/punti-vendita/eboli-veneto,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14d4,https://www.pampanorama.it/punti-vendita/eboli-via-tavoliello-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14d9,https://www.pampanorama.it/punti-vendita/imola,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14de,https://www.pampanorama.it/punti-vendita/imola-punta,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14e3,https://www.pampanorama.it/punti-vendita/omignano-scalo-via-nazionale-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14e8,https://www.pampanorama.it/punti-vendita/capaccio-fraz-licinella-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42dc1670104499c14ed,https://www.pampanorama.it/punti-vendita/pam-local-ravenna-diaz,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c14f2,https://www.pampanorama.it/punti-vendita/pam-fogliano,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c14f7,https://www.pampanorama.it/punti-vendita/pam-quinzio,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c14fc,https://www.pampanorama.it/punti-vendita/reggio-emilia,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c1501,https://www.pampanorama.it/punti-vendita/atripalda-p-zza-cassese-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c1506,https://www.pampanorama.it/punti-vendita/atripalda-san-lorenzo,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c150b,https://www.pampanorama.it/punti-vendita/avellino-san-tommaso-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c1510,https://www.pampanorama.it/punti-vendita/contrada-via-nazionale-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c1515,https://www.pampanorama.it/punti-vendita/ariano-irpino-cda-cardito-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c151a,https://www.pampanorama.it/punti-vendita/ariano-irpino-via-martiri-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c151f,https://www.pampanorama.it/punti-vendita/mirabella-via-san-michele-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c1524,https://www.pampanorama.it/punti-vendita/mirabella-via-calore-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c1529,https://www.pampanorama.it/punti-vendita/pietradefusi-v-industrie-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c152e,https://www.pampanorama.it/punti-vendita/lioni-serro-di-morra,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c1533,https://www.pampanorama.it/punti-vendita/pam-bentivoglio,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c1538,https://www.pampanorama.it/punti-vendita/bologna-bellaria,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c153d,https://www.pampanorama.it/punti-vendita/san-giorgio-del-sannio-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42ec1670104499c1542,https://www.pampanorama.it/punti-vendita/taurasi-via-maffei-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42fc1670104499c1547,https://www.pampanorama.it/punti-vendita/lignano-sabbiadoro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42fc1670104499c154c,https://www.pampanorama.it/punti-vendita/pam-di-bologna,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42fc1670104499c1551,https://www.pampanorama.it/punti-vendita/bologna-castelpietro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42fc1670104499c1556,https://www.pampanorama.it/punti-vendita/pam-imola,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42fc1670104499c155b,https://www.pampanorama.it/punti-vendita/spilimbergo,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42fc1670104499c1560,https://www.pampanorama.it/punti-vendita/sturno-via-f-aufiero-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42fc1670104499c1565,https://www.pampanorama.it/punti-vendita/benevento,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42fc1670104499c156a,https://www.pampanorama.it/punti-vendita/benevento-via-oderisio,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42fc1670104499c156f,https://www.pampanorama.it/punti-vendita/benevento-via-napoli-retail-pro,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
+67e2d42fc1670104499c1574,https://www.pampanorama.it/punti-vendita/pordenone-garibaldi,N/A,"Store page error: Message: invalid session id
+Stacktrace:
+#0 0x57cab4cc4d9a <unknown>
+#1 0x57cab4795c13 <unknown>
+#2 0x57cab47d83bf <unknown>
+#3 0x57cab480cfe6 <unknown>
+#4 0x57cab4807836 <unknown>
+#5 0x57cab4806965 <unknown>
+#6 0x57cab475e928 <unknown>
+#7 0x57cab4c8e69b <unknown>
+#8 0x57cab4c92642 <unknown>
+#9 0x57cab4c7ac2c <unknown>
+#10 0x57cab4c931e4 <unknown>
+#11 0x57cab4c5ee6f <unknown>
+#12 0x57cab475d372 <unknown>
+#13 0x7c6c4522a3b8 <unknown>
+#14 0x7c6c4522a47b __libc_start_main
+#15 0x57cab472656a _start
+",error
