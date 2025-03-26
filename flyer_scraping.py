@@ -16,6 +16,7 @@ from datetime import datetime
 CHROME_DRIVER_PATH = "/usr/local/bin/chromedriver"
 LOG_DIR = "logs"
 OUTPUT_DIR = "scrape_data"
+OUTPUT_FILE = os.path.join(OUTPUT_DIR, "PAM_flyers.csv")  # Fixed output filename
 INPUT_CSV = "scrape_data/store_PAM_with_ids.csv"
 
 def setup_logging():
@@ -47,7 +48,12 @@ def setup_driver():
 
 def process_store(driver, store_id, store_url, logger):
     """Process a single store URL and return flyer data"""
-    results = []
+    result = {
+        'shop_id': store_id,
+        'store_url': store_url,
+        'pdf_links': [],
+        'status': 'No flyers'
+    }
     logger.info(f"Starting processing for store {store_id}")
     
     try:
@@ -66,15 +72,14 @@ def process_store(driver, store_id, store_url, logger):
             logger.info(f"Found {len(flyer_links)} flyers for store {store_id}")
         except Exception as e:
             logger.warning(f"Could not find flyer carousel for store {store_id}: {str(e)}")
-            return [{
-                'shop_id': store_id,
-                'store_url': store_url,
-                'flyer_url': "N/A",
-                'pdf_links': f"No flyer carousel found: {str(e)}",
-                'status': 'error'
-            }]
+            return result
+
+        # If no flyers found, return with empty pdf_links
+        if not flyer_links:
+            return result
 
         # Process each flyer for this store
+        pdf_links = []
         for flyer_url in flyer_links:
             try:
                 logger.debug(f"Processing flyer: {flyer_url}")
@@ -82,8 +87,6 @@ def process_store(driver, store_id, store_url, logger):
                 time.sleep(2)  # Wait for page to load
                 
                 # Try to find PDF links
-                pdf_links = []
-                
                 # First format
                 try:
                     download_div = driver.find_element(By.CSS_SELECTOR, ".downloadFlyerContainer")
@@ -107,49 +110,69 @@ def process_store(driver, store_id, store_url, logger):
                     logger.debug(f"Format 2 not found: {str(e)}")
                     pass
                 
-                status = 'success' if pdf_links else 'no_pdf_found'
-                results.append({
-                    'shop_id': store_id,
-                    'store_url': store_url,
-                    'flyer_url': flyer_url,
-                    'pdf_links': pdf_links if pdf_links else "No PDF found",
-                    'status': status
-                })
-                logger.info(f"Processed flyer {flyer_url} - Status: {status}")
-                
             except Exception as e:
                 logger.error(f"Error processing flyer {flyer_url} for store {store_id}: {str(e)}")
-                results.append({
-                    'shop_id': store_id,
-                    'store_url': store_url,
-                    'flyer_url': flyer_url,
-                    'pdf_links': f"Error: {str(e)}",
-                    'status': 'error'
-                })
-                
+                continue
+
+        # Update result based on findings
+        if pdf_links:
+            result['pdf_links'] = pdf_links
+            result['status'] = 'success'
+            
     except Exception as e:
         logger.error(f"Error processing store {store_id}: {str(e)}")
-        results.append({
-            'shop_id': store_id,
-            'store_url': store_url,
-            'flyer_url': "N/A",
-            'pdf_links': f"Store page error: {str(e)}",
-            'status': 'error'
-        })
+        result['status'] = 'error'
     
     logger.info(f"Completed processing for store {store_id}")
-    return results
+    return result
+
+def save_results(results, logger):
+    """Save results to the fixed output file with error handling"""
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    
+    try:
+        results_df = pd.DataFrame(results)
+        
+        # Write to CSV with error handling
+        try:
+            results_df.to_csv(OUTPUT_FILE, index=False)
+            logger.info(f"Successfully saved {len(results_df)} records to {OUTPUT_FILE}")
+        except Exception as e:
+            logger.error(f"Failed to write CSV file {OUTPUT_FILE}: {str(e)}")
+            
+            # Attempt to save with timestamp if fixed filename fails
+            try:
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                fallback_file = os.path.join(OUTPUT_DIR, f"PAM_flyers_{timestamp}.csv")
+                results_df.to_csv(fallback_file, index=False)
+                logger.info(f"Saved results to fallback file {fallback_file}")
+            except Exception as fallback_e:
+                logger.critical(f"Failed to save fallback CSV file: {str(fallback_e)}")
+                
+                # As last resort, log the results data
+                logger.info("Results data that failed to save:")
+                for i, row in enumerate(results):
+                    logger.info(f"Row {i}: {str(row)}")
+    
+    except Exception as e:
+        logger.error(f"Failed to create DataFrame from results: {str(e)}")
+        logger.info("Raw results data:")
+        logger.info(str(results))
 
 def main():
     logger = setup_logging()
     logger.info("Starting scraper")
     
     try:
-        # Load the store data
-        logger.info(f"Loading input data from {INPUT_CSV}")
-        data = pd.read_csv(INPUT_CSV)
-        data = data.dropna(subset=['Shop ID', 'Store URL'])
-        logger.info(f"Loaded {len(data)} valid store records")
+        # Load the store data with error handling
+        try:
+            logger.info(f"Loading input data from {INPUT_CSV}")
+            data = pd.read_csv(INPUT_CSV)
+            data = data.dropna(subset=['Shop ID', 'Store URL'])
+            logger.info(f"Loaded {len(data)} valid store records")
+        except Exception as e:
+            logger.error(f"Failed to load input CSV {INPUT_CSV}: {str(e)}")
+            raise
         
         # Initialize driver
         driver = setup_driver()
@@ -161,12 +184,22 @@ def main():
                 store_id = row['Shop ID']
                 store_url = row['Store URL']
                 
-                store_results = process_store(driver, store_id, store_url, logger)
-                all_results.extend(store_results)
-                
-                # Periodic save
-                if index % 10 == 0 and index > 0:
-                    save_results(all_results, logger)
+                try:
+                    store_result = process_store(driver, store_id, store_url, logger)
+                    all_results.append(store_result)
+                    
+                    # Periodic save every 10 stores
+                    if index % 10 == 0 and index > 0:
+                        save_results(all_results, logger)
+                        
+                except Exception as e:
+                    logger.error(f"Unexpected error processing store {store_id}: {str(e)}")
+                    all_results.append({
+                        'shop_id': store_id,
+                        'store_url': store_url,
+                        'pdf_links': [],
+                        'status': 'error'
+                    })
                 
         finally:
             # Ensure driver quits even if error occurs
@@ -179,16 +212,6 @@ def main():
     except Exception as e:
         logger.critical(f"Fatal error in main execution: {str(e)}", exc_info=True)
         raise
-
-def save_results(results, logger):
-    """Save results to CSV with timestamp"""
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    output_file = os.path.join(OUTPUT_DIR, f"flyer_results_{timestamp}.csv")
-    
-    results_df = pd.DataFrame(results)
-    results_df.to_csv(output_file, index=False)
-    logger.info(f"Saved {len(results_df)} records to {output_file}")
 
 if __name__ == "__main__":
     main()
