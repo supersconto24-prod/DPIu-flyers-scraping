@@ -1,0 +1,4690 @@
+nohup: ignoring input
+2025-03-26 04:18:06,302 - INFO - Starting scraper
+2025-03-26 04:18:06,302 - INFO - Loading input data from scrape_data/store_PAM_with_ids.csv
+2025-03-26 04:18:06,313 - INFO - Loaded 400 valid store records
+2025-03-26 04:18:06,710 - INFO - Starting processing for store 67e2d429c1670104499c1399
+2025-03-26 04:18:10,829 - INFO - Found 4 flyers for store 67e2d429c1670104499c1399
+2025-03-26 04:18:21,450 - INFO - Completed processing for store 67e2d429c1670104499c1399
+2025-03-26 04:18:21,451 - INFO - Starting processing for store 67e2d429c1670104499c139e
+2025-03-26 04:18:36,396 - WARNING - Could not find flyer carousel for store 67e2d429c1670104499c139e: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:18:36,397 - INFO - Starting processing for store 67e2d429c1670104499c13a3
+2025-03-26 04:18:50,039 - WARNING - Could not find flyer carousel for store 67e2d429c1670104499c13a3: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:18:50,040 - INFO - Starting processing for store 67e2d429c1670104499c13a8
+2025-03-26 04:18:53,389 - INFO - Found 5 flyers for store 67e2d429c1670104499c13a8
+2025-03-26 04:19:05,495 - INFO - Completed processing for store 67e2d429c1670104499c13a8
+2025-03-26 04:19:05,496 - INFO - Starting processing for store 67e2d42ac1670104499c13ad
+2025-03-26 04:19:19,301 - WARNING - Could not find flyer carousel for store 67e2d42ac1670104499c13ad: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:19:19,302 - INFO - Starting processing for store 67e2d42ac1670104499c13b2
+2025-03-26 04:19:22,719 - INFO - Found 4 flyers for store 67e2d42ac1670104499c13b2
+2025-03-26 04:19:32,402 - INFO - Completed processing for store 67e2d42ac1670104499c13b2
+2025-03-26 04:19:32,404 - INFO - Starting processing for store 67e2d42ac1670104499c13b7
+2025-03-26 04:19:46,181 - WARNING - Could not find flyer carousel for store 67e2d42ac1670104499c13b7: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:19:46,182 - INFO - Starting processing for store 67e2d42ac1670104499c13bc
+2025-03-26 04:19:59,906 - WARNING - Could not find flyer carousel for store 67e2d42ac1670104499c13bc: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:19:59,907 - INFO - Starting processing for store 67e2d42ac1670104499c13c1
+2025-03-26 04:20:13,527 - WARNING - Could not find flyer carousel for store 67e2d42ac1670104499c13c1: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:20:13,528 - INFO - Starting processing for store 67e2d42ac1670104499c13c6
+2025-03-26 04:20:27,204 - WARNING - Could not find flyer carousel for store 67e2d42ac1670104499c13c6: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:20:27,205 - INFO - Starting processing for store 67e2d42ac1670104499c13cb
+2025-03-26 04:20:40,872 - WARNING - Could not find flyer carousel for store 67e2d42ac1670104499c13cb: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:20:40,877 - INFO - Successfully saved 11 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:20:40,877 - INFO - Starting processing for store 67e2d42ac1670104499c13d0
+2025-03-26 04:20:54,587 - WARNING - Could not find flyer carousel for store 67e2d42ac1670104499c13d0: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:20:54,588 - INFO - Starting processing for store 67e2d42ac1670104499c13d5
+2025-03-26 04:20:57,962 - INFO - Found 4 flyers for store 67e2d42ac1670104499c13d5
+2025-03-26 04:21:07,699 - INFO - Completed processing for store 67e2d42ac1670104499c13d5
+2025-03-26 04:21:07,700 - INFO - Starting processing for store 67e2d42ac1670104499c13da
+2025-03-26 04:21:21,464 - WARNING - Could not find flyer carousel for store 67e2d42ac1670104499c13da: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:21:21,465 - INFO - Starting processing for store 67e2d42ac1670104499c13df
+2025-03-26 04:21:35,113 - WARNING - Could not find flyer carousel for store 67e2d42ac1670104499c13df: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:21:35,113 - INFO - Starting processing for store 67e2d42ac1670104499c13e4
+2025-03-26 04:21:48,736 - WARNING - Could not find flyer carousel for store 67e2d42ac1670104499c13e4: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:21:48,737 - INFO - Starting processing for store 67e2d42ac1670104499c13e9
+2025-03-26 04:22:02,378 - WARNING - Could not find flyer carousel for store 67e2d42ac1670104499c13e9: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:22:02,378 - INFO - Starting processing for store 67e2d42ac1670104499c13ee
+2025-03-26 04:22:16,021 - WARNING - Could not find flyer carousel for store 67e2d42ac1670104499c13ee: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:22:16,021 - INFO - Starting processing for store 67e2d42ac1670104499c13f3
+2025-03-26 04:22:19,350 - INFO - Found 1 flyers for store 67e2d42ac1670104499c13f3
+2025-03-26 04:22:21,689 - INFO - Completed processing for store 67e2d42ac1670104499c13f3
+2025-03-26 04:22:21,693 - INFO - Successfully saved 19 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:22:21,693 - INFO - Starting processing for store 67e2d42bc1670104499c13f8
+2025-03-26 04:22:35,309 - WARNING - Could not find flyer carousel for store 67e2d42bc1670104499c13f8: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:22:35,309 - INFO - Starting processing for store 67e2d42bc1670104499c13fd
+2025-03-26 04:22:38,637 - INFO - Found 4 flyers for store 67e2d42bc1670104499c13fd
+2025-03-26 04:22:48,963 - INFO - Completed processing for store 67e2d42bc1670104499c13fd
+2025-03-26 04:22:48,964 - INFO - Starting processing for store 67e2d42bc1670104499c1402
+2025-03-26 04:22:52,488 - INFO - Found 4 flyers for store 67e2d42bc1670104499c1402
+2025-03-26 04:23:02,959 - INFO - Completed processing for store 67e2d42bc1670104499c1402
+2025-03-26 04:23:02,959 - INFO - Starting processing for store 67e2d42bc1670104499c1407
+2025-03-26 04:23:06,467 - INFO - Found 4 flyers for store 67e2d42bc1670104499c1407
+2025-03-26 04:23:16,566 - INFO - Completed processing for store 67e2d42bc1670104499c1407
+2025-03-26 04:23:16,567 - INFO - Starting processing for store 67e2d42bc1670104499c140c
+2025-03-26 04:23:20,062 - INFO - Found 4 flyers for store 67e2d42bc1670104499c140c
+2025-03-26 04:23:30,473 - INFO - Completed processing for store 67e2d42bc1670104499c140c
+2025-03-26 04:23:30,474 - INFO - Starting processing for store 67e2d42bc1670104499c1411
+2025-03-26 04:23:34,003 - INFO - Found 4 flyers for store 67e2d42bc1670104499c1411
+2025-03-26 04:23:44,348 - INFO - Completed processing for store 67e2d42bc1670104499c1411
+2025-03-26 04:23:44,349 - INFO - Starting processing for store 67e2d42bc1670104499c1416
+2025-03-26 04:23:47,881 - INFO - Found 4 flyers for store 67e2d42bc1670104499c1416
+2025-03-26 04:23:57,980 - INFO - Completed processing for store 67e2d42bc1670104499c1416
+2025-03-26 04:23:57,981 - INFO - Starting processing for store 67e2d42bc1670104499c141b
+2025-03-26 04:24:01,455 - INFO - Found 4 flyers for store 67e2d42bc1670104499c141b
+2025-03-26 04:24:11,787 - INFO - Completed processing for store 67e2d42bc1670104499c141b
+2025-03-26 04:24:11,788 - INFO - Starting processing for store 67e2d42bc1670104499c1420
+2025-03-26 04:24:15,272 - INFO - Found 4 flyers for store 67e2d42bc1670104499c1420
+2025-03-26 04:24:25,272 - INFO - Completed processing for store 67e2d42bc1670104499c1420
+2025-03-26 04:24:25,274 - INFO - Starting processing for store 67e2d42bc1670104499c1425
+2025-03-26 04:24:28,858 - INFO - Found 4 flyers for store 67e2d42bc1670104499c1425
+2025-03-26 04:24:39,003 - INFO - Completed processing for store 67e2d42bc1670104499c1425
+2025-03-26 04:24:39,008 - INFO - Successfully saved 29 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:24:39,009 - INFO - Starting processing for store 67e2d42bc1670104499c142a
+2025-03-26 04:24:42,508 - INFO - Found 4 flyers for store 67e2d42bc1670104499c142a
+2025-03-26 04:24:52,845 - INFO - Completed processing for store 67e2d42bc1670104499c142a
+2025-03-26 04:24:52,846 - INFO - Starting processing for store 67e2d42bc1670104499c142f
+2025-03-26 04:24:56,336 - INFO - Found 4 flyers for store 67e2d42bc1670104499c142f
+2025-03-26 04:25:06,793 - INFO - Completed processing for store 67e2d42bc1670104499c142f
+2025-03-26 04:25:06,793 - INFO - Starting processing for store 67e2d42bc1670104499c1434
+2025-03-26 04:25:10,287 - INFO - Found 4 flyers for store 67e2d42bc1670104499c1434
+2025-03-26 04:25:20,573 - INFO - Completed processing for store 67e2d42bc1670104499c1434
+2025-03-26 04:25:20,574 - INFO - Starting processing for store 67e2d42bc1670104499c1439
+2025-03-26 04:25:24,178 - INFO - Found 4 flyers for store 67e2d42bc1670104499c1439
+2025-03-26 04:25:34,343 - INFO - Completed processing for store 67e2d42bc1670104499c1439
+2025-03-26 04:25:34,344 - INFO - Starting processing for store 67e2d42bc1670104499c143e
+2025-03-26 04:25:37,868 - INFO - Found 4 flyers for store 67e2d42bc1670104499c143e
+2025-03-26 04:25:48,140 - INFO - Completed processing for store 67e2d42bc1670104499c143e
+2025-03-26 04:25:48,140 - INFO - Starting processing for store 67e2d42bc1670104499c1443
+2025-03-26 04:25:51,644 - INFO - Found 4 flyers for store 67e2d42bc1670104499c1443
+2025-03-26 04:26:01,561 - INFO - Completed processing for store 67e2d42bc1670104499c1443
+2025-03-26 04:26:01,562 - INFO - Starting processing for store 67e2d42bc1670104499c1448
+2025-03-26 04:26:05,134 - INFO - Found 4 flyers for store 67e2d42bc1670104499c1448
+2025-03-26 04:26:15,200 - INFO - Completed processing for store 67e2d42bc1670104499c1448
+2025-03-26 04:26:15,201 - INFO - Starting processing for store 67e2d42cc1670104499c144d
+2025-03-26 04:26:18,706 - INFO - Found 1 flyers for store 67e2d42cc1670104499c144d
+2025-03-26 04:26:21,051 - INFO - Completed processing for store 67e2d42cc1670104499c144d
+2025-03-26 04:26:21,052 - INFO - Starting processing for store 67e2d42cc1670104499c1452
+2025-03-26 04:26:24,424 - INFO - Found 4 flyers for store 67e2d42cc1670104499c1452
+2025-03-26 04:26:34,578 - INFO - Completed processing for store 67e2d42cc1670104499c1452
+2025-03-26 04:26:34,579 - INFO - Starting processing for store 67e2d42cc1670104499c1457
+2025-03-26 04:26:38,154 - INFO - Found 4 flyers for store 67e2d42cc1670104499c1457
+2025-03-26 04:26:47,962 - INFO - Completed processing for store 67e2d42cc1670104499c1457
+2025-03-26 04:26:47,966 - INFO - Successfully saved 39 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:26:47,966 - INFO - Starting processing for store 67e2d42cc1670104499c145c
+2025-03-26 04:26:51,459 - INFO - Found 4 flyers for store 67e2d42cc1670104499c145c
+2025-03-26 04:27:01,692 - INFO - Completed processing for store 67e2d42cc1670104499c145c
+2025-03-26 04:27:01,693 - INFO - Starting processing for store 67e2d42cc1670104499c1461
+2025-03-26 04:27:05,215 - INFO - Found 4 flyers for store 67e2d42cc1670104499c1461
+2025-03-26 04:27:15,409 - INFO - Completed processing for store 67e2d42cc1670104499c1461
+2025-03-26 04:27:15,410 - INFO - Starting processing for store 67e2d42cc1670104499c1466
+2025-03-26 04:27:18,910 - INFO - Found 4 flyers for store 67e2d42cc1670104499c1466
+2025-03-26 04:27:28,891 - INFO - Completed processing for store 67e2d42cc1670104499c1466
+2025-03-26 04:27:28,891 - INFO - Starting processing for store 67e2d42cc1670104499c146b
+2025-03-26 04:27:32,365 - INFO - Found 4 flyers for store 67e2d42cc1670104499c146b
+2025-03-26 04:27:42,271 - INFO - Completed processing for store 67e2d42cc1670104499c146b
+2025-03-26 04:27:42,272 - INFO - Starting processing for store 67e2d42cc1670104499c1470
+2025-03-26 04:27:45,752 - INFO - Found 4 flyers for store 67e2d42cc1670104499c1470
+2025-03-26 04:27:55,335 - INFO - Completed processing for store 67e2d42cc1670104499c1470
+2025-03-26 04:27:55,336 - INFO - Starting processing for store 67e2d42cc1670104499c1475
+2025-03-26 04:27:58,846 - INFO - Found 4 flyers for store 67e2d42cc1670104499c1475
+2025-03-26 04:28:08,919 - INFO - Completed processing for store 67e2d42cc1670104499c1475
+2025-03-26 04:28:08,920 - INFO - Starting processing for store 67e2d42cc1670104499c147a
+2025-03-26 04:28:12,412 - INFO - Found 1 flyers for store 67e2d42cc1670104499c147a
+2025-03-26 04:28:14,746 - INFO - Completed processing for store 67e2d42cc1670104499c147a
+2025-03-26 04:28:14,746 - INFO - Starting processing for store 67e2d42cc1670104499c147f
+2025-03-26 04:28:18,114 - INFO - Found 4 flyers for store 67e2d42cc1670104499c147f
+2025-03-26 04:28:28,776 - INFO - Completed processing for store 67e2d42cc1670104499c147f
+2025-03-26 04:28:28,777 - INFO - Starting processing for store 67e2d42cc1670104499c1484
+2025-03-26 04:28:42,538 - WARNING - Could not find flyer carousel for store 67e2d42cc1670104499c1484: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:28:42,539 - INFO - Starting processing for store 67e2d42cc1670104499c1489
+2025-03-26 04:28:45,897 - INFO - Found 4 flyers for store 67e2d42cc1670104499c1489
+2025-03-26 04:28:55,647 - INFO - Completed processing for store 67e2d42cc1670104499c1489
+2025-03-26 04:28:55,650 - INFO - Successfully saved 49 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:28:55,651 - INFO - Starting processing for store 67e2d42cc1670104499c148e
+2025-03-26 04:29:09,420 - WARNING - Could not find flyer carousel for store 67e2d42cc1670104499c148e: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:29:09,420 - INFO - Starting processing for store 67e2d42cc1670104499c1493
+2025-03-26 04:29:12,756 - INFO - Found 4 flyers for store 67e2d42cc1670104499c1493
+2025-03-26 04:29:22,851 - INFO - Completed processing for store 67e2d42cc1670104499c1493
+2025-03-26 04:29:22,852 - INFO - Starting processing for store 67e2d42cc1670104499c1498
+2025-03-26 04:29:26,342 - INFO - Found 4 flyers for store 67e2d42cc1670104499c1498
+2025-03-26 04:29:36,422 - INFO - Completed processing for store 67e2d42cc1670104499c1498
+2025-03-26 04:29:36,423 - INFO - Starting processing for store 67e2d42dc1670104499c149d
+2025-03-26 04:29:39,913 - INFO - Found 4 flyers for store 67e2d42dc1670104499c149d
+2025-03-26 04:29:49,888 - INFO - Completed processing for store 67e2d42dc1670104499c149d
+2025-03-26 04:29:49,888 - INFO - Starting processing for store 67e2d42dc1670104499c14a2
+2025-03-26 04:29:53,378 - INFO - Found 4 flyers for store 67e2d42dc1670104499c14a2
+2025-03-26 04:30:03,068 - INFO - Completed processing for store 67e2d42dc1670104499c14a2
+2025-03-26 04:30:03,068 - INFO - Starting processing for store 67e2d42dc1670104499c14a7
+2025-03-26 04:30:06,536 - INFO - Found 4 flyers for store 67e2d42dc1670104499c14a7
+2025-03-26 04:30:16,784 - INFO - Completed processing for store 67e2d42dc1670104499c14a7
+2025-03-26 04:30:16,784 - INFO - Starting processing for store 67e2d42dc1670104499c14ac
+2025-03-26 04:30:20,280 - INFO - Found 4 flyers for store 67e2d42dc1670104499c14ac
+2025-03-26 04:30:30,615 - INFO - Completed processing for store 67e2d42dc1670104499c14ac
+2025-03-26 04:30:30,616 - INFO - Starting processing for store 67e2d42dc1670104499c14b1
+2025-03-26 04:30:34,127 - INFO - Found 5 flyers for store 67e2d42dc1670104499c14b1
+2025-03-26 04:30:46,248 - INFO - Completed processing for store 67e2d42dc1670104499c14b1
+2025-03-26 04:30:46,249 - INFO - Starting processing for store 67e2d42dc1670104499c14b6
+2025-03-26 04:30:49,737 - INFO - Found 1 flyers for store 67e2d42dc1670104499c14b6
+2025-03-26 04:30:52,071 - INFO - Completed processing for store 67e2d42dc1670104499c14b6
+2025-03-26 04:30:52,072 - INFO - Starting processing for store 67e2d42dc1670104499c14bb
+2025-03-26 04:30:55,438 - INFO - Found 1 flyers for store 67e2d42dc1670104499c14bb
+2025-03-26 04:30:57,738 - INFO - Completed processing for store 67e2d42dc1670104499c14bb
+2025-03-26 04:30:57,742 - INFO - Successfully saved 59 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:30:57,742 - INFO - Starting processing for store 67e2d42dc1670104499c14c0
+2025-03-26 04:31:01,086 - INFO - Found 1 flyers for store 67e2d42dc1670104499c14c0
+2025-03-26 04:31:03,419 - INFO - Completed processing for store 67e2d42dc1670104499c14c0
+2025-03-26 04:31:03,420 - INFO - Starting processing for store 67e2d42dc1670104499c14c5
+2025-03-26 04:31:06,758 - INFO - Found 4 flyers for store 67e2d42dc1670104499c14c5
+2025-03-26 04:31:16,436 - INFO - Completed processing for store 67e2d42dc1670104499c14c5
+2025-03-26 04:31:16,437 - INFO - Starting processing for store 67e2d42dc1670104499c14ca
+2025-03-26 04:31:20,039 - INFO - Found 4 flyers for store 67e2d42dc1670104499c14ca
+2025-03-26 04:31:30,120 - INFO - Completed processing for store 67e2d42dc1670104499c14ca
+2025-03-26 04:31:30,121 - INFO - Starting processing for store 67e2d42dc1670104499c14cf
+2025-03-26 04:31:33,661 - INFO - Found 4 flyers for store 67e2d42dc1670104499c14cf
+2025-03-26 04:31:43,762 - INFO - Completed processing for store 67e2d42dc1670104499c14cf
+2025-03-26 04:31:43,763 - INFO - Starting processing for store 67e2d42dc1670104499c14d4
+2025-03-26 04:31:47,281 - INFO - Found 4 flyers for store 67e2d42dc1670104499c14d4
+2025-03-26 04:31:57,139 - INFO - Completed processing for store 67e2d42dc1670104499c14d4
+2025-03-26 04:31:57,140 - INFO - Starting processing for store 67e2d42dc1670104499c14d9
+2025-03-26 04:32:00,624 - INFO - Found 5 flyers for store 67e2d42dc1670104499c14d9
+2025-03-26 04:32:12,675 - INFO - Completed processing for store 67e2d42dc1670104499c14d9
+2025-03-26 04:32:12,675 - INFO - Starting processing for store 67e2d42dc1670104499c14de
+2025-03-26 04:32:16,316 - INFO - Found 1 flyers for store 67e2d42dc1670104499c14de
+2025-03-26 04:32:18,686 - INFO - Completed processing for store 67e2d42dc1670104499c14de
+2025-03-26 04:32:18,686 - INFO - Starting processing for store 67e2d42dc1670104499c14e3
+2025-03-26 04:32:22,030 - INFO - Found 4 flyers for store 67e2d42dc1670104499c14e3
+2025-03-26 04:32:31,394 - INFO - Completed processing for store 67e2d42dc1670104499c14e3
+2025-03-26 04:32:31,395 - INFO - Starting processing for store 67e2d42dc1670104499c14e8
+2025-03-26 04:32:34,874 - INFO - Found 4 flyers for store 67e2d42dc1670104499c14e8
+2025-03-26 04:32:44,716 - INFO - Completed processing for store 67e2d42dc1670104499c14e8
+2025-03-26 04:32:44,716 - INFO - Starting processing for store 67e2d42dc1670104499c14ed
+2025-03-26 04:32:58,489 - WARNING - Could not find flyer carousel for store 67e2d42dc1670104499c14ed: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:32:58,493 - INFO - Successfully saved 69 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:32:58,494 - INFO - Starting processing for store 67e2d42ec1670104499c14f2
+2025-03-26 04:33:01,872 - INFO - Found 1 flyers for store 67e2d42ec1670104499c14f2
+2025-03-26 04:33:04,205 - INFO - Completed processing for store 67e2d42ec1670104499c14f2
+2025-03-26 04:33:04,205 - INFO - Starting processing for store 67e2d42ec1670104499c14f7
+2025-03-26 04:33:17,852 - WARNING - Could not find flyer carousel for store 67e2d42ec1670104499c14f7: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:33:17,853 - INFO - Starting processing for store 67e2d42ec1670104499c14fc
+2025-03-26 04:33:21,186 - INFO - Found 1 flyers for store 67e2d42ec1670104499c14fc
+2025-03-26 04:33:23,558 - INFO - Completed processing for store 67e2d42ec1670104499c14fc
+2025-03-26 04:33:23,559 - INFO - Starting processing for store 67e2d42ec1670104499c1501
+2025-03-26 04:33:26,889 - INFO - Found 4 flyers for store 67e2d42ec1670104499c1501
+2025-03-26 04:33:37,054 - INFO - Completed processing for store 67e2d42ec1670104499c1501
+2025-03-26 04:33:37,055 - INFO - Starting processing for store 67e2d42ec1670104499c1506
+2025-03-26 04:33:40,153 - INFO - Found 4 flyers for store 67e2d42ec1670104499c1506
+2025-03-26 04:33:50,305 - INFO - Completed processing for store 67e2d42ec1670104499c1506
+2025-03-26 04:33:50,306 - INFO - Starting processing for store 67e2d42ec1670104499c150b
+2025-03-26 04:33:53,846 - INFO - Found 4 flyers for store 67e2d42ec1670104499c150b
+2025-03-26 04:34:03,948 - INFO - Completed processing for store 67e2d42ec1670104499c150b
+2025-03-26 04:34:03,948 - INFO - Starting processing for store 67e2d42ec1670104499c1510
+2025-03-26 04:34:07,445 - INFO - Found 4 flyers for store 67e2d42ec1670104499c1510
+2025-03-26 04:34:17,554 - INFO - Completed processing for store 67e2d42ec1670104499c1510
+2025-03-26 04:34:17,554 - INFO - Starting processing for store 67e2d42ec1670104499c1515
+2025-03-26 04:34:21,042 - INFO - Found 4 flyers for store 67e2d42ec1670104499c1515
+2025-03-26 04:34:31,195 - INFO - Completed processing for store 67e2d42ec1670104499c1515
+2025-03-26 04:34:31,196 - INFO - Starting processing for store 67e2d42ec1670104499c151a
+2025-03-26 04:34:34,688 - INFO - Found 4 flyers for store 67e2d42ec1670104499c151a
+2025-03-26 04:34:44,730 - INFO - Completed processing for store 67e2d42ec1670104499c151a
+2025-03-26 04:34:44,734 - INFO - Successfully saved 78 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:34:44,734 - INFO - Starting processing for store 67e2d42ec1670104499c151f
+2025-03-26 04:34:48,234 - INFO - Found 4 flyers for store 67e2d42ec1670104499c151f
+2025-03-26 04:34:58,602 - INFO - Completed processing for store 67e2d42ec1670104499c151f
+2025-03-26 04:34:58,603 - INFO - Starting processing for store 67e2d42ec1670104499c1524
+2025-03-26 04:35:02,162 - INFO - Found 4 flyers for store 67e2d42ec1670104499c1524
+2025-03-26 04:35:11,980 - INFO - Completed processing for store 67e2d42ec1670104499c1524
+2025-03-26 04:35:11,980 - INFO - Starting processing for store 67e2d42ec1670104499c1529
+2025-03-26 04:35:15,441 - INFO - Found 4 flyers for store 67e2d42ec1670104499c1529
+2025-03-26 04:35:25,555 - INFO - Completed processing for store 67e2d42ec1670104499c1529
+2025-03-26 04:35:25,555 - INFO - Starting processing for store 67e2d42ec1670104499c152e
+2025-03-26 04:35:29,036 - INFO - Found 4 flyers for store 67e2d42ec1670104499c152e
+2025-03-26 04:35:38,999 - INFO - Completed processing for store 67e2d42ec1670104499c152e
+2025-03-26 04:35:39,000 - INFO - Starting processing for store 67e2d42ec1670104499c1533
+2025-03-26 04:35:42,454 - INFO - Found 1 flyers for store 67e2d42ec1670104499c1533
+2025-03-26 04:35:44,766 - INFO - Completed processing for store 67e2d42ec1670104499c1533
+2025-03-26 04:35:44,767 - INFO - Starting processing for store 67e2d42ec1670104499c1538
+2025-03-26 04:35:48,138 - INFO - Found 4 flyers for store 67e2d42ec1670104499c1538
+2025-03-26 04:35:57,905 - INFO - Completed processing for store 67e2d42ec1670104499c1538
+2025-03-26 04:35:57,906 - INFO - Starting processing for store 67e2d42ec1670104499c153d
+2025-03-26 04:36:01,413 - INFO - Found 4 flyers for store 67e2d42ec1670104499c153d
+2025-03-26 04:36:11,628 - INFO - Completed processing for store 67e2d42ec1670104499c153d
+2025-03-26 04:36:11,629 - INFO - Starting processing for store 67e2d42ec1670104499c1542
+2025-03-26 04:36:15,102 - INFO - Found 4 flyers for store 67e2d42ec1670104499c1542
+2025-03-26 04:36:25,040 - INFO - Completed processing for store 67e2d42ec1670104499c1542
+2025-03-26 04:36:25,044 - INFO - Successfully saved 86 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:36:25,045 - INFO - Starting processing for store 67e2d42fc1670104499c1547
+2025-03-26 04:36:28,525 - INFO - Found 4 flyers for store 67e2d42fc1670104499c1547
+2025-03-26 04:36:38,274 - INFO - Completed processing for store 67e2d42fc1670104499c1547
+2025-03-26 04:36:38,274 - INFO - Starting processing for store 67e2d42fc1670104499c154c
+2025-03-26 04:36:41,866 - INFO - Found 4 flyers for store 67e2d42fc1670104499c154c
+2025-03-26 04:36:51,653 - INFO - Completed processing for store 67e2d42fc1670104499c154c
+2025-03-26 04:36:51,654 - INFO - Starting processing for store 67e2d42fc1670104499c1551
+2025-03-26 04:36:55,218 - INFO - Found 4 flyers for store 67e2d42fc1670104499c1551
+2025-03-26 04:37:04,934 - INFO - Completed processing for store 67e2d42fc1670104499c1551
+2025-03-26 04:37:04,935 - INFO - Starting processing for store 67e2d42fc1670104499c1556
+2025-03-26 04:37:08,456 - INFO - Found 1 flyers for store 67e2d42fc1670104499c1556
+2025-03-26 04:37:10,788 - INFO - Completed processing for store 67e2d42fc1670104499c1556
+2025-03-26 04:37:10,789 - INFO - Starting processing for store 67e2d42fc1670104499c155b
+2025-03-26 04:37:14,149 - INFO - Found 4 flyers for store 67e2d42fc1670104499c155b
+2025-03-26 04:37:23,925 - INFO - Completed processing for store 67e2d42fc1670104499c155b
+2025-03-26 04:37:23,926 - INFO - Starting processing for store 67e2d42fc1670104499c1560
+2025-03-26 04:37:27,389 - INFO - Found 4 flyers for store 67e2d42fc1670104499c1560
+2025-03-26 04:37:37,374 - INFO - Completed processing for store 67e2d42fc1670104499c1560
+2025-03-26 04:37:37,375 - INFO - Starting processing for store 67e2d42fc1670104499c1565
+2025-03-26 04:37:51,128 - WARNING - Could not find flyer carousel for store 67e2d42fc1670104499c1565: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:37:51,128 - INFO - Starting processing for store 67e2d42fc1670104499c156a
+2025-03-26 04:37:54,472 - INFO - Found 4 flyers for store 67e2d42fc1670104499c156a
+2025-03-26 04:38:04,740 - INFO - Completed processing for store 67e2d42fc1670104499c156a
+2025-03-26 04:38:04,741 - INFO - Starting processing for store 67e2d42fc1670104499c156f
+2025-03-26 04:38:08,315 - INFO - Found 4 flyers for store 67e2d42fc1670104499c156f
+2025-03-26 04:38:18,094 - INFO - Completed processing for store 67e2d42fc1670104499c156f
+2025-03-26 04:38:18,095 - INFO - Starting processing for store 67e2d42fc1670104499c1574
+2025-03-26 04:38:31,828 - WARNING - Could not find flyer carousel for store 67e2d42fc1670104499c1574: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:38:31,832 - INFO - Successfully saved 96 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:38:31,832 - INFO - Starting processing for store 67e2d42fc1670104499c1579
+2025-03-26 04:38:35,204 - INFO - Found 4 flyers for store 67e2d42fc1670104499c1579
+2025-03-26 04:38:44,899 - INFO - Completed processing for store 67e2d42fc1670104499c1579
+2025-03-26 04:38:44,899 - INFO - Starting processing for store 67e2d42fc1670104499c157e
+2025-03-26 04:38:48,379 - INFO - Found 4 flyers for store 67e2d42fc1670104499c157e
+2025-03-26 04:38:58,390 - INFO - Completed processing for store 67e2d42fc1670104499c157e
+2025-03-26 04:38:58,390 - INFO - Starting processing for store 67e2d42fc1670104499c1583
+2025-03-26 04:39:01,922 - INFO - Found 4 flyers for store 67e2d42fc1670104499c1583
+2025-03-26 04:39:11,894 - INFO - Completed processing for store 67e2d42fc1670104499c1583
+2025-03-26 04:39:11,895 - INFO - Starting processing for store 67e2d42fc1670104499c1588
+2025-03-26 04:39:25,632 - WARNING - Could not find flyer carousel for store 67e2d42fc1670104499c1588: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:39:25,633 - INFO - Starting processing for store 67e2d42fc1670104499c158d
+2025-03-26 04:39:28,984 - INFO - Found 4 flyers for store 67e2d42fc1670104499c158d
+2025-03-26 04:39:38,967 - INFO - Completed processing for store 67e2d42fc1670104499c158d
+2025-03-26 04:39:38,968 - INFO - Starting processing for store 67e2d42fc1670104499c1592
+2025-03-26 04:39:42,489 - INFO - Found 4 flyers for store 67e2d42fc1670104499c1592
+2025-03-26 04:39:52,951 - INFO - Completed processing for store 67e2d42fc1670104499c1592
+2025-03-26 04:39:52,953 - INFO - Starting processing for store 67e2d42fc1670104499c1597
+2025-03-26 04:39:56,546 - INFO - Found 4 flyers for store 67e2d42fc1670104499c1597
+2025-03-26 04:40:06,849 - INFO - Completed processing for store 67e2d42fc1670104499c1597
+2025-03-26 04:40:06,850 - INFO - Starting processing for store 67e2d430c1670104499c159c
+2025-03-26 04:40:10,382 - INFO - Found 6 flyers for store 67e2d430c1670104499c159c
+2025-03-26 04:40:25,104 - INFO - Completed processing for store 67e2d430c1670104499c159c
+2025-03-26 04:40:25,105 - INFO - Starting processing for store 67e2d430c1670104499c15a1
+2025-03-26 04:40:38,916 - WARNING - Could not find flyer carousel for store 67e2d430c1670104499c15a1: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:40:38,916 - INFO - Starting processing for store 67e2d430c1670104499c15a6
+2025-03-26 04:40:42,329 - INFO - Found 5 flyers for store 67e2d430c1670104499c15a6
+2025-03-26 04:40:54,496 - INFO - Completed processing for store 67e2d430c1670104499c15a6
+2025-03-26 04:40:54,497 - INFO - Starting processing for store 67e2d430c1670104499c15ab
+2025-03-26 04:40:58,081 - INFO - Found 4 flyers for store 67e2d430c1670104499c15ab
+2025-03-26 04:41:07,829 - INFO - Completed processing for store 67e2d430c1670104499c15ab
+2025-03-26 04:41:07,830 - INFO - Starting processing for store 67e2d430c1670104499c15b0
+2025-03-26 04:41:21,602 - WARNING - Could not find flyer carousel for store 67e2d430c1670104499c15b0: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:41:21,603 - INFO - Starting processing for store 67e2d430c1670104499c15b5
+2025-03-26 04:41:24,927 - INFO - Found 4 flyers for store 67e2d430c1670104499c15b5
+2025-03-26 04:41:34,686 - INFO - Completed processing for store 67e2d430c1670104499c15b5
+2025-03-26 04:41:34,686 - INFO - Starting processing for store 67e2d430c1670104499c15ba
+2025-03-26 04:41:38,162 - INFO - Found 4 flyers for store 67e2d430c1670104499c15ba
+2025-03-26 04:41:47,908 - INFO - Completed processing for store 67e2d430c1670104499c15ba
+2025-03-26 04:41:47,908 - INFO - Starting processing for store 67e2d430c1670104499c15bf
+2025-03-26 04:41:51,399 - INFO - Found 4 flyers for store 67e2d430c1670104499c15bf
+2025-03-26 04:42:01,153 - INFO - Completed processing for store 67e2d430c1670104499c15bf
+2025-03-26 04:42:01,154 - INFO - Starting processing for store 67e2d430c1670104499c15c4
+2025-03-26 04:42:14,931 - WARNING - Could not find flyer carousel for store 67e2d430c1670104499c15c4: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:42:14,931 - INFO - Starting processing for store 67e2d430c1670104499c15c9
+2025-03-26 04:42:18,302 - INFO - Found 6 flyers for store 67e2d430c1670104499c15c9
+2025-03-26 04:42:32,721 - INFO - Completed processing for store 67e2d430c1670104499c15c9
+2025-03-26 04:42:32,727 - INFO - Successfully saved 113 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:42:32,728 - INFO - Starting processing for store 67e2d430c1670104499c15ce
+2025-03-26 04:42:46,513 - WARNING - Could not find flyer carousel for store 67e2d430c1670104499c15ce: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:42:46,513 - INFO - Starting processing for store 67e2d430c1670104499c15d3
+2025-03-26 04:43:00,165 - WARNING - Could not find flyer carousel for store 67e2d430c1670104499c15d3: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:43:00,166 - INFO - Starting processing for store 67e2d430c1670104499c15d8
+2025-03-26 04:43:13,797 - WARNING - Could not find flyer carousel for store 67e2d430c1670104499c15d8: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:43:13,797 - INFO - Starting processing for store 67e2d430c1670104499c15dd
+2025-03-26 04:43:17,143 - INFO - Found 1 flyers for store 67e2d430c1670104499c15dd
+2025-03-26 04:43:19,515 - INFO - Completed processing for store 67e2d430c1670104499c15dd
+2025-03-26 04:43:19,515 - INFO - Starting processing for store 67e2d430c1670104499c15e2
+2025-03-26 04:43:22,850 - INFO - Found 4 flyers for store 67e2d430c1670104499c15e2
+2025-03-26 04:43:32,570 - INFO - Completed processing for store 67e2d430c1670104499c15e2
+2025-03-26 04:43:32,571 - INFO - Starting processing for store 67e2d431c1670104499c15e7
+2025-03-26 04:43:36,066 - INFO - Found 4 flyers for store 67e2d431c1670104499c15e7
+2025-03-26 04:43:45,741 - INFO - Completed processing for store 67e2d431c1670104499c15e7
+2025-03-26 04:43:45,742 - INFO - Starting processing for store 67e2d431c1670104499c15ec
+2025-03-26 04:43:59,501 - WARNING - Could not find flyer carousel for store 67e2d431c1670104499c15ec: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:43:59,502 - INFO - Starting processing for store 67e2d431c1670104499c15f1
+2025-03-26 04:44:13,128 - WARNING - Could not find flyer carousel for store 67e2d431c1670104499c15f1: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:44:13,129 - INFO - Starting processing for store 67e2d431c1670104499c15f6
+2025-03-26 04:44:16,481 - INFO - Found 4 flyers for store 67e2d431c1670104499c15f6
+2025-03-26 04:44:26,264 - INFO - Completed processing for store 67e2d431c1670104499c15f6
+2025-03-26 04:44:26,265 - INFO - Starting processing for store 67e2d431c1670104499c15fb
+2025-03-26 04:44:40,248 - WARNING - Could not find flyer carousel for store 67e2d431c1670104499c15fb: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:44:40,253 - INFO - Successfully saved 123 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:44:40,253 - INFO - Starting processing for store 67e2d431c1670104499c1600
+2025-03-26 04:44:43,610 - INFO - Found 4 flyers for store 67e2d431c1670104499c1600
+2025-03-26 04:44:53,304 - INFO - Completed processing for store 67e2d431c1670104499c1600
+2025-03-26 04:44:53,304 - INFO - Starting processing for store 67e2d431c1670104499c1605
+2025-03-26 04:44:56,786 - INFO - Found 5 flyers for store 67e2d431c1670104499c1605
+2025-03-26 04:45:09,000 - INFO - Completed processing for store 67e2d431c1670104499c1605
+2025-03-26 04:45:09,001 - INFO - Starting processing for store 67e2d431c1670104499c160a
+2025-03-26 04:45:22,846 - WARNING - Could not find flyer carousel for store 67e2d431c1670104499c160a: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:45:22,847 - INFO - Starting processing for store 67e2d431c1670104499c160f
+2025-03-26 04:45:26,208 - INFO - Found 1 flyers for store 67e2d431c1670104499c160f
+2025-03-26 04:45:28,541 - INFO - Completed processing for store 67e2d431c1670104499c160f
+2025-03-26 04:45:28,541 - INFO - Starting processing for store 67e2d431c1670104499c1614
+2025-03-26 04:45:31,905 - INFO - Found 1 flyers for store 67e2d431c1670104499c1614
+2025-03-26 04:45:34,223 - INFO - Completed processing for store 67e2d431c1670104499c1614
+2025-03-26 04:45:34,224 - INFO - Starting processing for store 67e2d431c1670104499c1619
+2025-03-26 04:45:37,553 - INFO - Found 1 flyers for store 67e2d431c1670104499c1619
+2025-03-26 04:45:39,853 - INFO - Completed processing for store 67e2d431c1670104499c1619
+2025-03-26 04:45:39,854 - INFO - Starting processing for store 67e2d431c1670104499c161e
+2025-03-26 04:45:43,166 - INFO - Found 1 flyers for store 67e2d431c1670104499c161e
+2025-03-26 04:45:45,470 - INFO - Completed processing for store 67e2d431c1670104499c161e
+2025-03-26 04:45:45,470 - INFO - Starting processing for store 67e2d431c1670104499c1623
+2025-03-26 04:45:48,825 - INFO - Found 1 flyers for store 67e2d431c1670104499c1623
+2025-03-26 04:45:51,146 - INFO - Completed processing for store 67e2d431c1670104499c1623
+2025-03-26 04:45:51,147 - INFO - Starting processing for store 67e2d431c1670104499c1628
+2025-03-26 04:45:54,443 - INFO - Found 1 flyers for store 67e2d431c1670104499c1628
+2025-03-26 04:45:56,765 - INFO - Completed processing for store 67e2d431c1670104499c1628
+2025-03-26 04:45:56,765 - INFO - Starting processing for store 67e2d431c1670104499c162d
+2025-03-26 04:46:00,086 - INFO - Found 1 flyers for store 67e2d431c1670104499c162d
+2025-03-26 04:46:02,381 - INFO - Completed processing for store 67e2d431c1670104499c162d
+2025-03-26 04:46:02,385 - INFO - Successfully saved 133 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:46:02,385 - INFO - Starting processing for store 67e2d431c1670104499c1632
+2025-03-26 04:46:05,687 - INFO - Found 1 flyers for store 67e2d431c1670104499c1632
+2025-03-26 04:46:07,984 - INFO - Completed processing for store 67e2d431c1670104499c1632
+2025-03-26 04:46:07,984 - INFO - Starting processing for store 67e2d431c1670104499c1637
+2025-03-26 04:46:11,342 - INFO - Found 1 flyers for store 67e2d431c1670104499c1637
+2025-03-26 04:46:13,636 - INFO - Completed processing for store 67e2d431c1670104499c1637
+2025-03-26 04:46:13,636 - INFO - Starting processing for store 67e2d432c1670104499c163c
+2025-03-26 04:46:17,034 - INFO - Found 1 flyers for store 67e2d432c1670104499c163c
+2025-03-26 04:46:19,347 - INFO - Completed processing for store 67e2d432c1670104499c163c
+2025-03-26 04:46:19,348 - INFO - Starting processing for store 67e2d432c1670104499c1641
+2025-03-26 04:46:22,702 - INFO - Found 1 flyers for store 67e2d432c1670104499c1641
+2025-03-26 04:46:24,999 - INFO - Completed processing for store 67e2d432c1670104499c1641
+2025-03-26 04:46:25,000 - INFO - Starting processing for store 67e2d432c1670104499c1646
+2025-03-26 04:46:28,325 - INFO - Found 1 flyers for store 67e2d432c1670104499c1646
+2025-03-26 04:46:30,602 - INFO - Completed processing for store 67e2d432c1670104499c1646
+2025-03-26 04:46:30,602 - INFO - Starting processing for store 67e2d432c1670104499c164b
+2025-03-26 04:46:34,013 - INFO - Found 1 flyers for store 67e2d432c1670104499c164b
+2025-03-26 04:46:36,326 - INFO - Completed processing for store 67e2d432c1670104499c164b
+2025-03-26 04:46:36,327 - INFO - Starting processing for store 67e2d432c1670104499c1650
+2025-03-26 04:46:39,758 - INFO - Found 1 flyers for store 67e2d432c1670104499c1650
+2025-03-26 04:46:42,065 - INFO - Completed processing for store 67e2d432c1670104499c1650
+2025-03-26 04:46:42,066 - INFO - Starting processing for store 67e2d432c1670104499c1655
+2025-03-26 04:46:45,404 - INFO - Found 5 flyers for store 67e2d432c1670104499c1655
+2025-03-26 04:46:57,412 - INFO - Completed processing for store 67e2d432c1670104499c1655
+2025-03-26 04:46:57,413 - INFO - Starting processing for store 67e2d432c1670104499c165a
+2025-03-26 04:47:11,199 - WARNING - Could not find flyer carousel for store 67e2d432c1670104499c165a: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:47:11,203 - INFO - Successfully saved 142 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:47:11,203 - INFO - Starting processing for store 67e2d432c1670104499c165f
+2025-03-26 04:47:24,856 - WARNING - Could not find flyer carousel for store 67e2d432c1670104499c165f: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:47:24,857 - INFO - Starting processing for store 67e2d432c1670104499c1664
+2025-03-26 04:47:28,222 - INFO - Found 4 flyers for store 67e2d432c1670104499c1664
+2025-03-26 04:47:38,081 - INFO - Completed processing for store 67e2d432c1670104499c1664
+2025-03-26 04:47:38,081 - INFO - Starting processing for store 67e2d432c1670104499c1669
+2025-03-26 04:47:51,938 - WARNING - Could not find flyer carousel for store 67e2d432c1670104499c1669: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:47:51,939 - INFO - Starting processing for store 67e2d432c1670104499c166e
+2025-03-26 04:47:55,290 - INFO - Found 4 flyers for store 67e2d432c1670104499c166e
+2025-03-26 04:48:05,120 - INFO - Completed processing for store 67e2d432c1670104499c166e
+2025-03-26 04:48:05,121 - INFO - Starting processing for store 67e2d432c1670104499c1673
+2025-03-26 04:48:08,600 - INFO - Found 4 flyers for store 67e2d432c1670104499c1673
+2025-03-26 04:48:18,469 - INFO - Completed processing for store 67e2d432c1670104499c1673
+2025-03-26 04:48:18,470 - INFO - Starting processing for store 67e2d432c1670104499c1678
+2025-03-26 04:48:32,265 - WARNING - Could not find flyer carousel for store 67e2d432c1670104499c1678: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:48:32,265 - INFO - Starting processing for store 67e2d432c1670104499c167d
+2025-03-26 04:48:35,742 - INFO - Found 4 flyers for store 67e2d432c1670104499c167d
+2025-03-26 04:48:45,510 - INFO - Completed processing for store 67e2d432c1670104499c167d
+2025-03-26 04:48:45,511 - INFO - Starting processing for store 67e2d432c1670104499c1682
+2025-03-26 04:48:59,367 - WARNING - Could not find flyer carousel for store 67e2d432c1670104499c1682: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:48:59,367 - INFO - Starting processing for store 67e2d432c1670104499c1687
+2025-03-26 04:49:13,008 - WARNING - Could not find flyer carousel for store 67e2d432c1670104499c1687: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:49:13,009 - INFO - Starting processing for store 67e2d433c1670104499c168c
+2025-03-26 04:49:26,679 - WARNING - Could not find flyer carousel for store 67e2d433c1670104499c168c: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:49:26,683 - INFO - Successfully saved 152 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:49:26,684 - INFO - Starting processing for store 67e2d433c1670104499c1691
+2025-03-26 04:49:40,484 - WARNING - Could not find flyer carousel for store 67e2d433c1670104499c1691: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:49:40,485 - INFO - Starting processing for store 67e2d433c1670104499c1696
+2025-03-26 04:49:54,374 - WARNING - Could not find flyer carousel for store 67e2d433c1670104499c1696: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:49:54,375 - INFO - Starting processing for store 67e2d433c1670104499c169b
+2025-03-26 04:49:57,741 - INFO - Found 4 flyers for store 67e2d433c1670104499c169b
+2025-03-26 04:50:07,636 - INFO - Completed processing for store 67e2d433c1670104499c169b
+2025-03-26 04:50:07,637 - INFO - Starting processing for store 67e2d433c1670104499c16a0
+2025-03-26 04:50:11,129 - INFO - Found 4 flyers for store 67e2d433c1670104499c16a0
+2025-03-26 04:50:20,832 - INFO - Completed processing for store 67e2d433c1670104499c16a0
+2025-03-26 04:50:20,833 - INFO - Starting processing for store 67e2d433c1670104499c16a5
+2025-03-26 04:50:34,596 - WARNING - Could not find flyer carousel for store 67e2d433c1670104499c16a5: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:50:34,597 - INFO - Starting processing for store 67e2d433c1670104499c16aa
+2025-03-26 04:50:37,946 - INFO - Found 4 flyers for store 67e2d433c1670104499c16aa
+2025-03-26 04:50:47,671 - INFO - Completed processing for store 67e2d433c1670104499c16aa
+2025-03-26 04:50:47,672 - INFO - Starting processing for store 67e2d433c1670104499c16af
+2025-03-26 04:51:01,424 - WARNING - Could not find flyer carousel for store 67e2d433c1670104499c16af: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:51:01,424 - INFO - Starting processing for store 67e2d433c1670104499c16b4
+2025-03-26 04:51:04,768 - INFO - Found 4 flyers for store 67e2d433c1670104499c16b4
+2025-03-26 04:51:14,497 - INFO - Completed processing for store 67e2d433c1670104499c16b4
+2025-03-26 04:51:14,498 - INFO - Starting processing for store 67e2d433c1670104499c16b9
+2025-03-26 04:51:17,969 - INFO - Found 4 flyers for store 67e2d433c1670104499c16b9
+2025-03-26 04:51:27,779 - INFO - Completed processing for store 67e2d433c1670104499c16b9
+2025-03-26 04:51:27,780 - INFO - Starting processing for store 67e2d433c1670104499c16be
+2025-03-26 04:51:41,554 - WARNING - Could not find flyer carousel for store 67e2d433c1670104499c16be: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:51:41,559 - INFO - Successfully saved 162 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:51:41,559 - INFO - Starting processing for store 67e2d433c1670104499c16c3
+2025-03-26 04:51:55,225 - WARNING - Could not find flyer carousel for store 67e2d433c1670104499c16c3: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:51:55,225 - INFO - Starting processing for store 67e2d433c1670104499c16c8
+2025-03-26 04:52:08,881 - WARNING - Could not find flyer carousel for store 67e2d433c1670104499c16c8: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:52:08,882 - INFO - Starting processing for store 67e2d433c1670104499c16cd
+2025-03-26 04:52:22,547 - WARNING - Could not find flyer carousel for store 67e2d433c1670104499c16cd: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:52:22,548 - INFO - Starting processing for store 67e2d433c1670104499c16d2
+2025-03-26 04:52:36,184 - WARNING - Could not find flyer carousel for store 67e2d433c1670104499c16d2: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:52:36,185 - INFO - Starting processing for store 67e2d433c1670104499c16d7
+2025-03-26 04:52:49,858 - WARNING - Could not find flyer carousel for store 67e2d433c1670104499c16d7: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:52:49,859 - INFO - Starting processing for store 67e2d433c1670104499c16dc
+2025-03-26 04:53:03,521 - WARNING - Could not find flyer carousel for store 67e2d433c1670104499c16dc: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:53:03,522 - INFO - Starting processing for store 67e2d434c1670104499c16e1
+2025-03-26 04:53:17,194 - WARNING - Could not find flyer carousel for store 67e2d434c1670104499c16e1: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:53:17,194 - INFO - Starting processing for store 67e2d434c1670104499c16e6
+2025-03-26 04:53:30,868 - WARNING - Could not find flyer carousel for store 67e2d434c1670104499c16e6: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:53:30,868 - INFO - Starting processing for store 67e2d434c1670104499c16eb
+2025-03-26 04:53:44,556 - WARNING - Could not find flyer carousel for store 67e2d434c1670104499c16eb: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:53:44,557 - INFO - Starting processing for store 67e2d434c1670104499c16f0
+2025-03-26 04:53:58,269 - WARNING - Could not find flyer carousel for store 67e2d434c1670104499c16f0: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:53:58,274 - INFO - Successfully saved 172 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:53:58,274 - INFO - Starting processing for store 67e2d434c1670104499c16f5
+2025-03-26 04:54:11,944 - WARNING - Could not find flyer carousel for store 67e2d434c1670104499c16f5: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:54:11,945 - INFO - Starting processing for store 67e2d434c1670104499c16fa
+2025-03-26 04:54:25,650 - WARNING - Could not find flyer carousel for store 67e2d434c1670104499c16fa: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:54:25,650 - INFO - Starting processing for store 67e2d434c1670104499c16ff
+2025-03-26 04:54:39,322 - WARNING - Could not find flyer carousel for store 67e2d434c1670104499c16ff: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:54:39,324 - INFO - Starting processing for store 67e2d434c1670104499c1704
+2025-03-26 04:54:42,689 - INFO - Found 4 flyers for store 67e2d434c1670104499c1704
+2025-03-26 04:54:52,520 - INFO - Completed processing for store 67e2d434c1670104499c1704
+2025-03-26 04:54:52,521 - INFO - Starting processing for store 67e2d434c1670104499c1709
+2025-03-26 04:55:06,321 - WARNING - Could not find flyer carousel for store 67e2d434c1670104499c1709: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:55:06,321 - INFO - Starting processing for store 67e2d434c1670104499c170e
+2025-03-26 04:55:20,019 - WARNING - Could not find flyer carousel for store 67e2d434c1670104499c170e: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:55:20,020 - INFO - Starting processing for store 67e2d434c1670104499c1713
+2025-03-26 04:55:23,358 - INFO - Found 4 flyers for store 67e2d434c1670104499c1713
+2025-03-26 04:55:33,080 - INFO - Completed processing for store 67e2d434c1670104499c1713
+2025-03-26 04:55:33,081 - INFO - Starting processing for store 67e2d434c1670104499c1718
+2025-03-26 04:55:46,819 - WARNING - Could not find flyer carousel for store 67e2d434c1670104499c1718: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:55:46,820 - INFO - Starting processing for store 67e2d434c1670104499c171d
+2025-03-26 04:55:50,174 - INFO - Found 4 flyers for store 67e2d434c1670104499c171d
+2025-03-26 04:55:59,984 - INFO - Completed processing for store 67e2d434c1670104499c171d
+2025-03-26 04:55:59,984 - INFO - Starting processing for store 67e2d434c1670104499c1722
+2025-03-26 04:56:03,494 - INFO - Found 4 flyers for store 67e2d434c1670104499c1722
+2025-03-26 04:56:13,303 - INFO - Completed processing for store 67e2d434c1670104499c1722
+2025-03-26 04:56:13,309 - INFO - Successfully saved 182 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:56:13,309 - INFO - Starting processing for store 67e2d434c1670104499c1727
+2025-03-26 04:56:17,001 - INFO - Found 4 flyers for store 67e2d434c1670104499c1727
+2025-03-26 04:56:26,834 - INFO - Completed processing for store 67e2d434c1670104499c1727
+2025-03-26 04:56:26,835 - INFO - Starting processing for store 67e2d434c1670104499c172c
+2025-03-26 04:56:30,325 - INFO - Found 4 flyers for store 67e2d434c1670104499c172c
+2025-03-26 04:56:40,047 - INFO - Completed processing for store 67e2d434c1670104499c172c
+2025-03-26 04:56:40,047 - INFO - Starting processing for store 67e2d435c1670104499c1731
+2025-03-26 04:56:53,802 - WARNING - Could not find flyer carousel for store 67e2d435c1670104499c1731: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:56:53,803 - INFO - Starting processing for store 67e2d435c1670104499c1736
+2025-03-26 04:56:57,173 - INFO - Found 1 flyers for store 67e2d435c1670104499c1736
+2025-03-26 04:56:59,491 - INFO - Completed processing for store 67e2d435c1670104499c1736
+2025-03-26 04:56:59,491 - INFO - Starting processing for store 67e2d435c1670104499c173b
+2025-03-26 04:57:13,133 - WARNING - Could not find flyer carousel for store 67e2d435c1670104499c173b: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:57:13,133 - INFO - Starting processing for store 67e2d435c1670104499c1740
+2025-03-26 04:57:16,471 - INFO - Found 1 flyers for store 67e2d435c1670104499c1740
+2025-03-26 04:57:18,799 - INFO - Completed processing for store 67e2d435c1670104499c1740
+2025-03-26 04:57:18,799 - INFO - Starting processing for store 67e2d435c1670104499c1745
+2025-03-26 04:57:22,117 - INFO - Found 1 flyers for store 67e2d435c1670104499c1745
+2025-03-26 04:57:24,390 - INFO - Completed processing for store 67e2d435c1670104499c1745
+2025-03-26 04:57:24,391 - INFO - Starting processing for store 67e2d435c1670104499c174a
+2025-03-26 04:57:27,720 - INFO - Found 1 flyers for store 67e2d435c1670104499c174a
+2025-03-26 04:57:29,980 - INFO - Completed processing for store 67e2d435c1670104499c174a
+2025-03-26 04:57:29,980 - INFO - Starting processing for store 67e2d435c1670104499c174f
+2025-03-26 04:57:33,319 - INFO - Found 1 flyers for store 67e2d435c1670104499c174f
+2025-03-26 04:57:35,641 - INFO - Completed processing for store 67e2d435c1670104499c174f
+2025-03-26 04:57:35,641 - INFO - Starting processing for store 67e2d435c1670104499c1754
+2025-03-26 04:57:38,972 - INFO - Found 1 flyers for store 67e2d435c1670104499c1754
+2025-03-26 04:57:41,247 - INFO - Completed processing for store 67e2d435c1670104499c1754
+2025-03-26 04:57:41,251 - INFO - Successfully saved 192 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:57:41,251 - INFO - Starting processing for store 67e2d435c1670104499c1759
+2025-03-26 04:57:44,571 - INFO - Found 1 flyers for store 67e2d435c1670104499c1759
+2025-03-26 04:57:46,869 - INFO - Completed processing for store 67e2d435c1670104499c1759
+2025-03-26 04:57:46,869 - INFO - Starting processing for store 67e2d435c1670104499c175e
+2025-03-26 04:57:50,199 - INFO - Found 1 flyers for store 67e2d435c1670104499c175e
+2025-03-26 04:57:52,496 - INFO - Completed processing for store 67e2d435c1670104499c175e
+2025-03-26 04:57:52,496 - INFO - Starting processing for store 67e2d435c1670104499c1763
+2025-03-26 04:57:55,821 - INFO - Found 1 flyers for store 67e2d435c1670104499c1763
+2025-03-26 04:57:58,142 - INFO - Completed processing for store 67e2d435c1670104499c1763
+2025-03-26 04:57:58,142 - INFO - Starting processing for store 67e2d435c1670104499c1768
+2025-03-26 04:58:11,828 - WARNING - Could not find flyer carousel for store 67e2d435c1670104499c1768: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:58:11,829 - INFO - Starting processing for store 67e2d435c1670104499c176d
+2025-03-26 04:58:15,292 - INFO - Found 4 flyers for store 67e2d435c1670104499c176d
+2025-03-26 04:58:25,084 - INFO - Completed processing for store 67e2d435c1670104499c176d
+2025-03-26 04:58:25,085 - INFO - Starting processing for store 67e2d435c1670104499c1772
+2025-03-26 04:58:38,852 - WARNING - Could not find flyer carousel for store 67e2d435c1670104499c1772: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:58:38,852 - INFO - Starting processing for store 67e2d435c1670104499c1777
+2025-03-26 04:58:42,201 - INFO - Found 1 flyers for store 67e2d435c1670104499c1777
+2025-03-26 04:58:44,492 - INFO - Completed processing for store 67e2d435c1670104499c1777
+2025-03-26 04:58:44,492 - INFO - Starting processing for store 67e2d435c1670104499c177c
+2025-03-26 04:58:47,563 - INFO - Found 1 flyers for store 67e2d435c1670104499c177c
+2025-03-26 04:58:49,873 - INFO - Completed processing for store 67e2d435c1670104499c177c
+2025-03-26 04:58:49,874 - INFO - Starting processing for store 67e2d435c1670104499c1781
+2025-03-26 04:58:53,214 - INFO - Found 5 flyers for store 67e2d435c1670104499c1781
+2025-03-26 04:59:05,206 - INFO - Completed processing for store 67e2d435c1670104499c1781
+2025-03-26 04:59:05,211 - INFO - Successfully saved 201 records to scrape_data/PAM_flyers.csv
+2025-03-26 04:59:05,211 - INFO - Starting processing for store 67e2d436c1670104499c1786
+2025-03-26 04:59:08,730 - INFO - Found 4 flyers for store 67e2d436c1670104499c1786
+2025-03-26 04:59:18,369 - INFO - Completed processing for store 67e2d436c1670104499c1786
+2025-03-26 04:59:18,370 - INFO - Starting processing for store 67e2d436c1670104499c178b
+2025-03-26 04:59:21,813 - INFO - Found 5 flyers for store 67e2d436c1670104499c178b
+2025-03-26 04:59:33,824 - INFO - Completed processing for store 67e2d436c1670104499c178b
+2025-03-26 04:59:33,824 - INFO - Starting processing for store 67e2d436c1670104499c1790
+2025-03-26 04:59:47,612 - WARNING - Could not find flyer carousel for store 67e2d436c1670104499c1790: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 04:59:47,612 - INFO - Starting processing for store 67e2d436c1670104499c1795
+2025-03-26 04:59:50,957 - INFO - Found 1 flyers for store 67e2d436c1670104499c1795
+2025-03-26 04:59:53,277 - INFO - Completed processing for store 67e2d436c1670104499c1795
+2025-03-26 04:59:53,278 - INFO - Starting processing for store 67e2d436c1670104499c179a
+2025-03-26 04:59:56,643 - INFO - Found 6 flyers for store 67e2d436c1670104499c179a
+2025-03-26 05:00:11,274 - INFO - Completed processing for store 67e2d436c1670104499c179a
+2025-03-26 05:00:11,275 - INFO - Starting processing for store 67e2d436c1670104499c179f
+2025-03-26 05:00:14,758 - INFO - Found 1 flyers for store 67e2d436c1670104499c179f
+2025-03-26 05:00:17,078 - INFO - Completed processing for store 67e2d436c1670104499c179f
+2025-03-26 05:00:17,079 - INFO - Starting processing for store 67e2d436c1670104499c17a4
+2025-03-26 05:00:20,396 - INFO - Found 1 flyers for store 67e2d436c1670104499c17a4
+2025-03-26 05:00:22,670 - INFO - Completed processing for store 67e2d436c1670104499c17a4
+2025-03-26 05:00:22,671 - INFO - Starting processing for store 67e2d436c1670104499c17a9
+2025-03-26 05:00:26,031 - INFO - Found 5 flyers for store 67e2d436c1670104499c17a9
+2025-03-26 05:00:38,143 - INFO - Completed processing for store 67e2d436c1670104499c17a9
+2025-03-26 05:00:38,144 - INFO - Starting processing for store 67e2d436c1670104499c17ae
+2025-03-26 05:00:52,108 - WARNING - Could not find flyer carousel for store 67e2d436c1670104499c17ae: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:00:52,109 - INFO - Starting processing for store 67e2d436c1670104499c17b3
+2025-03-26 05:01:05,887 - WARNING - Could not find flyer carousel for store 67e2d436c1670104499c17b3: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:01:05,891 - INFO - Successfully saved 211 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:01:05,891 - INFO - Starting processing for store 67e2d436c1670104499c17b8
+2025-03-26 05:01:09,235 - INFO - Found 4 flyers for store 67e2d436c1670104499c17b8
+2025-03-26 05:01:19,000 - INFO - Completed processing for store 67e2d436c1670104499c17b8
+2025-03-26 05:01:19,000 - INFO - Starting processing for store 67e2d436c1670104499c17bd
+2025-03-26 05:01:22,451 - INFO - Found 1 flyers for store 67e2d436c1670104499c17bd
+2025-03-26 05:01:24,772 - INFO - Completed processing for store 67e2d436c1670104499c17bd
+2025-03-26 05:01:24,773 - INFO - Starting processing for store 67e2d436c1670104499c17c2
+2025-03-26 05:01:28,096 - INFO - Found 1 flyers for store 67e2d436c1670104499c17c2
+2025-03-26 05:01:30,430 - INFO - Completed processing for store 67e2d436c1670104499c17c2
+2025-03-26 05:01:30,431 - INFO - Starting processing for store 67e2d436c1670104499c17c7
+2025-03-26 05:01:44,252 - WARNING - Could not find flyer carousel for store 67e2d436c1670104499c17c7: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:01:44,253 - INFO - Starting processing for store 67e2d436c1670104499c17cc
+2025-03-26 05:01:47,664 - INFO - Found 5 flyers for store 67e2d436c1670104499c17cc
+2025-03-26 05:01:59,513 - INFO - Completed processing for store 67e2d436c1670104499c17cc
+2025-03-26 05:01:59,514 - INFO - Starting processing for store 67e2d437c1670104499c17d1
+2025-03-26 05:02:13,429 - WARNING - Could not find flyer carousel for store 67e2d437c1670104499c17d1: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:02:13,430 - INFO - Starting processing for store 67e2d437c1670104499c17d6
+2025-03-26 05:02:16,846 - INFO - Found 5 flyers for store 67e2d437c1670104499c17d6
+2025-03-26 05:02:29,212 - INFO - Completed processing for store 67e2d437c1670104499c17d6
+2025-03-26 05:02:29,213 - INFO - Starting processing for store 67e2d437c1670104499c17db
+2025-03-26 05:02:32,816 - INFO - Found 4 flyers for store 67e2d437c1670104499c17db
+2025-03-26 05:02:43,489 - INFO - Completed processing for store 67e2d437c1670104499c17db
+2025-03-26 05:02:43,489 - INFO - Starting processing for store 67e2d437c1670104499c17e0
+2025-03-26 05:02:47,070 - INFO - Found 4 flyers for store 67e2d437c1670104499c17e0
+2025-03-26 05:02:57,576 - INFO - Completed processing for store 67e2d437c1670104499c17e0
+2025-03-26 05:02:57,582 - INFO - Successfully saved 220 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:02:57,583 - INFO - Starting processing for store 67e2d437c1670104499c17e5
+2025-03-26 05:03:11,463 - WARNING - Could not find flyer carousel for store 67e2d437c1670104499c17e5: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:03:11,463 - INFO - Starting processing for store 67e2d437c1670104499c17ea
+2025-03-26 05:03:14,795 - INFO - Found 1 flyers for store 67e2d437c1670104499c17ea
+2025-03-26 05:03:17,127 - INFO - Completed processing for store 67e2d437c1670104499c17ea
+2025-03-26 05:03:17,127 - INFO - Starting processing for store 67e2d437c1670104499c17ef
+2025-03-26 05:03:20,435 - INFO - Found 1 flyers for store 67e2d437c1670104499c17ef
+2025-03-26 05:03:22,757 - INFO - Completed processing for store 67e2d437c1670104499c17ef
+2025-03-26 05:03:22,757 - INFO - Starting processing for store 67e2d437c1670104499c17f4
+2025-03-26 05:03:26,221 - INFO - Found 5 flyers for store 67e2d437c1670104499c17f4
+2025-03-26 05:03:38,260 - INFO - Completed processing for store 67e2d437c1670104499c17f4
+2025-03-26 05:03:38,261 - INFO - Starting processing for store 67e2d437c1670104499c17f9
+2025-03-26 05:03:41,783 - INFO - Found 1 flyers for store 67e2d437c1670104499c17f9
+2025-03-26 05:03:44,105 - INFO - Completed processing for store 67e2d437c1670104499c17f9
+2025-03-26 05:03:44,106 - INFO - Starting processing for store 67e2d437c1670104499c17fe
+2025-03-26 05:03:57,747 - WARNING - Could not find flyer carousel for store 67e2d437c1670104499c17fe: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:03:57,747 - INFO - Starting processing for store 67e2d437c1670104499c1803
+2025-03-26 05:04:11,349 - WARNING - Could not find flyer carousel for store 67e2d437c1670104499c1803: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:04:11,349 - INFO - Starting processing for store 67e2d437c1670104499c1808
+2025-03-26 05:04:25,000 - WARNING - Could not find flyer carousel for store 67e2d437c1670104499c1808: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:04:25,001 - INFO - Starting processing for store 67e2d437c1670104499c180d
+2025-03-26 05:04:38,643 - WARNING - Could not find flyer carousel for store 67e2d437c1670104499c180d: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:04:38,643 - INFO - Starting processing for store 67e2d437c1670104499c1812
+2025-03-26 05:04:52,316 - WARNING - Could not find flyer carousel for store 67e2d437c1670104499c1812: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:04:52,321 - INFO - Successfully saved 230 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:04:52,322 - INFO - Starting processing for store 67e2d437c1670104499c1817
+2025-03-26 05:05:06,010 - WARNING - Could not find flyer carousel for store 67e2d437c1670104499c1817: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:05:06,010 - INFO - Starting processing for store 67e2d437c1670104499c181c
+2025-03-26 05:05:19,680 - WARNING - Could not find flyer carousel for store 67e2d437c1670104499c181c: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:05:19,681 - INFO - Starting processing for store 67e2d438c1670104499c1821
+2025-03-26 05:05:33,304 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c1821: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:05:33,304 - INFO - Starting processing for store 67e2d438c1670104499c1826
+2025-03-26 05:05:46,951 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c1826: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:05:46,952 - INFO - Starting processing for store 67e2d438c1670104499c182b
+2025-03-26 05:06:00,602 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c182b: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:06:00,603 - INFO - Starting processing for store 67e2d438c1670104499c1830
+2025-03-26 05:06:14,347 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c1830: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:06:14,348 - INFO - Starting processing for store 67e2d438c1670104499c1835
+2025-03-26 05:06:28,042 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c1835: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:06:28,043 - INFO - Starting processing for store 67e2d438c1670104499c183a
+2025-03-26 05:06:41,704 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c183a: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:06:41,704 - INFO - Starting processing for store 67e2d438c1670104499c183f
+2025-03-26 05:06:55,378 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c183f: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:06:55,378 - INFO - Starting processing for store 67e2d438c1670104499c1844
+2025-03-26 05:07:09,042 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c1844: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:07:09,046 - INFO - Successfully saved 240 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:07:09,047 - INFO - Starting processing for store 67e2d438c1670104499c1849
+2025-03-26 05:07:22,667 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c1849: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:07:22,668 - INFO - Starting processing for store 67e2d438c1670104499c184e
+2025-03-26 05:07:36,395 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c184e: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:07:36,395 - INFO - Starting processing for store 67e2d438c1670104499c1853
+2025-03-26 05:07:50,070 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c1853: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:07:50,070 - INFO - Starting processing for store 67e2d438c1670104499c1858
+2025-03-26 05:08:03,729 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c1858: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:08:03,730 - INFO - Starting processing for store 67e2d438c1670104499c185d
+2025-03-26 05:08:17,409 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c185d: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:08:17,410 - INFO - Starting processing for store 67e2d438c1670104499c1862
+2025-03-26 05:08:31,073 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c1862: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:08:31,073 - INFO - Starting processing for store 67e2d438c1670104499c1867
+2025-03-26 05:08:44,733 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c1867: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:08:44,733 - INFO - Starting processing for store 67e2d438c1670104499c186c
+2025-03-26 05:08:58,458 - WARNING - Could not find flyer carousel for store 67e2d438c1670104499c186c: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:08:58,459 - INFO - Starting processing for store 67e2d439c1670104499c1871
+2025-03-26 05:09:12,127 - WARNING - Could not find flyer carousel for store 67e2d439c1670104499c1871: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:09:12,128 - INFO - Starting processing for store 67e2d439c1670104499c1876
+2025-03-26 05:09:15,473 - INFO - Found 1 flyers for store 67e2d439c1670104499c1876
+2025-03-26 05:09:17,798 - INFO - Completed processing for store 67e2d439c1670104499c1876
+2025-03-26 05:09:17,803 - INFO - Successfully saved 250 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:09:17,803 - INFO - Starting processing for store 67e2d439c1670104499c187b
+2025-03-26 05:09:31,524 - WARNING - Could not find flyer carousel for store 67e2d439c1670104499c187b: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:09:31,525 - INFO - Starting processing for store 67e2d439c1670104499c1880
+2025-03-26 05:09:34,923 - INFO - Found 4 flyers for store 67e2d439c1670104499c1880
+2025-03-26 05:09:44,744 - INFO - Completed processing for store 67e2d439c1670104499c1880
+2025-03-26 05:09:44,745 - INFO - Starting processing for store 67e2d439c1670104499c1885
+2025-03-26 05:09:58,477 - WARNING - Could not find flyer carousel for store 67e2d439c1670104499c1885: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:09:58,478 - INFO - Starting processing for store 67e2d439c1670104499c188a
+2025-03-26 05:10:12,156 - WARNING - Could not find flyer carousel for store 67e2d439c1670104499c188a: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:10:12,156 - INFO - Starting processing for store 67e2d439c1670104499c188f
+2025-03-26 05:10:15,492 - INFO - Found 5 flyers for store 67e2d439c1670104499c188f
+2025-03-26 05:10:27,564 - INFO - Completed processing for store 67e2d439c1670104499c188f
+2025-03-26 05:10:27,565 - INFO - Starting processing for store 67e2d439c1670104499c1894
+2025-03-26 05:10:41,412 - WARNING - Could not find flyer carousel for store 67e2d439c1670104499c1894: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:10:41,412 - INFO - Starting processing for store 67e2d439c1670104499c1899
+2025-03-26 05:10:55,079 - WARNING - Could not find flyer carousel for store 67e2d439c1670104499c1899: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:10:55,079 - INFO - Starting processing for store 67e2d439c1670104499c189e
+2025-03-26 05:10:58,407 - INFO - Found 1 flyers for store 67e2d439c1670104499c189e
+2025-03-26 05:11:00,728 - INFO - Completed processing for store 67e2d439c1670104499c189e
+2025-03-26 05:11:00,729 - INFO - Starting processing for store 67e2d439c1670104499c18a3
+2025-03-26 05:11:14,373 - WARNING - Could not find flyer carousel for store 67e2d439c1670104499c18a3: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:11:14,373 - INFO - Starting processing for store 67e2d439c1670104499c18a8
+2025-03-26 05:11:27,997 - WARNING - Could not find flyer carousel for store 67e2d439c1670104499c18a8: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:11:28,002 - INFO - Successfully saved 260 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:11:28,003 - INFO - Starting processing for store 67e2d439c1670104499c18ad
+2025-03-26 05:11:41,697 - WARNING - Could not find flyer carousel for store 67e2d439c1670104499c18ad: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:11:41,697 - INFO - Starting processing for store 67e2d439c1670104499c18b2
+2025-03-26 05:11:45,074 - INFO - Found 6 flyers for store 67e2d439c1670104499c18b2
+2025-03-26 05:11:59,576 - INFO - Completed processing for store 67e2d439c1670104499c18b2
+2025-03-26 05:11:59,577 - INFO - Starting processing for store 67e2d439c1670104499c18b7
+2025-03-26 05:12:03,044 - INFO - Found 5 flyers for store 67e2d439c1670104499c18b7
+2025-03-26 05:12:15,250 - INFO - Completed processing for store 67e2d439c1670104499c18b7
+2025-03-26 05:12:15,251 - INFO - Starting processing for store 67e2d439c1670104499c18bc
+2025-03-26 05:12:18,813 - INFO - Found 1 flyers for store 67e2d439c1670104499c18bc
+2025-03-26 05:12:21,146 - INFO - Completed processing for store 67e2d439c1670104499c18bc
+2025-03-26 05:12:21,146 - INFO - Starting processing for store 67e2d43ac1670104499c18c1
+2025-03-26 05:12:24,474 - INFO - Found 4 flyers for store 67e2d43ac1670104499c18c1
+2025-03-26 05:12:34,302 - INFO - Completed processing for store 67e2d43ac1670104499c18c1
+2025-03-26 05:12:34,303 - INFO - Starting processing for store 67e2d43ac1670104499c18c6
+2025-03-26 05:12:37,780 - INFO - Found 1 flyers for store 67e2d43ac1670104499c18c6
+2025-03-26 05:12:40,125 - INFO - Completed processing for store 67e2d43ac1670104499c18c6
+2025-03-26 05:12:40,125 - INFO - Starting processing for store 67e2d43ac1670104499c18cb
+2025-03-26 05:12:43,488 - INFO - Found 4 flyers for store 67e2d43ac1670104499c18cb
+2025-03-26 05:12:53,339 - INFO - Completed processing for store 67e2d43ac1670104499c18cb
+2025-03-26 05:12:53,339 - INFO - Starting processing for store 67e2d43ac1670104499c18d0
+2025-03-26 05:13:07,105 - WARNING - Could not find flyer carousel for store 67e2d43ac1670104499c18d0: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:13:07,105 - INFO - Starting processing for store 67e2d43ac1670104499c18d5
+2025-03-26 05:13:20,755 - WARNING - Could not find flyer carousel for store 67e2d43ac1670104499c18d5: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:13:20,760 - INFO - Successfully saved 269 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:13:20,761 - INFO - Starting processing for store 67e2d43ac1670104499c18da
+2025-03-26 05:13:34,406 - WARNING - Could not find flyer carousel for store 67e2d43ac1670104499c18da: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:13:34,407 - INFO - Starting processing for store 67e2d43ac1670104499c18df
+2025-03-26 05:13:48,057 - WARNING - Could not find flyer carousel for store 67e2d43ac1670104499c18df: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:13:48,057 - INFO - Starting processing for store 67e2d43ac1670104499c18e4
+2025-03-26 05:13:51,451 - INFO - Found 6 flyers for store 67e2d43ac1670104499c18e4
+2025-03-26 05:14:06,167 - INFO - Completed processing for store 67e2d43ac1670104499c18e4
+2025-03-26 05:14:06,168 - INFO - Starting processing for store 67e2d43ac1670104499c18e9
+2025-03-26 05:14:09,669 - INFO - Found 4 flyers for store 67e2d43ac1670104499c18e9
+2025-03-26 05:14:19,249 - INFO - Completed processing for store 67e2d43ac1670104499c18e9
+2025-03-26 05:14:19,250 - INFO - Starting processing for store 67e2d43ac1670104499c18ee
+2025-03-26 05:14:22,716 - INFO - Found 1 flyers for store 67e2d43ac1670104499c18ee
+2025-03-26 05:14:25,069 - INFO - Completed processing for store 67e2d43ac1670104499c18ee
+2025-03-26 05:14:25,070 - INFO - Starting processing for store 67e2d43ac1670104499c18f3
+2025-03-26 05:14:28,476 - INFO - Found 5 flyers for store 67e2d43ac1670104499c18f3
+2025-03-26 05:14:40,638 - INFO - Completed processing for store 67e2d43ac1670104499c18f3
+2025-03-26 05:14:40,639 - INFO - Starting processing for store 67e2d43ac1670104499c18f8
+2025-03-26 05:14:54,493 - WARNING - Could not find flyer carousel for store 67e2d43ac1670104499c18f8: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:14:54,494 - INFO - Starting processing for store 67e2d43ac1670104499c18fd
+2025-03-26 05:15:08,174 - WARNING - Could not find flyer carousel for store 67e2d43ac1670104499c18fd: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:15:08,175 - INFO - Starting processing for store 67e2d43ac1670104499c1902
+2025-03-26 05:15:21,833 - WARNING - Could not find flyer carousel for store 67e2d43ac1670104499c1902: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:15:21,834 - INFO - Starting processing for store 67e2d43ac1670104499c1907
+2025-03-26 05:15:35,507 - WARNING - Could not find flyer carousel for store 67e2d43ac1670104499c1907: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:15:35,513 - INFO - Successfully saved 279 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:15:35,513 - INFO - Starting processing for store 67e2d43ac1670104499c190c
+2025-03-26 05:15:38,919 - INFO - Found 4 flyers for store 67e2d43ac1670104499c190c
+2025-03-26 05:15:48,635 - INFO - Completed processing for store 67e2d43ac1670104499c190c
+2025-03-26 05:15:48,636 - INFO - Starting processing for store 67e2d43ac1670104499c1911
+2025-03-26 05:16:02,417 - WARNING - Could not find flyer carousel for store 67e2d43ac1670104499c1911: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:16:02,417 - INFO - Starting processing for store 67e2d43bc1670104499c1916
+2025-03-26 05:16:16,077 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c1916: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:16:16,078 - INFO - Starting processing for store 67e2d43bc1670104499c191b
+2025-03-26 05:16:29,740 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c191b: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:16:29,741 - INFO - Starting processing for store 67e2d43bc1670104499c1920
+2025-03-26 05:16:43,407 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c1920: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:16:43,408 - INFO - Starting processing for store 67e2d43bc1670104499c1925
+2025-03-26 05:16:57,082 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c1925: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:16:57,082 - INFO - Starting processing for store 67e2d43bc1670104499c192a
+2025-03-26 05:17:10,766 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c192a: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:17:10,766 - INFO - Starting processing for store 67e2d43bc1670104499c192f
+2025-03-26 05:17:14,183 - INFO - Found 4 flyers for store 67e2d43bc1670104499c192f
+2025-03-26 05:17:24,009 - INFO - Completed processing for store 67e2d43bc1670104499c192f
+2025-03-26 05:17:24,009 - INFO - Starting processing for store 67e2d43bc1670104499c1934
+2025-03-26 05:17:37,866 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c1934: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:17:37,867 - INFO - Starting processing for store 67e2d43bc1670104499c1939
+2025-03-26 05:17:51,472 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c1939: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:17:51,477 - INFO - Successfully saved 289 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:17:51,477 - INFO - Starting processing for store 67e2d43bc1670104499c193e
+2025-03-26 05:18:05,160 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c193e: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:18:05,161 - INFO - Starting processing for store 67e2d43bc1670104499c1943
+2025-03-26 05:18:18,790 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c1943: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:18:18,790 - INFO - Starting processing for store 67e2d43bc1670104499c1948
+2025-03-26 05:18:32,711 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c1948: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:18:32,712 - INFO - Starting processing for store 67e2d43bc1670104499c194d
+2025-03-26 05:18:46,373 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c194d: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:18:46,374 - INFO - Starting processing for store 67e2d43bc1670104499c1952
+2025-03-26 05:19:00,068 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c1952: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:19:00,068 - INFO - Starting processing for store 67e2d43bc1670104499c1957
+2025-03-26 05:19:03,457 - INFO - Found 4 flyers for store 67e2d43bc1670104499c1957
+2025-03-26 05:19:13,189 - INFO - Completed processing for store 67e2d43bc1670104499c1957
+2025-03-26 05:19:13,190 - INFO - Starting processing for store 67e2d43bc1670104499c195c
+2025-03-26 05:19:16,677 - INFO - Found 4 flyers for store 67e2d43bc1670104499c195c
+2025-03-26 05:19:26,437 - INFO - Completed processing for store 67e2d43bc1670104499c195c
+2025-03-26 05:19:26,438 - INFO - Starting processing for store 67e2d43bc1670104499c1961
+2025-03-26 05:19:40,263 - WARNING - Could not find flyer carousel for store 67e2d43bc1670104499c1961: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:19:40,263 - INFO - Starting processing for store 67e2d43cc1670104499c1966
+2025-03-26 05:19:43,600 - INFO - Found 4 flyers for store 67e2d43cc1670104499c1966
+2025-03-26 05:19:53,291 - INFO - Completed processing for store 67e2d43cc1670104499c1966
+2025-03-26 05:19:53,291 - INFO - Starting processing for store 67e2d43cc1670104499c196b
+2025-03-26 05:19:56,758 - INFO - Found 4 flyers for store 67e2d43cc1670104499c196b
+2025-03-26 05:20:06,618 - INFO - Completed processing for store 67e2d43cc1670104499c196b
+2025-03-26 05:20:06,624 - INFO - Successfully saved 299 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:20:06,624 - INFO - Starting processing for store 67e2d43cc1670104499c1970
+2025-03-26 05:20:10,136 - INFO - Found 4 flyers for store 67e2d43cc1670104499c1970
+2025-03-26 05:20:19,806 - INFO - Completed processing for store 67e2d43cc1670104499c1970
+2025-03-26 05:20:19,807 - INFO - Starting processing for store 67e2d43cc1670104499c1975
+2025-03-26 05:20:23,253 - INFO - Found 4 flyers for store 67e2d43cc1670104499c1975
+2025-03-26 05:20:32,940 - INFO - Completed processing for store 67e2d43cc1670104499c1975
+2025-03-26 05:20:32,940 - INFO - Starting processing for store 67e2d43cc1670104499c197a
+2025-03-26 05:20:46,702 - WARNING - Could not find flyer carousel for store 67e2d43cc1670104499c197a: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:20:46,703 - INFO - Starting processing for store 67e2d43cc1670104499c197f
+2025-03-26 05:21:00,326 - WARNING - Could not find flyer carousel for store 67e2d43cc1670104499c197f: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:21:00,327 - INFO - Starting processing for store 67e2d43cc1670104499c1984
+2025-03-26 05:21:03,667 - INFO - Found 4 flyers for store 67e2d43cc1670104499c1984
+2025-03-26 05:21:13,415 - INFO - Completed processing for store 67e2d43cc1670104499c1984
+2025-03-26 05:21:13,416 - INFO - Starting processing for store 67e2d43cc1670104499c1989
+2025-03-26 05:21:27,243 - WARNING - Could not find flyer carousel for store 67e2d43cc1670104499c1989: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:21:27,244 - INFO - Starting processing for store 67e2d43cc1670104499c198e
+2025-03-26 05:21:30,658 - INFO - Found 4 flyers for store 67e2d43cc1670104499c198e
+2025-03-26 05:21:40,364 - INFO - Completed processing for store 67e2d43cc1670104499c198e
+2025-03-26 05:21:40,365 - INFO - Starting processing for store 67e2d43cc1670104499c1993
+2025-03-26 05:21:43,932 - INFO - Found 5 flyers for store 67e2d43cc1670104499c1993
+2025-03-26 05:21:55,978 - INFO - Completed processing for store 67e2d43cc1670104499c1993
+2025-03-26 05:21:55,979 - INFO - Starting processing for store 67e2d43cc1670104499c1998
+2025-03-26 05:21:59,435 - INFO - Found 4 flyers for store 67e2d43cc1670104499c1998
+2025-03-26 05:22:09,168 - INFO - Completed processing for store 67e2d43cc1670104499c1998
+2025-03-26 05:22:09,169 - INFO - Starting processing for store 67e2d43cc1670104499c199d
+2025-03-26 05:22:22,923 - WARNING - Could not find flyer carousel for store 67e2d43cc1670104499c199d: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:22:22,928 - INFO - Successfully saved 309 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:22:22,929 - INFO - Starting processing for store 67e2d43cc1670104499c19a2
+2025-03-26 05:22:26,296 - INFO - Found 4 flyers for store 67e2d43cc1670104499c19a2
+2025-03-26 05:22:36,057 - INFO - Completed processing for store 67e2d43cc1670104499c19a2
+2025-03-26 05:22:36,058 - INFO - Starting processing for store 67e2d43cc1670104499c19a7
+2025-03-26 05:22:39,551 - INFO - Found 4 flyers for store 67e2d43cc1670104499c19a7
+2025-03-26 05:22:49,323 - INFO - Completed processing for store 67e2d43cc1670104499c19a7
+2025-03-26 05:22:49,324 - INFO - Starting processing for store 67e2d43cc1670104499c19ac
+2025-03-26 05:22:52,821 - INFO - Found 1 flyers for store 67e2d43cc1670104499c19ac
+2025-03-26 05:22:55,152 - INFO - Completed processing for store 67e2d43cc1670104499c19ac
+2025-03-26 05:22:55,153 - INFO - Starting processing for store 67e2d43cc1670104499c19b1
+2025-03-26 05:22:58,531 - INFO - Found 4 flyers for store 67e2d43cc1670104499c19b1
+2025-03-26 05:23:08,238 - INFO - Completed processing for store 67e2d43cc1670104499c19b1
+2025-03-26 05:23:08,239 - INFO - Starting processing for store 67e2d43cc1670104499c19b6
+2025-03-26 05:23:11,740 - INFO - Found 4 flyers for store 67e2d43cc1670104499c19b6
+2025-03-26 05:23:22,117 - INFO - Completed processing for store 67e2d43cc1670104499c19b6
+2025-03-26 05:23:22,118 - INFO - Starting processing for store 67e2d43dc1670104499c19bb
+2025-03-26 05:23:25,610 - INFO - Found 4 flyers for store 67e2d43dc1670104499c19bb
+2025-03-26 05:23:35,950 - INFO - Completed processing for store 67e2d43dc1670104499c19bb
+2025-03-26 05:23:35,951 - INFO - Starting processing for store 67e2d43dc1670104499c19c0
+2025-03-26 05:23:39,485 - INFO - Found 1 flyers for store 67e2d43dc1670104499c19c0
+2025-03-26 05:23:41,834 - INFO - Completed processing for store 67e2d43dc1670104499c19c0
+2025-03-26 05:23:41,834 - INFO - Starting processing for store 67e2d43dc1670104499c19c5
+2025-03-26 05:23:45,205 - INFO - Found 4 flyers for store 67e2d43dc1670104499c19c5
+2025-03-26 05:23:55,433 - INFO - Completed processing for store 67e2d43dc1670104499c19c5
+2025-03-26 05:23:55,433 - INFO - Starting processing for store 67e2d43dc1670104499c19ca
+2025-03-26 05:23:58,926 - INFO - Found 4 flyers for store 67e2d43dc1670104499c19ca
+2025-03-26 05:24:09,061 - INFO - Completed processing for store 67e2d43dc1670104499c19ca
+2025-03-26 05:24:09,062 - INFO - Starting processing for store 67e2d43dc1670104499c19cf
+2025-03-26 05:24:12,643 - INFO - Found 4 flyers for store 67e2d43dc1670104499c19cf
+2025-03-26 05:24:22,885 - INFO - Completed processing for store 67e2d43dc1670104499c19cf
+2025-03-26 05:24:22,892 - INFO - Successfully saved 319 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:24:22,892 - INFO - Starting processing for store 67e2d43dc1670104499c19d4
+2025-03-26 05:24:26,400 - INFO - Found 4 flyers for store 67e2d43dc1670104499c19d4
+2025-03-26 05:24:36,030 - INFO - Completed processing for store 67e2d43dc1670104499c19d4
+2025-03-26 05:24:36,031 - INFO - Starting processing for store 67e2d43dc1670104499c19d9
+2025-03-26 05:24:39,479 - INFO - Found 1 flyers for store 67e2d43dc1670104499c19d9
+2025-03-26 05:24:41,798 - INFO - Completed processing for store 67e2d43dc1670104499c19d9
+2025-03-26 05:24:41,798 - INFO - Starting processing for store 67e2d43dc1670104499c19de
+2025-03-26 05:24:45,134 - INFO - Found 4 flyers for store 67e2d43dc1670104499c19de
+2025-03-26 05:24:54,893 - INFO - Completed processing for store 67e2d43dc1670104499c19de
+2025-03-26 05:24:54,893 - INFO - Starting processing for store 67e2d43dc1670104499c19e3
+2025-03-26 05:24:58,431 - INFO - Found 4 flyers for store 67e2d43dc1670104499c19e3
+2025-03-26 05:25:08,189 - INFO - Completed processing for store 67e2d43dc1670104499c19e3
+2025-03-26 05:25:08,190 - INFO - Starting processing for store 67e2d43dc1670104499c19e8
+2025-03-26 05:25:11,775 - INFO - Found 4 flyers for store 67e2d43dc1670104499c19e8
+2025-03-26 05:25:21,583 - INFO - Completed processing for store 67e2d43dc1670104499c19e8
+2025-03-26 05:25:21,584 - INFO - Starting processing for store 67e2d43dc1670104499c19ed
+2025-03-26 05:25:35,396 - WARNING - Could not find flyer carousel for store 67e2d43dc1670104499c19ed: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:25:35,396 - INFO - Starting processing for store 67e2d43dc1670104499c19f2
+2025-03-26 05:25:49,052 - WARNING - Could not find flyer carousel for store 67e2d43dc1670104499c19f2: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:25:49,052 - INFO - Starting processing for store 67e2d43dc1670104499c19f7
+2025-03-26 05:26:02,680 - WARNING - Could not find flyer carousel for store 67e2d43dc1670104499c19f7: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:26:02,680 - INFO - Starting processing for store 67e2d43dc1670104499c19fc
+2025-03-26 05:26:16,349 - WARNING - Could not find flyer carousel for store 67e2d43dc1670104499c19fc: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:26:16,354 - INFO - Successfully saved 328 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:26:16,354 - INFO - Starting processing for store 67e2d43dc1670104499c1a01
+2025-03-26 05:26:30,038 - WARNING - Could not find flyer carousel for store 67e2d43dc1670104499c1a01: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:26:30,039 - INFO - Starting processing for store 67e2d43dc1670104499c1a06
+2025-03-26 05:26:43,704 - WARNING - Could not find flyer carousel for store 67e2d43dc1670104499c1a06: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:26:43,704 - INFO - Starting processing for store 67e2d43dc1670104499c1a0b
+2025-03-26 05:26:47,145 - INFO - Found 4 flyers for store 67e2d43dc1670104499c1a0b
+2025-03-26 05:26:56,933 - INFO - Completed processing for store 67e2d43dc1670104499c1a0b
+2025-03-26 05:26:56,933 - INFO - Starting processing for store 67e2d43ec1670104499c1a10
+2025-03-26 05:27:00,392 - INFO - Found 1 flyers for store 67e2d43ec1670104499c1a10
+2025-03-26 05:27:02,709 - INFO - Completed processing for store 67e2d43ec1670104499c1a10
+2025-03-26 05:27:02,709 - INFO - Starting processing for store 67e2d43ec1670104499c1a15
+2025-03-26 05:27:06,036 - INFO - Found 4 flyers for store 67e2d43ec1670104499c1a15
+2025-03-26 05:27:15,727 - INFO - Completed processing for store 67e2d43ec1670104499c1a15
+2025-03-26 05:27:15,728 - INFO - Starting processing for store 67e2d43ec1670104499c1a1a
+2025-03-26 05:27:19,206 - INFO - Found 1 flyers for store 67e2d43ec1670104499c1a1a
+2025-03-26 05:27:21,551 - INFO - Completed processing for store 67e2d43ec1670104499c1a1a
+2025-03-26 05:27:21,551 - INFO - Starting processing for store 67e2d43ec1670104499c1a1f
+2025-03-26 05:27:24,875 - INFO - Found 2 flyers for store 67e2d43ec1670104499c1a1f
+2025-03-26 05:27:29,505 - INFO - Completed processing for store 67e2d43ec1670104499c1a1f
+2025-03-26 05:27:29,505 - INFO - Starting processing for store 67e2d43ec1670104499c1a24
+2025-03-26 05:27:32,978 - INFO - Found 5 flyers for store 67e2d43ec1670104499c1a24
+2025-03-26 05:27:45,055 - INFO - Completed processing for store 67e2d43ec1670104499c1a24
+2025-03-26 05:27:45,055 - INFO - Starting processing for store 67e2d43ec1670104499c1a29
+2025-03-26 05:27:48,583 - INFO - Found 4 flyers for store 67e2d43ec1670104499c1a29
+2025-03-26 05:27:58,387 - INFO - Completed processing for store 67e2d43ec1670104499c1a29
+2025-03-26 05:27:58,388 - INFO - Starting processing for store 67e2d43ec1670104499c1a2e
+2025-03-26 05:28:01,866 - INFO - Found 4 flyers for store 67e2d43ec1670104499c1a2e
+2025-03-26 05:28:11,689 - INFO - Completed processing for store 67e2d43ec1670104499c1a2e
+2025-03-26 05:28:11,694 - INFO - Successfully saved 338 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:28:11,695 - INFO - Starting processing for store 67e2d43ec1670104499c1a33
+2025-03-26 05:28:15,275 - INFO - Found 4 flyers for store 67e2d43ec1670104499c1a33
+2025-03-26 05:28:25,095 - INFO - Completed processing for store 67e2d43ec1670104499c1a33
+2025-03-26 05:28:25,096 - INFO - Starting processing for store 67e2d43ec1670104499c1a38
+2025-03-26 05:28:28,622 - INFO - Found 4 flyers for store 67e2d43ec1670104499c1a38
+2025-03-26 05:28:38,340 - INFO - Completed processing for store 67e2d43ec1670104499c1a38
+2025-03-26 05:28:38,341 - INFO - Starting processing for store 67e2d43ec1670104499c1a3d
+2025-03-26 05:28:41,811 - INFO - Found 4 flyers for store 67e2d43ec1670104499c1a3d
+2025-03-26 05:28:51,488 - INFO - Completed processing for store 67e2d43ec1670104499c1a3d
+2025-03-26 05:28:51,489 - INFO - Starting processing for store 67e2d43ec1670104499c1a42
+2025-03-26 05:29:05,304 - WARNING - Could not find flyer carousel for store 67e2d43ec1670104499c1a42: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:29:05,305 - INFO - Starting processing for store 67e2d43ec1670104499c1a47
+2025-03-26 05:29:18,950 - WARNING - Could not find flyer carousel for store 67e2d43ec1670104499c1a47: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:29:18,950 - INFO - Starting processing for store 67e2d43ec1670104499c1a4c
+2025-03-26 05:29:32,590 - WARNING - Could not find flyer carousel for store 67e2d43ec1670104499c1a4c: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:29:32,590 - INFO - Starting processing for store 67e2d43ec1670104499c1a51
+2025-03-26 05:29:46,256 - WARNING - Could not find flyer carousel for store 67e2d43ec1670104499c1a51: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:29:46,257 - INFO - Starting processing for store 67e2d43ec1670104499c1a56
+2025-03-26 05:29:59,930 - WARNING - Could not find flyer carousel for store 67e2d43ec1670104499c1a56: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:29:59,930 - INFO - Starting processing for store 67e2d43ec1670104499c1a5b
+2025-03-26 05:30:13,592 - WARNING - Could not find flyer carousel for store 67e2d43ec1670104499c1a5b: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:30:13,592 - INFO - Starting processing for store 67e2d43ec1670104499c1a60
+2025-03-26 05:30:27,227 - WARNING - Could not find flyer carousel for store 67e2d43ec1670104499c1a60: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:30:27,234 - INFO - Successfully saved 348 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:30:27,234 - INFO - Starting processing for store 67e2d43fc1670104499c1a65
+2025-03-26 05:30:30,662 - INFO - Found 4 flyers for store 67e2d43fc1670104499c1a65
+2025-03-26 05:30:40,349 - INFO - Completed processing for store 67e2d43fc1670104499c1a65
+2025-03-26 05:30:40,349 - INFO - Starting processing for store 67e2d43fc1670104499c1a6a
+2025-03-26 05:30:54,087 - WARNING - Could not find flyer carousel for store 67e2d43fc1670104499c1a6a: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:30:54,087 - INFO - Starting processing for store 67e2d43fc1670104499c1a6f
+2025-03-26 05:31:07,727 - WARNING - Could not find flyer carousel for store 67e2d43fc1670104499c1a6f: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:31:07,728 - INFO - Starting processing for store 67e2d43fc1670104499c1a74
+2025-03-26 05:31:21,363 - WARNING - Could not find flyer carousel for store 67e2d43fc1670104499c1a74: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:31:21,363 - INFO - Starting processing for store 67e2d43fc1670104499c1a79
+2025-03-26 05:31:34,994 - WARNING - Could not find flyer carousel for store 67e2d43fc1670104499c1a79: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:31:34,995 - INFO - Starting processing for store 67e2d43fc1670104499c1a7e
+2025-03-26 05:31:48,669 - WARNING - Could not find flyer carousel for store 67e2d43fc1670104499c1a7e: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:31:48,670 - INFO - Starting processing for store 67e2d43fc1670104499c1a83
+2025-03-26 05:31:52,065 - INFO - Found 4 flyers for store 67e2d43fc1670104499c1a83
+2025-03-26 05:32:01,790 - INFO - Completed processing for store 67e2d43fc1670104499c1a83
+2025-03-26 05:32:01,791 - INFO - Starting processing for store 67e2d43fc1670104499c1a88
+2025-03-26 05:32:05,374 - INFO - Found 4 flyers for store 67e2d43fc1670104499c1a88
+2025-03-26 05:32:15,094 - INFO - Completed processing for store 67e2d43fc1670104499c1a88
+2025-03-26 05:32:15,095 - INFO - Starting processing for store 67e2d43fc1670104499c1a8d
+2025-03-26 05:32:18,552 - INFO - Found 5 flyers for store 67e2d43fc1670104499c1a8d
+2025-03-26 05:32:30,560 - INFO - Completed processing for store 67e2d43fc1670104499c1a8d
+2025-03-26 05:32:30,566 - INFO - Successfully saved 357 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:32:30,566 - INFO - Starting processing for store 67e2d43fc1670104499c1a92
+2025-03-26 05:32:44,350 - WARNING - Could not find flyer carousel for store 67e2d43fc1670104499c1a92: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:32:44,351 - INFO - Starting processing for store 67e2d43fc1670104499c1a97
+2025-03-26 05:32:58,024 - WARNING - Could not find flyer carousel for store 67e2d43fc1670104499c1a97: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:32:58,025 - INFO - Starting processing for store 67e2d43fc1670104499c1a9c
+2025-03-26 05:33:11,740 - WARNING - Could not find flyer carousel for store 67e2d43fc1670104499c1a9c: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:33:11,741 - INFO - Starting processing for store 67e2d43fc1670104499c1aa1
+2025-03-26 05:33:15,128 - INFO - Found 4 flyers for store 67e2d43fc1670104499c1aa1
+2025-03-26 05:33:24,994 - INFO - Completed processing for store 67e2d43fc1670104499c1aa1
+2025-03-26 05:33:24,995 - INFO - Starting processing for store 67e2d43fc1670104499c1aa6
+2025-03-26 05:33:28,482 - INFO - Found 5 flyers for store 67e2d43fc1670104499c1aa6
+2025-03-26 05:33:40,621 - INFO - Completed processing for store 67e2d43fc1670104499c1aa6
+2025-03-26 05:33:40,622 - INFO - Starting processing for store 67e2d43fc1670104499c1aab
+2025-03-26 05:33:44,109 - INFO - Found 5 flyers for store 67e2d43fc1670104499c1aab
+2025-03-26 05:33:56,232 - INFO - Completed processing for store 67e2d43fc1670104499c1aab
+2025-03-26 05:33:56,233 - INFO - Starting processing for store 67e2d43fc1670104499c1ab0
+2025-03-26 05:33:59,914 - INFO - Found 6 flyers for store 67e2d43fc1670104499c1ab0
+2025-03-26 05:34:14,453 - INFO - Completed processing for store 67e2d43fc1670104499c1ab0
+2025-03-26 05:34:14,454 - INFO - Starting processing for store 67e2d43fc1670104499c1ab5
+2025-03-26 05:34:17,946 - INFO - Found 4 flyers for store 67e2d43fc1670104499c1ab5
+2025-03-26 05:34:27,827 - INFO - Completed processing for store 67e2d43fc1670104499c1ab5
+2025-03-26 05:34:27,828 - INFO - Starting processing for store 67e2d440c1670104499c1aba
+2025-03-26 05:34:41,699 - WARNING - Could not find flyer carousel for store 67e2d440c1670104499c1aba: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:34:41,699 - INFO - Starting processing for store 67e2d440c1670104499c1abf
+2025-03-26 05:34:45,063 - INFO - Found 4 flyers for store 67e2d440c1670104499c1abf
+2025-03-26 05:34:54,877 - INFO - Completed processing for store 67e2d440c1670104499c1abf
+2025-03-26 05:34:54,883 - INFO - Successfully saved 367 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:34:54,884 - INFO - Starting processing for store 67e2d440c1670104499c1ac4
+2025-03-26 05:35:08,728 - WARNING - Could not find flyer carousel for store 67e2d440c1670104499c1ac4: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:35:08,729 - INFO - Starting processing for store 67e2d440c1670104499c1ac9
+2025-03-26 05:35:12,119 - INFO - Found 5 flyers for store 67e2d440c1670104499c1ac9
+2025-03-26 05:35:24,247 - INFO - Completed processing for store 67e2d440c1670104499c1ac9
+2025-03-26 05:35:24,248 - INFO - Starting processing for store 67e2d440c1670104499c1ace
+2025-03-26 05:35:38,006 - WARNING - Could not find flyer carousel for store 67e2d440c1670104499c1ace: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:35:38,006 - INFO - Starting processing for store 67e2d440c1670104499c1ad3
+2025-03-26 05:35:41,373 - INFO - Found 4 flyers for store 67e2d440c1670104499c1ad3
+2025-03-26 05:35:51,091 - INFO - Completed processing for store 67e2d440c1670104499c1ad3
+2025-03-26 05:35:51,091 - INFO - Starting processing for store 67e2d440c1670104499c1ad8
+2025-03-26 05:35:54,648 - INFO - Found 4 flyers for store 67e2d440c1670104499c1ad8
+2025-03-26 05:36:04,379 - INFO - Completed processing for store 67e2d440c1670104499c1ad8
+2025-03-26 05:36:04,380 - INFO - Starting processing for store 67e2d440c1670104499c1add
+2025-03-26 05:36:07,851 - INFO - Found 5 flyers for store 67e2d440c1670104499c1add
+2025-03-26 05:36:20,025 - INFO - Completed processing for store 67e2d440c1670104499c1add
+2025-03-26 05:36:20,026 - INFO - Starting processing for store 67e2d440c1670104499c1ae2
+2025-03-26 05:36:23,538 - INFO - Found 6 flyers for store 67e2d440c1670104499c1ae2
+2025-03-26 05:36:38,008 - INFO - Completed processing for store 67e2d440c1670104499c1ae2
+2025-03-26 05:36:38,009 - INFO - Starting processing for store 67e2d440c1670104499c1ae7
+2025-03-26 05:36:41,470 - INFO - Found 5 flyers for store 67e2d440c1670104499c1ae7
+2025-03-26 05:36:53,516 - INFO - Completed processing for store 67e2d440c1670104499c1ae7
+2025-03-26 05:36:53,517 - INFO - Starting processing for store 67e2d440c1670104499c1aec
+2025-03-26 05:36:57,140 - INFO - Found 5 flyers for store 67e2d440c1670104499c1aec
+2025-03-26 05:37:09,222 - INFO - Completed processing for store 67e2d440c1670104499c1aec
+2025-03-26 05:37:09,223 - INFO - Starting processing for store 67e2d440c1670104499c1af1
+2025-03-26 05:37:12,673 - INFO - Found 4 flyers for store 67e2d440c1670104499c1af1
+2025-03-26 05:37:22,342 - INFO - Completed processing for store 67e2d440c1670104499c1af1
+2025-03-26 05:37:22,348 - INFO - Successfully saved 377 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:37:22,348 - INFO - Starting processing for store 67e2d440c1670104499c1af6
+2025-03-26 05:37:36,270 - WARNING - Could not find flyer carousel for store 67e2d440c1670104499c1af6: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:37:36,271 - INFO - Starting processing for store 67e2d440c1670104499c1afb
+2025-03-26 05:37:49,923 - WARNING - Could not find flyer carousel for store 67e2d440c1670104499c1afb: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:37:49,924 - INFO - Starting processing for store 67e2d440c1670104499c1b00
+2025-03-26 05:38:03,525 - WARNING - Could not find flyer carousel for store 67e2d440c1670104499c1b00: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:38:03,526 - INFO - Starting processing for store 67e2d440c1670104499c1b05
+2025-03-26 05:38:17,141 - WARNING - Could not find flyer carousel for store 67e2d440c1670104499c1b05: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:38:17,141 - INFO - Starting processing for store 67e2d440c1670104499c1b0a
+2025-03-26 05:38:30,820 - WARNING - Could not find flyer carousel for store 67e2d440c1670104499c1b0a: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:38:30,821 - INFO - Starting processing for store 67e2d440c1670104499c1b0f
+2025-03-26 05:38:34,348 - INFO - Found 5 flyers for store 67e2d440c1670104499c1b0f
+2025-03-26 05:38:46,504 - INFO - Completed processing for store 67e2d440c1670104499c1b0f
+2025-03-26 05:38:46,505 - INFO - Starting processing for store 67e2d441c1670104499c1b14
+2025-03-26 05:38:50,112 - INFO - Found 4 flyers for store 67e2d441c1670104499c1b14
+2025-03-26 05:38:59,849 - INFO - Completed processing for store 67e2d441c1670104499c1b14
+2025-03-26 05:38:59,849 - INFO - Starting processing for store 67e2d441c1670104499c1b19
+2025-03-26 05:39:03,426 - INFO - Found 6 flyers for store 67e2d441c1670104499c1b19
+2025-03-26 05:39:17,950 - INFO - Completed processing for store 67e2d441c1670104499c1b19
+2025-03-26 05:39:17,951 - INFO - Starting processing for store 67e2d441c1670104499c1b1e
+2025-03-26 05:39:31,700 - WARNING - Could not find flyer carousel for store 67e2d441c1670104499c1b1e: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:39:31,707 - INFO - Successfully saved 386 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:39:31,707 - INFO - Starting processing for store 67e2d441c1670104499c1b23
+2025-03-26 05:39:35,148 - INFO - Found 4 flyers for store 67e2d441c1670104499c1b23
+2025-03-26 05:39:45,127 - INFO - Completed processing for store 67e2d441c1670104499c1b23
+2025-03-26 05:39:45,128 - INFO - Starting processing for store 67e2d441c1670104499c1b28
+2025-03-26 05:39:48,616 - INFO - Found 5 flyers for store 67e2d441c1670104499c1b28
+2025-03-26 05:40:00,787 - INFO - Completed processing for store 67e2d441c1670104499c1b28
+2025-03-26 05:40:00,788 - INFO - Starting processing for store 67e2d441c1670104499c1b2d
+2025-03-26 05:40:04,268 - INFO - Found 1 flyers for store 67e2d441c1670104499c1b2d
+2025-03-26 05:40:06,645 - INFO - Completed processing for store 67e2d441c1670104499c1b2d
+2025-03-26 05:40:06,645 - INFO - Starting processing for store 67e2d441c1670104499c1b32
+2025-03-26 05:40:10,033 - INFO - Found 4 flyers for store 67e2d441c1670104499c1b32
+2025-03-26 05:40:19,739 - INFO - Completed processing for store 67e2d441c1670104499c1b32
+2025-03-26 05:40:19,739 - INFO - Starting processing for store 67e2d441c1670104499c1b37
+2025-03-26 05:40:23,189 - INFO - Found 1 flyers for store 67e2d441c1670104499c1b37
+2025-03-26 05:40:25,526 - INFO - Completed processing for store 67e2d441c1670104499c1b37
+2025-03-26 05:40:25,526 - INFO - Starting processing for store 67e2d441c1670104499c1b3c
+2025-03-26 05:40:39,182 - WARNING - Could not find flyer carousel for store 67e2d441c1670104499c1b3c: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:40:39,183 - INFO - Starting processing for store 67e2d441c1670104499c1b41
+2025-03-26 05:40:52,816 - WARNING - Could not find flyer carousel for store 67e2d441c1670104499c1b41: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:40:52,816 - INFO - Starting processing for store 67e2d441c1670104499c1b46
+2025-03-26 05:41:06,468 - WARNING - Could not find flyer carousel for store 67e2d441c1670104499c1b46: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:41:06,468 - INFO - Starting processing for store 67e2d441c1670104499c1b4b
+2025-03-26 05:41:20,130 - WARNING - Could not find flyer carousel for store 67e2d441c1670104499c1b4b: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:41:20,130 - INFO - Starting processing for store 67e2d441c1670104499c1b50
+2025-03-26 05:41:23,517 - INFO - Found 4 flyers for store 67e2d441c1670104499c1b50
+2025-03-26 05:41:33,314 - INFO - Completed processing for store 67e2d441c1670104499c1b50
+2025-03-26 05:41:33,321 - INFO - Successfully saved 396 records to scrape_data/PAM_flyers.csv
+2025-03-26 05:41:33,321 - INFO - Starting processing for store 67e2d441c1670104499c1b55
+2025-03-26 05:41:47,161 - WARNING - Could not find flyer carousel for store 67e2d441c1670104499c1b55: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:41:47,162 - INFO - Starting processing for store 67e2d441c1670104499c1b5a
+2025-03-26 05:41:50,522 - INFO - Found 4 flyers for store 67e2d441c1670104499c1b5a
+2025-03-26 05:42:00,291 - INFO - Completed processing for store 67e2d441c1670104499c1b5a
+2025-03-26 05:42:00,291 - INFO - Starting processing for store 67e2d441c1670104499c1b5f
+2025-03-26 05:42:03,869 - INFO - Found 4 flyers for store 67e2d441c1670104499c1b5f
+2025-03-26 05:42:13,682 - INFO - Completed processing for store 67e2d441c1670104499c1b5f
+2025-03-26 05:42:13,683 - INFO - Starting processing for store 67e2d441c1670104499c1b64
+2025-03-26 05:42:27,511 - WARNING - Could not find flyer carousel for store 67e2d441c1670104499c1b64: Message: 
+Stacktrace:
+#0 0x5a727f877d9a <unknown>
+#1 0x5a727f348dc0 <unknown>
+#2 0x5a727f39a2e9 <unknown>
+#3 0x5a727f39a471 <unknown>
+#4 0x5a727f3e9014 <unknown>
+#5 0x5a727f3c010d <unknown>
+#6 0x5a727f3e634b <unknown>
+#7 0x5a727f3bfeb3 <unknown>
+#8 0x5a727f38c108 <unknown>
+#9 0x5a727f38d271 <unknown>
+#10 0x5a727f84169b <unknown>
+#11 0x5a727f845642 <unknown>
+#12 0x5a727f82dc2c <unknown>
+#13 0x5a727f8461e4 <unknown>
+#14 0x5a727f811e6f <unknown>
+#15 0x5a727f866e38 <unknown>
+#16 0x5a727f867016 <unknown>
+#17 0x5a727f876c16 <unknown>
+#18 0x73a8b12a1e2e <unknown>
+#19 0x73a8b1333a4c <unknown>
+
+2025-03-26 05:42:27,874 - INFO - WebDriver closed
+2025-03-26 05:42:27,880 - INFO - Successfully saved 400 records to scrape_data/PAM_flyers.csv
