@@ -155,7 +155,7 @@ def main():
         
         # Load comuni data
         try:
-            comuni_df = pd.read_csv(COMUNI_CSV)
+            comuni_df = pd.read_csv(COMUNI_CSV, encoding="iso-8859-1")
             comuni = comuni_df['Comune'].unique().tolist()
             logger.info(f"Loaded {len(comuni)} comuni from {COMUNI_CSV}")
         except Exception as e:
