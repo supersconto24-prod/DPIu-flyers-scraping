@@ -18,8 +18,10 @@ from datetime import datetime
 COMUNI_CSV = "comuni.csv"
 DPI_CSV = "dpiu_stores.csv"
 OUTPUT_DIR = "scrape_data"
+TEMP_DIR = "temp_data"
 LOG_DIR = "logs"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+os.makedirs(TEMP_DIR, exist_ok=True)
 os.makedirs(LOG_DIR, exist_ok=True)
 CHROME_DRIVER_PATH = "/usr/local/bin/chromedriver"
 
@@ -72,8 +74,65 @@ def setup_driver():
         logger.error(f"Failed to initialize WebDriver: {str(e)}")
         raise
 
-def scrape_dpiu_stores(comune, output_file):
-    """Scrape D-Piu stores for a specific comune and append to CSV."""
+def save_temp_results(comune, stores):
+    """Save temporary results for a comune."""
+    if not stores:
+        return False
+        
+    try:
+        temp_file = os.path.join(TEMP_DIR, f"temp_{comune}_shops.csv")
+        df = pd.DataFrame(stores)
+        df.to_csv(temp_file, index=False, encoding='utf-8')
+        logger.info(f"Saved temporary results for {comune} to {temp_file}")
+        return True
+    except Exception as e:
+        logger.error(f"Failed to save temporary results for {comune}: {str(e)}")
+        return False
+
+def merge_temp_files(output_file):
+    """Merge all temporary files into the final output."""
+    try:
+        # Get all temporary files
+        temp_files = [f for f in os.listdir(TEMP_DIR) if f.startswith('temp_') and f.endswith('.csv')]
+        
+        if not temp_files:
+            logger.warning("No temporary files found to merge")
+            return False
+            
+        # Read and concatenate all temp files
+        dfs = []
+        for temp_file in temp_files:
+            try:
+                df = pd.read_csv(os.path.join(TEMP_DIR, temp_file))
+                dfs.append(df)
+                logger.info(f"Loaded data from {temp_file}")
+            except Exception as e:
+                logger.error(f"Failed to load {temp_file}: {str(e)}")
+                continue
+                
+        if not dfs:
+            logger.error("No valid data found in temporary files")
+            return False
+            
+        final_df = pd.concat(dfs, ignore_index=True)
+        final_df.to_csv(output_file, index=False, encoding='utf-8')
+        logger.info(f"Merged {len(dfs)} temporary files into {output_file}")
+        
+        # Clean up temp files
+        for temp_file in temp_files:
+            try:
+                os.remove(os.path.join(TEMP_DIR, temp_file))
+            except Exception as e:
+                logger.error(f"Failed to remove {temp_file}: {str(e)}")
+                
+        return True
+        
+    except Exception as e:
+        logger.error(f"Failed to merge temporary files: {str(e)}")
+        return False
+
+def scrape_dpiu_stores(comune):
+    """Scrape D-Piu stores for a specific comune and save temporary results."""
     driver = None
     stores = []
     
@@ -127,10 +186,11 @@ def scrape_dpiu_stores(comune, output_file):
 
         except Exception as e:
             logger.info(f"No results found for {comune}")
-            return  # Skip saving if no results
+            return False  # No results found
 
     except Exception as e:
         logger.error(f"Error processing {comune}: {str(e)}")
+        return False  # Processing failed
 
     finally:
         if driver:
@@ -139,15 +199,10 @@ def scrape_dpiu_stores(comune, output_file):
             except Exception as e:
                 logger.error(f"Error closing driver for {comune}: {str(e)}")
 
-        # Append results to CSV after processing each comune
+        # Save temporary results if we found any stores
         if stores:
-            try:
-                df = pd.DataFrame(stores)
-                file_exists = os.path.isfile(output_file)
-                df.to_csv(output_file, mode='a', header=not file_exists, index=False, encoding='utf-8')
-                logger.info(f"Successfully saved {len(stores)} stores for {comune}")
-            except Exception as e:
-                logger.error(f"Failed to save results for {comune}: {str(e)}")
+            return save_temp_results(comune, stores)
+        return False
 
 def main():
     try:
@@ -164,7 +219,7 @@ def main():
 
         output_file = os.path.join(OUTPUT_DIR, DPI_CSV)
 
-        # Clear existing file if it exists
+        # Clear existing output and temp files
         if os.path.exists(output_file):
             try:
                 os.remove(output_file)
@@ -173,16 +228,31 @@ def main():
                 logger.error(f"Failed to remove existing output file: {str(e)}")
                 raise
 
-        # Use multiprocessing with a lock for file writing
+        # Clear temp directory
+        for f in os.listdir(TEMP_DIR):
+            try:
+                os.remove(os.path.join(TEMP_DIR, f))
+            except Exception as e:
+                logger.error(f"Failed to remove temp file {f}: {str(e)}")
+
+        # Use multiprocessing with 4 workers
         logger.info("Starting scraping process with 4 workers")
         with multiprocessing.Pool(processes=4) as pool:
-            # Map each comune to the scrape function with the output file
-            pool.starmap(scrape_dpiu_stores, [(comune, output_file) for comune in comuni])
+            results = pool.map(scrape_dpiu_stores, comuni)
+            
+        successful_scrapes = sum(1 for result in results if result)
+        logger.info(f"Completed scraping. Successfully processed {successful_scrapes} of {len(comuni)} comuni")
+
+        # Merge all temporary files into final output
+        if not merge_temp_files(output_file):
+            logger.error("Failed to merge temporary files into final output")
+            raise Exception("Failed to merge results")
 
         logger.info(f"Scraping completed. Final data saved to {output_file}")
 
     except Exception as e:
         logger.error(f"Fatal error in main: {str(e)}")
+        raise
     finally:
         logging.shutdown()
 
