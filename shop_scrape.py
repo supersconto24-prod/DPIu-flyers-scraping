@@ -86,6 +86,19 @@ def setup_driver():
         logger.error(f"Failed to initialize WebDriver: {str(e)}")
         raise
 
+def accept_cookies(driver):
+    """Handle cookie acceptance banner if present"""
+    try:
+        accept_button = WebDriverWait(driver, 5).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "button.iubenda-cs-accept-btn"))
+        )
+        accept_button.click()
+        logger.info("Accepted cookies")
+        time.sleep(1)  # Small delay after accepting
+    except Exception as e:
+        logger.info("Cookie banner not found or could not be accepted")
+        pass  # Continue if cookie banner not present
+
 def save_temp_results(city, stores):
     """Save temporary results for a city."""
     if not stores:
@@ -155,6 +168,9 @@ def scrape_dpiu_stores(city):
         # Open the website
         driver.get('https://www.d-piu.com/dpiu-locator/')
         time.sleep(3)  # Wait for the page to load
+
+        # Handle cookie acceptance
+        accept_cookies(driver)
 
         # Locate the input field
         input_field = WebDriverWait(driver, 10).until(
