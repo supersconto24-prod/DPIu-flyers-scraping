@@ -1,0 +1,3 @@
+2025-04-05 19:49:05,493 - INFO - Starting D-Piu store scraper
+2025-04-05 19:49:05,494 - ERROR - Failed to load comuni data: 'utf-8' codec can't decode byte 0xe0 in position 1629: invalid continuation byte
+2025-04-05 19:49:05,494 - ERROR - Fatal error in main: 'utf-8' codec can't decode byte 0xe0 in position 1629: invalid continuation byte

@@ -1,0 +1,306 @@
+2025-04-07 05:14:42,949 - INFO - Starting D-Piu store scraper for major Italian cities
+2025-04-07 05:14:42,949 - INFO - Starting scraping process for 10 major cities with 4 workers
+2025-04-07 05:14:43,995 - INFO - Processing city: Milano
+2025-04-07 05:14:43,997 - INFO - Processing city: Torino
+2025-04-07 05:14:44,012 - INFO - Processing city: Napoli
+2025-04-07 05:14:44,014 - INFO - Processing city: Roma
+2025-04-07 05:14:51,717 - INFO - Accepted cookies
+2025-04-07 05:14:51,718 - INFO - Accepted cookies
+2025-04-07 05:14:51,719 - INFO - Accepted cookies
+2025-04-07 05:14:51,747 - INFO - Cookie banner not found or could not be accepted
+2025-04-07 05:15:00,179 - INFO - No results found for Napoli
+2025-04-07 05:15:00,291 - ERROR - Failed to initialize WebDriver: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x642053b83d9a <unknown>
+#1 0x642053654dc0 <unknown>
+#2 0x642053694511 <unknown>
+#3 0x64205368f41d <unknown>
+#4 0x642053689fff <unknown>
+#5 0x6420536daa36 <unknown>
+#6 0x6420536d9f66 <unknown>
+#7 0x6420536cbeb3 <unknown>
+#8 0x642053698108 <unknown>
+#9 0x642053699271 <unknown>
+#10 0x642053b4d69b <unknown>
+#11 0x642053b51642 <unknown>
+#12 0x642053b39c2c <unknown>
+#13 0x642053b521e4 <unknown>
+#14 0x642053b1de6f <unknown>
+#15 0x642053b72e38 <unknown>
+#16 0x642053b73016 <unknown>
+#17 0x642053b82c16 <unknown>
+#18 0x77bd510a1e2e <unknown>
+#19 0x77bd51133a4c <unknown>
+
+2025-04-07 05:15:00,291 - ERROR - Error processing Palermo: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x642053b83d9a <unknown>
+#1 0x642053654dc0 <unknown>
+#2 0x642053694511 <unknown>
+#3 0x64205368f41d <unknown>
+#4 0x642053689fff <unknown>
+#5 0x6420536daa36 <unknown>
+#6 0x6420536d9f66 <unknown>
+#7 0x6420536cbeb3 <unknown>
+#8 0x642053698108 <unknown>
+#9 0x642053699271 <unknown>
+#10 0x642053b4d69b <unknown>
+#11 0x642053b51642 <unknown>
+#12 0x642053b39c2c <unknown>
+#13 0x642053b521e4 <unknown>
+#14 0x642053b1de6f <unknown>
+#15 0x642053b72e38 <unknown>
+#16 0x642053b73016 <unknown>
+#17 0x642053b82c16 <unknown>
+#18 0x77bd510a1e2e <unknown>
+#19 0x77bd51133a4c <unknown>
+
+2025-04-07 05:15:00,324 - ERROR - Failed to initialize WebDriver: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x5794fbf72d9a <unknown>
+#1 0x5794fba43dc0 <unknown>
+#2 0x5794fba83511 <unknown>
+#3 0x5794fba7e41d <unknown>
+#4 0x5794fba78fff <unknown>
+#5 0x5794fbac9a36 <unknown>
+#6 0x5794fbac8f66 <unknown>
+#7 0x5794fbabaeb3 <unknown>
+#8 0x5794fba87108 <unknown>
+#9 0x5794fba88271 <unknown>
+#10 0x5794fbf3c69b <unknown>
+#11 0x5794fbf40642 <unknown>
+#12 0x5794fbf28c2c <unknown>
+#13 0x5794fbf411e4 <unknown>
+#14 0x5794fbf0ce6f <unknown>
+#15 0x5794fbf61e38 <unknown>
+#16 0x5794fbf62016 <unknown>
+#17 0x5794fbf71c16 <unknown>
+#18 0x7f3fddaa1e2e <unknown>
+#19 0x7f3fddb33a4c <unknown>
+
+2025-04-07 05:15:00,324 - ERROR - Error processing Genova: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x5794fbf72d9a <unknown>
+#1 0x5794fba43dc0 <unknown>
+#2 0x5794fba83511 <unknown>
+#3 0x5794fba7e41d <unknown>
+#4 0x5794fba78fff <unknown>
+#5 0x5794fbac9a36 <unknown>
+#6 0x5794fbac8f66 <unknown>
+#7 0x5794fbabaeb3 <unknown>
+#8 0x5794fba87108 <unknown>
+#9 0x5794fba88271 <unknown>
+#10 0x5794fbf3c69b <unknown>
+#11 0x5794fbf40642 <unknown>
+#12 0x5794fbf28c2c <unknown>
+#13 0x5794fbf411e4 <unknown>
+#14 0x5794fbf0ce6f <unknown>
+#15 0x5794fbf61e38 <unknown>
+#16 0x5794fbf62016 <unknown>
+#17 0x5794fbf71c16 <unknown>
+#18 0x7f3fddaa1e2e <unknown>
+#19 0x7f3fddb33a4c <unknown>
+
+2025-04-07 05:15:00,360 - ERROR - Failed to initialize WebDriver: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x5de67da0cd9a <unknown>
+#1 0x5de67d4dddc0 <unknown>
+#2 0x5de67d51d511 <unknown>
+#3 0x5de67d51841d <unknown>
+#4 0x5de67d512fff <unknown>
+#5 0x5de67d563a36 <unknown>
+#6 0x5de67d562f66 <unknown>
+#7 0x5de67d554eb3 <unknown>
+#8 0x5de67d521108 <unknown>
+#9 0x5de67d522271 <unknown>
+#10 0x5de67d9d669b <unknown>
+#11 0x5de67d9da642 <unknown>
+#12 0x5de67d9c2c2c <unknown>
+#13 0x5de67d9db1e4 <unknown>
+#14 0x5de67d9a6e6f <unknown>
+#15 0x5de67d9fbe38 <unknown>
+#16 0x5de67d9fc016 <unknown>
+#17 0x5de67da0bc16 <unknown>
+#18 0x774b53aa1e2e <unknown>
+#19 0x774b53b33a4c <unknown>
+
+2025-04-07 05:15:00,360 - ERROR - Error processing Bologna: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x5de67da0cd9a <unknown>
+#1 0x5de67d4dddc0 <unknown>
+#2 0x5de67d51d511 <unknown>
+#3 0x5de67d51841d <unknown>
+#4 0x5de67d512fff <unknown>
+#5 0x5de67d563a36 <unknown>
+#6 0x5de67d562f66 <unknown>
+#7 0x5de67d554eb3 <unknown>
+#8 0x5de67d521108 <unknown>
+#9 0x5de67d522271 <unknown>
+#10 0x5de67d9d669b <unknown>
+#11 0x5de67d9da642 <unknown>
+#12 0x5de67d9c2c2c <unknown>
+#13 0x5de67d9db1e4 <unknown>
+#14 0x5de67d9a6e6f <unknown>
+#15 0x5de67d9fbe38 <unknown>
+#16 0x5de67d9fc016 <unknown>
+#17 0x5de67da0bc16 <unknown>
+#18 0x774b53aa1e2e <unknown>
+#19 0x774b53b33a4c <unknown>
+
+2025-04-07 05:15:00,393 - ERROR - Failed to initialize WebDriver: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x62ba332e4d9a <unknown>
+#1 0x62ba32db5dc0 <unknown>
+#2 0x62ba32df5511 <unknown>
+#3 0x62ba32df041d <unknown>
+#4 0x62ba32deafff <unknown>
+#5 0x62ba32e3ba36 <unknown>
+#6 0x62ba32e3af66 <unknown>
+#7 0x62ba32e2ceb3 <unknown>
+#8 0x62ba32df9108 <unknown>
+#9 0x62ba32dfa271 <unknown>
+#10 0x62ba332ae69b <unknown>
+#11 0x62ba332b2642 <unknown>
+#12 0x62ba3329ac2c <unknown>
+#13 0x62ba332b31e4 <unknown>
+#14 0x62ba3327ee6f <unknown>
+#15 0x62ba332d3e38 <unknown>
+#16 0x62ba332d4016 <unknown>
+#17 0x62ba332e3c16 <unknown>
+#18 0x73eac36a1e2e <unknown>
+#19 0x73eac3733a4c <unknown>
+
+2025-04-07 05:15:00,393 - ERROR - Error processing Firenze: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x62ba332e4d9a <unknown>
+#1 0x62ba32db5dc0 <unknown>
+#2 0x62ba32df5511 <unknown>
+#3 0x62ba32df041d <unknown>
+#4 0x62ba32deafff <unknown>
+#5 0x62ba32e3ba36 <unknown>
+#6 0x62ba32e3af66 <unknown>
+#7 0x62ba32e2ceb3 <unknown>
+#8 0x62ba32df9108 <unknown>
+#9 0x62ba32dfa271 <unknown>
+#10 0x62ba332ae69b <unknown>
+#11 0x62ba332b2642 <unknown>
+#12 0x62ba3329ac2c <unknown>
+#13 0x62ba332b31e4 <unknown>
+#14 0x62ba3327ee6f <unknown>
+#15 0x62ba332d3e38 <unknown>
+#16 0x62ba332d4016 <unknown>
+#17 0x62ba332e3c16 <unknown>
+#18 0x73eac36a1e2e <unknown>
+#19 0x73eac3733a4c <unknown>
+
+2025-04-07 05:15:00,432 - ERROR - Failed to initialize WebDriver: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x5d39be5f1d9a <unknown>
+#1 0x5d39be0c2dc0 <unknown>
+#2 0x5d39be102511 <unknown>
+#3 0x5d39be0fd41d <unknown>
+#4 0x5d39be0f7fff <unknown>
+#5 0x5d39be148a36 <unknown>
+#6 0x5d39be147f66 <unknown>
+#7 0x5d39be139eb3 <unknown>
+#8 0x5d39be106108 <unknown>
+#9 0x5d39be107271 <unknown>
+#10 0x5d39be5bb69b <unknown>
+#11 0x5d39be5bf642 <unknown>
+#12 0x5d39be5a7c2c <unknown>
+#13 0x5d39be5c01e4 <unknown>
+#14 0x5d39be58be6f <unknown>
+#15 0x5d39be5e0e38 <unknown>
+#16 0x5d39be5e1016 <unknown>
+#17 0x5d39be5f0c16 <unknown>
+#18 0x7e5219ea1e2e <unknown>
+#19 0x7e5219f33a4c <unknown>
+
+2025-04-07 05:15:00,432 - ERROR - Error processing Bari: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x5d39be5f1d9a <unknown>
+#1 0x5d39be0c2dc0 <unknown>
+#2 0x5d39be102511 <unknown>
+#3 0x5d39be0fd41d <unknown>
+#4 0x5d39be0f7fff <unknown>
+#5 0x5d39be148a36 <unknown>
+#6 0x5d39be147f66 <unknown>
+#7 0x5d39be139eb3 <unknown>
+#8 0x5d39be106108 <unknown>
+#9 0x5d39be107271 <unknown>
+#10 0x5d39be5bb69b <unknown>
+#11 0x5d39be5bf642 <unknown>
+#12 0x5d39be5a7c2c <unknown>
+#13 0x5d39be5c01e4 <unknown>
+#14 0x5d39be58be6f <unknown>
+#15 0x5d39be5e0e38 <unknown>
+#16 0x5d39be5e1016 <unknown>
+#17 0x5d39be5f0c16 <unknown>
+#18 0x7e5219ea1e2e <unknown>
+#19 0x7e5219f33a4c <unknown>
+
+2025-04-07 05:15:00,464 - ERROR - Failed to initialize WebDriver: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x5b6c7b287d9a <unknown>
+#1 0x5b6c7ad58dc0 <unknown>
+#2 0x5b6c7ad98511 <unknown>
+#3 0x5b6c7ad9341d <unknown>
+#4 0x5b6c7ad8dfff <unknown>
+#5 0x5b6c7addea36 <unknown>
+#6 0x5b6c7adddf66 <unknown>
+#7 0x5b6c7adcfeb3 <unknown>
+#8 0x5b6c7ad9c108 <unknown>
+#9 0x5b6c7ad9d271 <unknown>
+#10 0x5b6c7b25169b <unknown>
+#11 0x5b6c7b255642 <unknown>
+#12 0x5b6c7b23dc2c <unknown>
+#13 0x5b6c7b2561e4 <unknown>
+#14 0x5b6c7b221e6f <unknown>
+#15 0x5b6c7b276e38 <unknown>
+#16 0x5b6c7b277016 <unknown>
+#17 0x5b6c7b286c16 <unknown>
+#18 0x7188fb0a1e2e <unknown>
+#19 0x7188fb133a4c <unknown>
+
+2025-04-07 05:15:00,464 - ERROR - Error processing Livorno: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x5b6c7b287d9a <unknown>
+#1 0x5b6c7ad58dc0 <unknown>
+#2 0x5b6c7ad98511 <unknown>
+#3 0x5b6c7ad9341d <unknown>
+#4 0x5b6c7ad8dfff <unknown>
+#5 0x5b6c7addea36 <unknown>
+#6 0x5b6c7adddf66 <unknown>
+#7 0x5b6c7adcfeb3 <unknown>
+#8 0x5b6c7ad9c108 <unknown>
+#9 0x5b6c7ad9d271 <unknown>
+#10 0x5b6c7b25169b <unknown>
+#11 0x5b6c7b255642 <unknown>
+#12 0x5b6c7b23dc2c <unknown>
+#13 0x5b6c7b2561e4 <unknown>
+#14 0x5b6c7b221e6f <unknown>
+#15 0x5b6c7b276e38 <unknown>
+#16 0x5b6c7b277016 <unknown>
+#17 0x5b6c7b286c16 <unknown>
+#18 0x7188fb0a1e2e <unknown>
+#19 0x7188fb133a4c <unknown>
+
+2025-04-07 05:15:01,131 - INFO - No results found for Torino
+2025-04-07 05:15:01,138 - INFO - No results found for Milano
+2025-04-07 05:15:01,172 - INFO - No results found for Roma
+2025-04-07 05:15:01,256 - INFO - Completed scraping. Successfully processed 0 of 10 cities
+2025-04-07 05:15:01,256 - WARNING - No temporary files found to merge
+2025-04-07 05:15:01,256 - ERROR - Failed to merge temporary files into final output
+2025-04-07 05:15:01,256 - ERROR - Fatal error in main: Failed to merge results

@@ -1,0 +1,211 @@
+2025-04-07 05:24:14,624 - INFO - Starting D-Piu store scraper for major Italian cities
+2025-04-07 05:24:14,624 - INFO - Removed existing output file: scrape_data/dpiu_stores.csv
+2025-04-07 05:24:14,625 - INFO - Starting scraping process for 10 major cities with 4 workers
+2025-04-07 05:24:14,625 - INFO - Processing chunk: Milano, Roma, Napoli, Torino
+2025-04-07 05:24:15,475 - INFO - Processing city: Roma (attempt 1)
+2025-04-07 05:24:15,487 - INFO - Processing city: Milano (attempt 1)
+2025-04-07 05:24:15,494 - INFO - Processing city: Torino (attempt 1)
+2025-04-07 05:24:15,711 - INFO - Processing city: Napoli (attempt 1)
+2025-04-07 05:24:22,578 - INFO - Accepted cookies
+2025-04-07 05:24:25,659 - INFO - Found 4 stores for Roma
+2025-04-07 05:24:25,659 - INFO - Found 4 stores for Napoli
+2025-04-07 05:24:25,662 - INFO - Found 4 stores for Torino
+2025-04-07 05:24:25,812 - INFO - Found 4 stores for Milano
+2025-04-07 05:24:26,357 - WARNING - Failed to extract store information for Milano: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+#0 0x56c1c56c2d9a <unknown>
+#1 0x56c1c5193dc0 <unknown>
+#2 0x56c1c517af97 <unknown>
+#3 0x56c1c517ac99 <unknown>
+#4 0x56c1c51789c9 <unknown>
+#5 0x56c1c51793ff <unknown>
+#6 0x56c1c5188dab <unknown>
+#7 0x56c1c51a1d5f <unknown>
+#8 0x56c1c51a848b <unknown>
+#9 0x56c1c5179b10 <unknown>
+#10 0x56c1c51a1846 <unknown>
+#11 0x56c1c523121c <unknown>
+#12 0x56c1c520aeb3 <unknown>
+#13 0x56c1c51d7108 <unknown>
+#14 0x56c1c51d8271 <unknown>
+#15 0x56c1c568c69b <unknown>
+#16 0x56c1c5690642 <unknown>
+#17 0x56c1c5678c2c <unknown>
+#18 0x56c1c56911e4 <unknown>
+#19 0x56c1c565ce6f <unknown>
+#20 0x56c1c56b1e38 <unknown>
+#21 0x56c1c56b2016 <unknown>
+#22 0x56c1c56c1c16 <unknown>
+#23 0x71b352ea1e2e <unknown>
+#24 0x71b352f33a4c <unknown>
+
+2025-04-07 05:24:26,366 - INFO - Saved temporary results for Roma to temp_data/temp_Roma_shops.csv
+2025-04-07 05:24:26,367 - INFO - Saved temporary results for Napoli to temp_data/temp_Napoli_shops.csv
+2025-04-07 05:24:26,376 - WARNING - Failed to extract store information for Torino: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+#0 0x6537dae12d9a <unknown>
+#1 0x6537da8e3dc0 <unknown>
+#2 0x6537da8caf97 <unknown>
+#3 0x6537da8cac99 <unknown>
+#4 0x6537da8c89c9 <unknown>
+#5 0x6537da8c93ff <unknown>
+#6 0x6537da8ea362 <unknown>
+#7 0x6537da8ed098 <unknown>
+#8 0x6537da8ed123 <unknown>
+#9 0x6537da92f75d <unknown>
+#10 0x6537da95b0e2 <unknown>
+#11 0x6537da928c2a <unknown>
+#12 0x6537da95b2ae <unknown>
+#13 0x6537da98134b <unknown>
+#14 0x6537da95aeb3 <unknown>
+#15 0x6537da927108 <unknown>
+#16 0x6537da928271 <unknown>
+#17 0x6537daddc69b <unknown>
+#18 0x6537dade0642 <unknown>
+#19 0x6537dadc8c2c <unknown>
+#20 0x6537dade11e4 <unknown>
+#21 0x6537dadace6f <unknown>
+#22 0x6537dae01e38 <unknown>
+#23 0x6537dae02016 <unknown>
+#24 0x6537dae11c16 <unknown>
+#25 0x79577e4a1e2e <unknown>
+#26 0x79577e533a4c <unknown>
+
+2025-04-07 05:24:26,390 - INFO - Saved temporary results for Milano to temp_data/temp_Milano_shops.csv
+2025-04-07 05:24:26,416 - INFO - Saved temporary results for Torino to temp_data/temp_Torino_shops.csv
+2025-04-07 05:24:26,423 - INFO - Chunk completed: 4/4 successful
+2025-04-07 05:24:31,424 - INFO - Processing chunk: Palermo, Genova, Bologna, Firenze
+2025-04-07 05:24:32,149 - INFO - Processing city: Genova (attempt 1)
+2025-04-07 05:24:32,167 - INFO - Processing city: Firenze (attempt 1)
+2025-04-07 05:24:32,169 - INFO - Processing city: Palermo (attempt 1)
+2025-04-07 05:24:32,173 - INFO - Processing city: Bologna (attempt 1)
+2025-04-07 05:24:38,843 - INFO - Accepted cookies
+2025-04-07 05:24:38,844 - INFO - Accepted cookies
+2025-04-07 05:24:38,867 - INFO - Accepted cookies
+2025-04-07 05:24:40,169 - INFO - Found 2 stores for Firenze
+2025-04-07 05:24:40,409 - INFO - Saved temporary results for Firenze to temp_data/temp_Firenze_shops.csv
+2025-04-07 05:24:41,089 - INFO - Found 2 stores for Palermo
+2025-04-07 05:24:41,092 - INFO - Found 2 stores for Bologna
+2025-04-07 05:24:41,103 - INFO - Found 2 stores for Genova
+2025-04-07 05:24:41,376 - WARNING - Failed to extract store information for Bologna: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+#0 0x5db692b23d9a <unknown>
+#1 0x5db6925f4dc0 <unknown>
+#2 0x5db6925dbf97 <unknown>
+#3 0x5db6925dbc99 <unknown>
+#4 0x5db6925d99c9 <unknown>
+#5 0x5db6925da3ff <unknown>
+#6 0x5db6925f95b5 <unknown>
+#7 0x5db6925f9f21 <unknown>
+#8 0x5db6925fe098 <unknown>
+#9 0x5db6925fe123 <unknown>
+#10 0x5db69264075d <unknown>
+#11 0x5db69266c0e2 <unknown>
+#12 0x5db692639c2a <unknown>
+#13 0x5db69266c2ae <unknown>
+#14 0x5db69269234b <unknown>
+#15 0x5db69266beb3 <unknown>
+#16 0x5db692638108 <unknown>
+#17 0x5db692639271 <unknown>
+#18 0x5db692aed69b <unknown>
+#19 0x5db692af1642 <unknown>
+#20 0x5db692ad9c2c <unknown>
+#21 0x5db692af21e4 <unknown>
+#22 0x5db692abde6f <unknown>
+#23 0x5db692b12e38 <unknown>
+#24 0x5db692b13016 <unknown>
+#25 0x5db692b22c16 <unknown>
+#26 0x7c9e684a1e2e <unknown>
+#27 0x7c9e68533a4c <unknown>
+
+2025-04-07 05:24:41,383 - WARNING - Failed to extract store information for Genova: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: Unable to receive message from renderer
+  (Session info: chrome=133.0.6943.98)
+Stacktrace:
+#0 0x63d310ab1d9a <unknown>
+#1 0x63d310582dc0 <unknown>
+#2 0x63d310569f97 <unknown>
+#3 0x63d310569c99 <unknown>
+#4 0x63d3105679c9 <unknown>
+#5 0x63d3105683ff <unknown>
+#6 0x63d310589362 <unknown>
+#7 0x63d31058c098 <unknown>
+#8 0x63d31058c123 <unknown>
+#9 0x63d3105d3d12 <unknown>
+#10 0x63d3105d4471 <unknown>
+#11 0x63d3105c7d36 <unknown>
+#12 0x63d3105fa10d <unknown>
+#13 0x63d3105c7c2a <unknown>
+#14 0x63d3105fa2ae <unknown>
+#15 0x63d31062034b <unknown>
+#16 0x63d3105f9eb3 <unknown>
+#17 0x63d3105c6108 <unknown>
+#18 0x63d3105c7271 <unknown>
+#19 0x63d310a7b69b <unknown>
+#20 0x63d310a7f642 <unknown>
+#21 0x63d310a67c2c <unknown>
+#22 0x63d310a801e4 <unknown>
+#23 0x63d310a4be6f <unknown>
+#24 0x63d310aa0e38 <unknown>
+#25 0x63d310aa1016 <unknown>
+#26 0x63d310ab0c16 <unknown>
+#27 0x75a3bf8a1e2e <unknown>
+#28 0x75a3bf933a4c <unknown>
+
+2025-04-07 05:24:41,388 - INFO - Saved temporary results for Palermo to temp_data/temp_Palermo_shops.csv
+2025-04-07 05:24:41,418 - INFO - Saved temporary results for Genova to temp_data/temp_Genova_shops.csv
+2025-04-07 05:24:42,414 - INFO - Saved temporary results for Bologna to temp_data/temp_Bologna_shops.csv
+2025-04-07 05:24:42,426 - INFO - Chunk completed: 4/4 successful
+2025-04-07 05:24:47,427 - INFO - Processing chunk: Bari, Livorno
+2025-04-07 05:24:48,018 - INFO - Processing city: Livorno (attempt 1)
+2025-04-07 05:24:48,080 - WARNING - Page load failed for Livorno, retrying...
+2025-04-07 05:24:49,037 - ERROR - Failed to initialize WebDriver: Message: session not created
+from disconnected: unable to connect to renderer
+Stacktrace:
+#0 0x5bb830f19d9a <unknown>
+#1 0x5bb8309eadc0 <unknown>
+#2 0x5bb830a2a511 <unknown>
+#3 0x5bb830a2541d <unknown>
+#4 0x5bb830a1ffff <unknown>
+#5 0x5bb830a70a36 <unknown>
+#6 0x5bb830a6ff66 <unknown>
+#7 0x5bb830a61eb3 <unknown>
+#8 0x5bb830a2e108 <unknown>
+#9 0x5bb830a2f271 <unknown>
+#10 0x5bb830ee369b <unknown>
+#11 0x5bb830ee7642 <unknown>
+#12 0x5bb830ecfc2c <unknown>
+#13 0x5bb830ee81e4 <unknown>
+#14 0x5bb830eb3e6f <unknown>
+#15 0x5bb830f08e38 <unknown>
+#16 0x5bb830f09016 <unknown>
+#17 0x5bb830f18c16 <unknown>
+#18 0x794ca84a1e2e <unknown>
+#19 0x794ca8533a4c <unknown>
+
+2025-04-07 05:24:53,113 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x747952474140>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/2f80a438d599e06a0089bacda3ae7a7c
+2025-04-07 05:24:53,113 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x747952474e90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/2f80a438d599e06a0089bacda3ae7a7c
+2025-04-07 05:24:53,114 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x747952475d60>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/2f80a438d599e06a0089bacda3ae7a7c
+2025-04-07 05:24:53,472 - INFO - Processing city: Livorno (attempt 2)
+2025-04-07 05:24:54,682 - INFO - Processing city: Bari (attempt 2)
+2025-04-07 05:25:00,311 - INFO - Accepted cookies
+2025-04-07 05:25:00,312 - INFO - Accepted cookies
+2025-04-07 05:25:12,979 - INFO - No results found for Livorno (timeout)
+2025-04-07 05:25:13,063 - INFO - No results found for Bari (timeout)
+2025-04-07 05:25:13,076 - INFO - Chunk completed: 0/2 successful
+2025-04-07 05:25:18,084 - INFO - Loaded data from temp_Genova_shops.csv
+2025-04-07 05:25:18,086 - INFO - Loaded data from temp_Roma_shops.csv
+2025-04-07 05:25:18,087 - INFO - Loaded data from temp_Firenze_shops.csv
+2025-04-07 05:25:18,089 - INFO - Loaded data from temp_Torino_shops.csv
+2025-04-07 05:25:18,091 - INFO - Loaded data from temp_Palermo_shops.csv
+2025-04-07 05:25:18,092 - INFO - Loaded data from temp_Bologna_shops.csv
+2025-04-07 05:25:18,094 - INFO - Loaded data from temp_Napoli_shops.csv
+2025-04-07 05:25:18,095 - INFO - Loaded data from temp_Milano_shops.csv
+2025-04-07 05:25:18,099 - INFO - Merged 8 temporary files into scrape_data/dpiu_stores.csv
+2025-04-07 05:25:18,099 - INFO - Scraping completed. Final data saved to scrape_data/dpiu_stores.csv

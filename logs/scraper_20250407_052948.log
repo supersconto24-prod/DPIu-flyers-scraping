@@ -1,0 +1,23 @@
+2025-04-07 05:29:48,087 - INFO - Starting D-Piu store scraper for major Italian cities
+2025-04-07 05:29:53,390 - INFO - Accepted cookies
+2025-04-07 05:29:55,391 - INFO - Processing city: Milano
+2025-04-07 05:29:56,603 - INFO - Found 4 stores for Milano
+2025-04-07 05:29:58,851 - INFO - Processing city: Roma
+2025-04-07 05:29:59,102 - INFO - Found 4 stores for Roma
+2025-04-07 05:30:01,310 - INFO - Processing city: Napoli
+2025-04-07 05:30:01,452 - INFO - Found 13 stores for Napoli
+2025-04-07 05:30:04,200 - INFO - Processing city: Torino
+2025-04-07 05:30:05,393 - INFO - Found 5 stores for Torino
+2025-04-07 05:30:07,638 - INFO - Processing city: Palermo
+2025-04-07 05:30:07,774 - INFO - Found 5 stores for Palermo
+2025-04-07 05:30:10,051 - INFO - Processing city: Genova
+2025-04-07 05:30:11,255 - INFO - Found 7 stores for Genova
+2025-04-07 05:30:13,604 - INFO - Processing city: Bologna
+2025-04-07 05:30:13,742 - INFO - Found 7 stores for Bologna
+2025-04-07 05:30:16,115 - INFO - Processing city: Firenze
+2025-04-07 05:30:16,255 - INFO - Found 2 stores for Firenze
+2025-04-07 05:30:18,362 - INFO - Processing city: Bari
+2025-04-07 05:30:18,501 - INFO - Found 2 stores for Bari
+2025-04-07 05:30:20,608 - INFO - Processing city: Livorno
+2025-04-07 05:30:21,784 - INFO - Found 2 stores for Livorno
+2025-04-07 05:30:23,890 - INFO - Saved data for 51 stores to scrape_data/dpiu_stores.csv
