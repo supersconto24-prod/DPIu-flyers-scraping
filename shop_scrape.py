@@ -69,7 +69,7 @@ def setup_logging():
 logger = setup_logging()
 
 def setup_driver():
-    """Initialize a headless Chrome WebDriver."""
+    """Initialize a headless Chrome WebDriver with improved stability settings."""
     try:
         options = Options()
         options.add_argument("--headless")
@@ -78,36 +78,55 @@ def setup_driver():
         options.add_argument("--window-size=1920,1080")
         options.add_argument("--disable-gpu")
         options.add_argument("--remote-debugging-port=9222")
+        options.add_argument("--disable-blink-features=AutomationControlled")
+        options.add_experimental_option("excludeSwitches", ["enable-automation"])
+        options.add_experimental_option('useAutomationExtension', False)
         
         service = Service(CHROME_DRIVER_PATH)
         driver = webdriver.Chrome(service=service, options=options)
+        
+        # Set timeouts for better stability
+        driver.set_page_load_timeout(30)
+        driver.set_script_timeout(30)
+        
         return driver
     except Exception as e:
         logger.error(f"Failed to initialize WebDriver: {str(e)}")
         raise
 
 def accept_cookies(driver):
-    """Handle cookie acceptance banner if present"""
+    """Handle cookie acceptance banner with more robust waiting."""
     try:
-        accept_button = WebDriverWait(driver, 5).until(
-            EC.presence_of_element_located((By.CSS_SELECTOR, "button.iubenda-cs-accept-btn"))
+        # First wait for the cookie banner container to be present
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.CSS_SELECTOR, "div.iubenda-cs-content"))
+        )
+        
+        # Then look for the accept button
+        accept_button = WebDriverWait(driver, 10).until(
+            EC.element_to_be_clickable((By.CSS_SELECTOR, "button.iubenda-cs-accept-btn"))
         )
         accept_button.click()
         logger.info("Accepted cookies")
-        time.sleep(1)  # Small delay after accepting
+        time.sleep(2)  # Increased delay after accepting
     except Exception as e:
-        logger.info("Cookie banner not found or could not be accepted")
+        logger.debug(f"Cookie banner handling: {str(e)}")
         pass  # Continue if cookie banner not present
 
 def save_temp_results(city, stores):
-    """Save temporary results for a city."""
+    """Save temporary results for a city with file locking."""
     if not stores:
         return False
         
     try:
         temp_file = os.path.join(TEMP_DIR, f"temp_{city}_shops.csv")
         df = pd.DataFrame(stores)
-        df.to_csv(temp_file, index=False, encoding='utf-8')
+        
+        # Use atomic write operation
+        temp_file_tmp = temp_file + '.tmp'
+        df.to_csv(temp_file_tmp, index=False, encoding='utf-8')
+        os.replace(temp_file_tmp, temp_file)
+        
         logger.info(f"Saved temporary results for {city} to {temp_file}")
         return True
     except Exception as e:
@@ -115,7 +134,7 @@ def save_temp_results(city, stores):
         return False
 
 def merge_temp_files(output_file):
-    """Merge all temporary files into the final output."""
+    """Merge all temporary files into the final output with error handling."""
     try:
         # Get all temporary files
         temp_files = [f for f in os.listdir(TEMP_DIR) if f.startswith('temp_') and f.endswith('.csv')]
@@ -128,7 +147,8 @@ def merge_temp_files(output_file):
         dfs = []
         for temp_file in temp_files:
             try:
-                df = pd.read_csv(os.path.join(TEMP_DIR, temp_file))
+                file_path = os.path.join(TEMP_DIR, temp_file)
+                df = pd.read_csv(file_path)
                 dfs.append(df)
                 logger.info(f"Loaded data from {temp_file}")
             except Exception as e:
@@ -140,7 +160,12 @@ def merge_temp_files(output_file):
             return False
             
         final_df = pd.concat(dfs, ignore_index=True)
-        final_df.to_csv(output_file, index=False, encoding='utf-8')
+        
+        # Atomic write for final output
+        output_tmp = output_file + '.tmp'
+        final_df.to_csv(output_tmp, index=False, encoding='utf-8')
+        os.replace(output_tmp, output_file)
+        
         logger.info(f"Merged {len(dfs)} temporary files into {output_file}")
         
         # Clean up temp files
@@ -157,80 +182,110 @@ def merge_temp_files(output_file):
         return False
 
 def scrape_dpiu_stores(city):
-    """Scrape D-Piu stores for a specific city and save temporary results."""
+    """Scrape D-Piu stores for a specific city with improved stability."""
     driver = None
     stores = []
+    max_retries = 2
+    retry_count = 0
     
-    try:
-        driver = setup_driver()
-        logger.info(f"Processing city: {city}")
-        
-        # Open the website
-        driver.get('https://www.d-piu.com/dpiu-locator/')
-        time.sleep(3)  # Wait for the page to load
-
-        # Handle cookie acceptance
-        accept_cookies(driver)
-
-        # Locate the input field
-        input_field = WebDriverWait(driver, 10).until(
-            EC.presence_of_element_located((By.ID, 'search-input-6c01972'))
-        )
-        input_field.clear()
-        input_field.send_keys(city)
-        time.sleep(3)  # Wait for results
-
+    while retry_count < max_retries:
         try:
-            # Check if results are present
-            WebDriverWait(driver, 5).until(
-                EC.presence_of_element_located((By.CSS_SELECTOR, 'div.jet-ajax-search__results-slide'))
-            )
+            driver = setup_driver()
+            logger.info(f"Processing city: {city} (attempt {retry_count + 1})")
             
-            # Parse the store list
-            store_items = driver.find_elements(By.CSS_SELECTOR, 'div.jet-ajax-search__results-item')
-            logger.info(f"Found {len(store_items)} stores for {city}")
-
-            for store in store_items:
-                try:
-                    # Extract shop name
-                    shop_name = store.find_element(By.CSS_SELECTOR, 'div.jet-search-title-fields__item-value').text
-                    
-                    # Extract link
-                    link = store.find_element(By.CSS_SELECTOR, 'a.jet-ajax-search__item-link').get_attribute('href')
-                    
-                    # Extract address
-                    address = store.find_element(By.CSS_SELECTOR, 'div.jet-ajax-search__item-content').text
-                    
-                    stores.append({
-                        'City': city,
-                        'Shop Name': shop_name,
-                        'Link': link,
-                        'Address': address
-                    })
-                    
-                except Exception as e:
-                    logger.error(f"Failed to extract store information for {city}: {str(e)}")
-                    continue
-
-        except Exception as e:
-            logger.info(f"No results found for {city}")
-            return False  # No results found
-
-    except Exception as e:
-        logger.error(f"Error processing {city}: {str(e)}")
-        return False  # Processing failed
-
-    finally:
-        if driver:
+            # Open the website with retry logic
             try:
-                driver.quit()
+                driver.get('https://www.d-piu.com/dpiu-locator/')
+                WebDriverWait(driver, 20).until(
+                    EC.presence_of_element_located((By.TAG_NAME, 'body'))
+                )
+                time.sleep(2)  # Reduced initial wait time
             except Exception as e:
-                logger.error(f"Error closing driver for {city}: {str(e)}")
+                logger.warning(f"Page load failed for {city}, retrying...")
+                raise e
+            
+            # Handle cookie acceptance
+            accept_cookies(driver)
+            
+            # Locate the input field with more robust waiting
+            try:
+                input_field = WebDriverWait(driver, 15).until(
+                    EC.presence_of_element_located((By.ID, 'search-input-6c01972'))
+                )
+                input_field.clear()
+                input_field.send_keys(city)
+                
+                # Wait for results with more flexible conditions
+                try:
+                    WebDriverWait(driver, 10).until(
+                        lambda d: d.find_elements(By.CSS_SELECTOR, 'div.jet-ajax-search__results-item') or 
+                                d.find_elements(By.CSS_SELECTOR, 'div.jet-ajax-search__no-results')
+                    )
+                    
+                    # Check for no results first
+                    no_results = driver.find_elements(By.CSS_SELECTOR, 'div.jet-ajax-search__no-results')
+                    if no_results:
+                        logger.info(f"No results found for {city}")
+                        return False
+                    
+                    # Parse the store list
+                    store_items = driver.find_elements(By.CSS_SELECTOR, 'div.jet-ajax-search__results-item')
+                    logger.info(f"Found {len(store_items)} stores for {city}")
+                    
+                    for store in store_items:
+                        try:
+                            shop_name = store.find_element(By.CSS_SELECTOR, 'div.jet-search-title-fields__item-value').text
+                            link = store.find_element(By.CSS_SELECTOR, 'a.jet-ajax-search__item-link').get_attribute('href')
+                            address = store.find_element(By.CSS_SELECTOR, 'div.jet-ajax-search__item-content').text
+                            
+                            stores.append({
+                                'City': city,
+                                'Shop Name': shop_name,
+                                'Link': link,
+                                'Address': address
+                            })
+                            
+                        except Exception as e:
+                            logger.warning(f"Failed to extract store information for {city}: {str(e)}")
+                            continue
+                            
+                except Exception as e:
+                    logger.info(f"No results found for {city} (timeout)")
+                    return False
+                    
+            except Exception as e:
+                logger.error(f"Search failed for {city}: {str(e)}")
+                raise e
+                
+            # If we got this far, break the retry loop
+            break
+                
+        except Exception as e:
+            retry_count += 1
+            if driver:
+                try:
+                    driver.quit()
+                except:
+                    pass
+                    
+            if retry_count >= max_retries:
+                logger.error(f"Failed to process {city} after {max_retries} attempts: {str(e)}")
+                return False
+            else:
+                time.sleep(5 * retry_count)  # Exponential backoff
+                continue
+                
+        finally:
+            if driver:
+                try:
+                    driver.quit()
+                except Exception as e:
+                    logger.warning(f"Error closing driver for {city}: {str(e)}")
 
-        # Save temporary results if we found any stores
-        if stores:
-            return save_temp_results(city, stores)
-        return False
+    # Save temporary results if we found any stores
+    if stores:
+        return save_temp_results(city, stores)
+    return False
 
 def main():
     try:
@@ -256,11 +311,19 @@ def main():
 
         # Use multiprocessing with 4 workers
         logger.info(f"Starting scraping process for {len(MAJOR_CITIES)} major cities with 4 workers")
-        with multiprocessing.Pool(processes=4) as pool:
-            results = pool.map(scrape_dpiu_stores, MAJOR_CITIES)
+        
+        # Process cities in chunks to avoid overloading
+        chunk_size = 4
+        for i in range(0, len(MAJOR_CITIES), chunk_size):
+            chunk = MAJOR_CITIES[i:i + chunk_size]
+            logger.info(f"Processing chunk: {', '.join(chunk)}")
             
-        successful_scrapes = sum(1 for result in results if result)
-        logger.info(f"Completed scraping. Successfully processed {successful_scrapes} of {len(MAJOR_CITIES)} cities")
+            with multiprocessing.Pool(processes=len(chunk)) as pool:
+                results = pool.map(scrape_dpiu_stores, chunk)
+                
+            successful = sum(1 for result in results if result)
+            logger.info(f"Chunk completed: {successful}/{len(chunk)} successful")
+            time.sleep(5)  # Brief pause between chunks
 
         # Merge all temporary files into final output
         if not merge_temp_files(output_file):
