@@ -14,8 +14,20 @@ import logging
 from logging.handlers import RotatingFileHandler
 from datetime import datetime
 
-# Configuration
-COMUNI_CSV = "comuni.csv"
+# Configuration - 10 Major Italian Cities
+MAJOR_CITIES = [
+    "Milano",       # Milan
+    "Roma",         # Rome
+    "Napoli",       # Naples
+    "Torino",       # Turin
+    "Palermo",      # Palermo
+    "Genova",       # Genoa
+    "Bologna",      # Bologna
+    "Firenze",      # Florence
+    "Bari",         # Bari
+    "Livorno"       # Livorno
+]
+
 DPI_CSV = "dpiu_stores.csv"
 OUTPUT_DIR = "scrape_data"
 TEMP_DIR = "temp_data"
@@ -74,19 +86,19 @@ def setup_driver():
         logger.error(f"Failed to initialize WebDriver: {str(e)}")
         raise
 
-def save_temp_results(comune, stores):
-    """Save temporary results for a comune."""
+def save_temp_results(city, stores):
+    """Save temporary results for a city."""
     if not stores:
         return False
         
     try:
-        temp_file = os.path.join(TEMP_DIR, f"temp_{comune}_shops.csv")
+        temp_file = os.path.join(TEMP_DIR, f"temp_{city}_shops.csv")
         df = pd.DataFrame(stores)
         df.to_csv(temp_file, index=False, encoding='utf-8')
-        logger.info(f"Saved temporary results for {comune} to {temp_file}")
+        logger.info(f"Saved temporary results for {city} to {temp_file}")
         return True
     except Exception as e:
-        logger.error(f"Failed to save temporary results for {comune}: {str(e)}")
+        logger.error(f"Failed to save temporary results for {city}: {str(e)}")
         return False
 
 def merge_temp_files(output_file):
@@ -131,14 +143,14 @@ def merge_temp_files(output_file):
         logger.error(f"Failed to merge temporary files: {str(e)}")
         return False
 
-def scrape_dpiu_stores(comune):
-    """Scrape D-Piu stores for a specific comune and save temporary results."""
+def scrape_dpiu_stores(city):
+    """Scrape D-Piu stores for a specific city and save temporary results."""
     driver = None
     stores = []
     
     try:
         driver = setup_driver()
-        logger.info(f"Processing comune: {comune}")
+        logger.info(f"Processing city: {city}")
         
         # Open the website
         driver.get('https://www.d-piu.com/dpiu-locator/')
@@ -149,7 +161,7 @@ def scrape_dpiu_stores(comune):
             EC.presence_of_element_located((By.ID, 'search-input-6c01972'))
         )
         input_field.clear()
-        input_field.send_keys(comune)
+        input_field.send_keys(city)
         time.sleep(3)  # Wait for results
 
         try:
@@ -160,7 +172,7 @@ def scrape_dpiu_stores(comune):
             
             # Parse the store list
             store_items = driver.find_elements(By.CSS_SELECTOR, 'div.jet-ajax-search__results-item')
-            logger.info(f"Found {len(store_items)} stores for {comune}")
+            logger.info(f"Found {len(store_items)} stores for {city}")
 
             for store in store_items:
                 try:
@@ -174,22 +186,22 @@ def scrape_dpiu_stores(comune):
                     address = store.find_element(By.CSS_SELECTOR, 'div.jet-ajax-search__item-content').text
                     
                     stores.append({
-                        'Comune': comune,
+                        'City': city,
                         'Shop Name': shop_name,
                         'Link': link,
                         'Address': address
                     })
                     
                 except Exception as e:
-                    logger.error(f"Failed to extract store information for {comune}: {str(e)}")
+                    logger.error(f"Failed to extract store information for {city}: {str(e)}")
                     continue
 
         except Exception as e:
-            logger.info(f"No results found for {comune}")
+            logger.info(f"No results found for {city}")
             return False  # No results found
 
     except Exception as e:
-        logger.error(f"Error processing {comune}: {str(e)}")
+        logger.error(f"Error processing {city}: {str(e)}")
         return False  # Processing failed
 
     finally:
@@ -197,26 +209,17 @@ def scrape_dpiu_stores(comune):
             try:
                 driver.quit()
             except Exception as e:
-                logger.error(f"Error closing driver for {comune}: {str(e)}")
+                logger.error(f"Error closing driver for {city}: {str(e)}")
 
         # Save temporary results if we found any stores
         if stores:
-            return save_temp_results(comune, stores)
+            return save_temp_results(city, stores)
         return False
 
 def main():
     try:
-        logger.info("Starting D-Piu store scraper")
+        logger.info("Starting D-Piu store scraper for major Italian cities")
         
-        # Load comuni data
-        try:
-            comuni_df = pd.read_csv(COMUNI_CSV, encoding="iso-8859-1")
-            comuni = comuni_df['Comune'].unique().tolist()
-            logger.info(f"Loaded {len(comuni)} comuni from {COMUNI_CSV}")
-        except Exception as e:
-            logger.error(f"Failed to load comuni data: {str(e)}")
-            raise
-
         output_file = os.path.join(OUTPUT_DIR, DPI_CSV)
 
         # Clear existing output and temp files
@@ -236,12 +239,12 @@ def main():
                 logger.error(f"Failed to remove temp file {f}: {str(e)}")
 
         # Use multiprocessing with 4 workers
-        logger.info("Starting scraping process with 4 workers")
+        logger.info(f"Starting scraping process for {len(MAJOR_CITIES)} major cities with 4 workers")
         with multiprocessing.Pool(processes=4) as pool:
-            results = pool.map(scrape_dpiu_stores, comuni)
+            results = pool.map(scrape_dpiu_stores, MAJOR_CITIES)
             
         successful_scrapes = sum(1 for result in results if result)
-        logger.info(f"Completed scraping. Successfully processed {successful_scrapes} of {len(comuni)} comuni")
+        logger.info(f"Completed scraping. Successfully processed {successful_scrapes} of {len(MAJOR_CITIES)} cities")
 
         # Merge all temporary files into final output
         if not merge_temp_files(output_file):
