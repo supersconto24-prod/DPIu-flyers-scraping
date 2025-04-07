@@ -13,20 +13,8 @@ import logging
 from logging.handlers import RotatingFileHandler
 from datetime import datetime
 
-# Configuration - 10 Major Italian Cities
-MAJOR_CITIES = [
-    "Milano",       # Milan
-    "Roma",         # Rome
-    "Napoli",       # Naples
-    "Torino",       # Turin
-    "Palermo",      # Palermo
-    "Genova",       # Genoa
-    "Bologna",      # Bologna
-    "Firenze",      # Florence
-    "Bari",         # Bari
-    "Livorno"       # Livorno
-]
-
+# Configuration
+COMUNI_CSV = "comuni.csv"  # CSV file containing city names in 'Comune' column
 DPI_CSV = "dpiu_stores.csv"
 OUTPUT_DIR = "scrape_data"
 LOG_DIR = "logs"
@@ -172,9 +160,18 @@ def main():
     driver = None
     
     try:
-        logger.info("Starting D-Piu store scraper for major Italian cities")
+        logger.info("Starting D-Piu store scraper")
         
-        # Initialize WebDriver once
+        # Load comuni data
+        try:
+            comuni_df = pd.read_csv(COMUNI_CSV, encoding="iso-8859-1")
+            cities = comuni_df['Comune'].unique().tolist()
+            logger.info(f"Loaded {len(cities)} cities from {COMUNI_CSV}")
+        except Exception as e:
+            logger.error(f"Failed to load comuni data: {str(e)}")
+            raise
+
+        # Initialize WebDriver
         driver = setup_driver()
         
         # Open the website
@@ -184,11 +181,11 @@ def main():
         )
         time.sleep(2)
         
-        # Handle cookie acceptance once
+        # Handle cookie acceptance
         accept_cookies(driver)
         
         # Process each city sequentially
-        for city in MAJOR_CITIES:
+        for city in cities:
             city_stores = scrape_city(driver, city)
             all_stores.extend(city_stores)
             
